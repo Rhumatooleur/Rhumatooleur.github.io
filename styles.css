@@ -1,0 +1,118 @@
+/* Reset some basic styles */
+body, h1, h2, textarea, button, header, main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #388e3c; /* Modification de la couleur de fond */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem; /* Augmentation de la taille de police */
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* Ajout d'une légère ombre */
+}
+
+/* Main styling */
+main {
+    padding: 1rem;
+}
+
+/* Headings styling */
+h2 {
+    color: #34495e;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+}
+
+/* Textarea styling */
+textarea#inputText {
+    width: 100%;
+    height: 1.5rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+textarea#finalText,
+textarea#bioDeBaseText,
+textarea#bilanAnemieText,
+textarea#bilanOsteoporoseText,
+textarea#bilanAutoImmunText {
+    width: 100%;
+    height: 30rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+/* Button styling */
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Transition pour la couleur de fond et la couleur de texte */
+}
+
+button:hover {
+    background-color: #388e3c; /* Changement de couleur de fond au survol */
+    color: #fff; /* Changement de couleur de texte au survol */
+}
+
+/* Output container styling */
+.output-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Styles for each result textarea */
+.output-container div {
+    flex: 1;
+}
+
+/* Checkbox container styling within rectangle */
+.checkbox-container-wrapper .draggable-checkbox-container {
+    border: 3px solid #4caf50;
+    background-color: #f0f8ff;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: move;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.checkbox-container-wrapper .draggable-checkbox-container label {
+    display: block;
+}
+
+.checkbox-container-wrapper .draggable-checkbox-container:hover {
+    border-color: #45a049;
+}
