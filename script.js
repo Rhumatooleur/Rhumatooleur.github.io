@@ -226,7 +226,6 @@ $(function() {
     
         // Copier le texte final dans le presse-papiers
         navigator.clipboard.writeText(finalText)
-            });
     });
     
     document.getElementById("formatButton").addEventListener("click", function() {
