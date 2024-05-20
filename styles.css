@@ -1,3 +1,13 @@
+/* Définir des variables pour les tailles de police et de padding */
+:root {
+    --font-size-base: 1rem;
+    --font-size-large: 1.25rem;
+    --font-size-small: 0.875rem;
+    --padding-base: 1rem;
+    --padding-large: 1.5rem;
+    --padding-small: 0.75rem;
+}
+
 /* Reset some basic styles */
 body, h1, h2, textarea, button, header, main {
     margin: 0;
@@ -7,34 +17,36 @@ body, h1, h2, textarea, button, header, main {
 
 /* Body styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    font-family: var(--bs-body-font-family, Arial, sans-serif);
+    background-color: var(--colorBlanc, #FFFFFF);
+    color: var(--bs-body-color, #08181E);
+    font-size: var(--font-size-base);
     margin: 0;
     padding: 0;
 }
 
 /* Header styling */
 header {
-    background-color: #388e3c; /* Modification de la couleur de fond */
-    color: white;
-    padding: 1rem;
+    background-color: var(--bs-primary, #089DE6); /* Bleu primaire */
+    color: var(--colorBlanc, #FFFFFF);
+    padding: var(--padding-base);
     text-align: center;
 }
 
 header h1 {
-    font-size: 2.5rem; /* Augmentation de la taille de police */
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* Ajout d'une légère ombre */
+    font-size: var(--font-size-large);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Légère ombre */
 }
 
 /* Main styling */
 main {
-    padding: 8rem;
+    padding: var(--padding-base);
 }
 
 /* Headings styling */
 h2 {
-    color: #34495e;
+    color: var(--colorNoir2, #32bb3e); /* Noir foncé */
+    font-size: var(--font-size-large);
     margin-bottom: 10px;
     text-align: center;
 }
@@ -42,6 +54,7 @@ h2 {
 /* Label styling */
 label {
     font-weight: bold;
+    font-size: var(--font-size-base);
 }
 
 /* Textarea styling */
@@ -49,10 +62,11 @@ textarea#inputText {
     width: 100%;
     height: 1.5rem;
     margin: 0.5rem 0;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
+    padding: var(--padding-small);
+    border: 1px solid var(--colorGris3, #CFDDE5); /* Gris clair */
     border-radius: 4px;
     resize: none;
+    font-size: var(--font-size-base);
 }
 
 textarea#finalText,
@@ -63,26 +77,28 @@ textarea#bilanAutoImmunText {
     width: 100%;
     height: 30rem;
     margin: 0.5rem 0;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
+    padding: var(--padding-small);
+    border: 1px solid var(--colorGris3, #CFDDE5); /* Gris clair */
     border-radius: 4px;
     resize: vertical;
+    font-size: var(--font-size-base);
 }
 
 /* Button styling */
 button {
-    background-color: #4caf50;
-    color: white;
+    background-color: var(--bs-primary, #089DE6); /* Bleu primaire */
+    color: var(--colorBlanc, #FFFFFF);
     border: none;
-    padding: 1rem 2rem;
+    padding: var(--padding-base) var(--padding-large);
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.5s ease, color 0.5s ease; /* Transition pour la couleur de fond et la couleur de texte */
+    transition: background-color 0.5s ease, color 0.5s ease;
+    font-size: var(--font-size-base);
 }
 
 button:hover {
-    background-color: #388e3c; /* Changement de couleur de fond au survol */
-    color: #fff; /* Changement de couleur de texte au survol */
+    background-color: var(--bs-blue, #0d6efd); /* Bleu plus foncé au survol */
+    color: var(--colorBlanc, #FFFFFF);
 }
 
 /* Output container styling */
@@ -99,14 +115,15 @@ button:hover {
 
 /* Checkbox container styling within rectangle */
 .checkbox-container-wrapper .draggable-checkbox-container {
-    border: 3px solid #4caf50;
-    background-color: #f0f8ff;
-    padding: 10px;
+    border: 3px solid var(--bs-primary, #089DE6); /* Bleu primaire */
+    background-color: var(--colorBlanc2, #EDF8FE); /* Blanc très clair */
+    padding: var(--padding-small);
     margin: 5px 0;
     cursor: move;
     transition: border-color 0.3s ease, background-color 0.3s ease;
     border-radius: 8px;
     text-align: center;
+    font-size: var(--font-size-base);
 }
 
 .checkbox-container-wrapper .draggable-checkbox-container label {
@@ -114,5 +131,5 @@ button:hover {
 }
 
 .checkbox-container-wrapper .draggable-checkbox-container:hover {
-    border-color: #45a049;
+    border-color: var(--bs-blue, #0d6efd); /* Bleu foncé au survol */
 }

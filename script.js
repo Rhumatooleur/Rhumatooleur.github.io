@@ -30,47 +30,47 @@ $(function() {
     var bioDeBaseText = 'Bio de base:\n';
   
     // Définition des paramètres de la bio de base et leurs noms formatés avec les unités
-    var bioDeBaseParams = {
-        "Hémoglobine": { name: "Hémoglobine", unit: "g/L", variations: ["Hémoglobine"] },
-        "Leucocytes": { name: "Leucocytes", unit: "G/L", variations: ["Leucocytes"] },
-        "Polynucléaires neutrophiles calc": { name: "PNNs", unit: "G/L", variations: ["Poly neutro calc"] },
-        "CRP": { name: "CRP", unit: "mg/L", variations: ["CRP"] },
-        "Sodium": { name: "Na⁺", unit: "mmol/L", variations: ["Sodium"] },
-        "Potassium": { name: "K⁺", unit: "mmol/L", variations: ["Potassium"] },
-        "Urée": { name: "Urée", unit: "mmol/L", variations: ["Urée"] },
-        "Créatinine": { name: "Créatinine", unit: "µmol/L", variations: ["Créatinine"] },
-        "Bilirubine totale": { name: "Bilirubine totale", unit: "mg/dL", variations: ["Bilirubine totale"] },
-        "ASAT": { name: "ASAT", unit: "UI/L", variations: ["ASAT-SGOT", "ASAT"] },
-        "ALAT": { name: "ALAT", unit: "UI/L", variations: ["ALAT-SGPT", "ALAT"] },
-        "Phosphatases alcalines": { name: "PAL", unit: "UI/L", variations: ["Phos.Alcalines", "Phosphatases alcalines"] },
-        "Gamma-GT": { name: "GGT", unit: "UI/L", variations: ["Gamma GT", "Gamma-GT"] },
-        "TP": { name: "TP", unit: "%", variations: ["TP"] },
-        "INR": { name: "INR", unit: "", variations: ["INR"] },
-        "TCA": { name: "TCA", unit: "sec", variations: ["TCA"] }
-    };
-  
-    // Fonction pour rechercher les variations d'un paramètre et extraire la valeur et l'unité
-    function findValue(variations, input, unit) {
-        for (var i = 0; i < variations.length; i++) {
-            var pattern = new RegExp(variations[i] + "\\s*[:\\s]*\\s*(?:B|H)?\\s*(<|>)?\\s*([\\d.,]+)\\s*(" + unit + ")?", "i");
-            var match = input.match(pattern);
-            if (match) {
-                return { value: match[2].replace(",", "."), unit: match[3] || unit };
-            }
-        }
-        return null;
-    }
-  
-    // Remplacer les valeurs dans le texte formaté de la bio de base et les placer à leurs positions respectives
-    for (var param in bioDeBaseParams) {
-        var valueObject = findValue(bioDeBaseParams[param].variations, preprocessedText, bioDeBaseParams[param].unit);
-        if (valueObject) {
-            var formattedValue = valueObject.value + " " + (bioDeBaseParams[param].unit === "%" ? "" : bioDeBaseParams[param].unit); // Ajout d'une condition pour exclure l'unité % de la sortie
-            bioDeBaseText += bioDeBaseParams[param].name + " : " + formattedValue + "\n";
-        } else {
-            bioDeBaseText += bioDeBaseParams[param].name + " : _____ " + bioDeBaseParams[param].unit + "\n";
+var bioDeBaseParams = {
+    "Hémoglobine": { name: "Hémoglobine", unit: "g/L", variations: ["Hémoglobine"] },
+    "Leucocytes": { name: "Leucocytes", unit: "G/L", variations: ["Leucocytes"] },
+    "Polynucléaires neutrophiles calc": { name: "PNNs", unit: "G/L", variations: ["Poly neutro calc"] },
+    "CRP": { name: "CRP", unit: "mg/L", variations: ["CRP"] },
+    "Sodium": { name: "Na⁺", unit: "mmol/L", variations: ["Sodium"] },
+    "Potassium": { name: "K⁺", unit: "mmol/L", variations: ["Potassium"] },
+    "Urée": { name: "Urée", unit: "mmol/L", variations: ["Urée"] },
+    "Créatinine": { name: "Créatinine", unit: "µmol/L", variations: ["Créatinine"] },
+    "Bilirubine totale": { name: "Bilirubine totale", unit: "mg/dL", variations: ["Bilirubine totale"] },
+    "ASAT": { name: "ASAT", unit: "UI/L", variations: ["ASAT-SGOT", "ASAT"] },
+    "ALAT": { name: "ALAT", unit: "UI/L", variations: ["ALAT-SGPT", "ALAT"] },
+    "Phosphatases alcalines": { name: "PAL", unit: "UI/L", variations: ["Phos.Alcalines", "Phosphatases alcalines"] },
+    "Gamma-GT": { name: "GGT", unit: "UI/L", variations: ["Gamma GT", "Gamma-GT"] },
+    "TP": { name: "TP", unit: "%", variations: ["TP"] },
+    "INR": { name: "INR", unit: "", variations: ["INR"] },
+    "TCA": { name: "TCA", unit: "sec", variations: ["TCA"] }
+};
+
+// Fonction pour rechercher les variations d'un paramètre et extraire la valeur et l'unité
+function findValue(variations, input, unit) {
+    for (var i = 0; i < variations.length; i++) {
+        var pattern = new RegExp(variations[i] + "\\s*[:\\s]*\\s*(?:B|H)?\\s*(<|>)?\\s*([\\d.,]+)\\s*(" + unit + ")?", "i");
+        var match = input.match(pattern);
+        if (match) {
+            return { operator: match[1] || "", value: match[2].replace(",", "."), unit: match[3] || unit };
         }
     }
+    return null;
+}
+
+// Remplacer les valeurs dans le texte formaté de la bio de base et les placer à leurs positions respectives
+for (var param in bioDeBaseParams) {
+    var valueObject = findValue(bioDeBaseParams[param].variations, preprocessedText, bioDeBaseParams[param].unit);
+    if (valueObject) {
+        var formattedValue = valueObject.operator + " " + valueObject.value + " " + (bioDeBaseParams[param].unit === "%" ? "" : bioDeBaseParams[param].unit); // Ajout d'une condition pour exclure l'unité % de la sortie
+        bioDeBaseText += bioDeBaseParams[param].name + " : " + formattedValue.trim() + "\n";
+    } else {
+        bioDeBaseText += bioDeBaseParams[param].name + " : _____ " + bioDeBaseParams[param].unit + "\n";
+    }
+}
   
     // Ajouter des sauts de ligne à des endroits spécifiques dans bioDeBaseText
     bioDeBaseText = bioDeBaseText.replace(/(CRP .+\n)/, '$1\n');  // Ajouter un saut de ligne après CRP
@@ -144,7 +144,7 @@ Calcul du FRAX dans le contexte de T-score >-2.5, sans fracture majeure, qui ret
 
     // Fonction pour formater le bilan d'ostéoporose
     function formatBilanOsteoporose(inputText) {
-        var formattedBilanOsteoporose = ' Dans ce contexte de fracture sur chute à faible cinétique, une recherche d’ostéopathie fragilisante a été réalisée : \n';
+        var formattedBilanOsteoporose = ' Dans ce contexte de fracture sur chute à faible cinétiquea, une recherche d’ostéopathie fragilisante a été réalisée : \n';
         for (var param in bilanOsteoporoseParams) {
             var pattern = new RegExp(param + "\\s*[:\\s]*\\s*([\\d.,]+)\\s*(" + bilanOsteoporoseParams[param].unit + ")?", "i");
             var match = inputText.match(pattern);
