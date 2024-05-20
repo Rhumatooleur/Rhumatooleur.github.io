@@ -6,6 +6,7 @@
   <title>CMB Colle ma Bio</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="icon" type="image/png" href="icon.png">
 </head>
 <body>
   <header>
@@ -34,8 +35,10 @@
         <textarea id="bilanAutoImmunText" readonly></textarea>
       </div>
     </div>
-
     <div class="checkbox-container-wrapper sortable">
+      <div>
+        <h4>Vous pouvez réorganiser l'ordre de la bio générée ci-dessous via un drag and drop des cases pour changer l'odre :</h4>
+      </div>
       <div class="draggable-checkbox-container" id="bioDeBaseContainer">
         <label><input type="checkbox" id="bioDeBaseCheckbox">Inclure bio de base dans le texte final</label>
       </div>
@@ -50,7 +53,7 @@
       </div>
     </div>
 
-    <button id="generateFinalTextButton">Générer le texte final</button>
+    <button id="generateFinalTextButton">Générer le texte final - le résultat sera copié automatiquement dans le presse papier</button>
     <textarea id="finalText" rows="10" readonly></textarea>
   </main>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
