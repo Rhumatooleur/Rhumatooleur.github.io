@@ -226,12 +226,6 @@ $(function() {
     
         // Copier le texte final dans le presse-papiers
         navigator.clipboard.writeText(finalText)
-            .then(() => {
-                alert("Le texte final a été copié dans le presse-papiers avec succès !");
-            })
-            .catch(err => {
-                console.error('Erreur lors de la copie du texte : ', err);
-                alert("Une erreur s'est produite lors de la copie du texte dans le presse-papiers.");
             });
     });
     
