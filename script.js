@@ -130,23 +130,21 @@ $(function() {
     };
 
     var additionalText = `
-    Bilan hépatique : 
-    Elécrophorèse des protéines sériques : 
-    + testostéronémie totale si homme +/- LH, FSH si anormale
-    + ferritinémie si suspicion hémochromatose ou bilan hépatique anormal
-    + prolactine ou cortisol libre urinaire si suspicion endocrinopathie
-    + anticorps anti transglutaminase si suspicion maladie coeliaque
-    + tryptase sérique (mastocytose) 
+Bilan hépatique : 
+Elécrophorèse des protéines sériques : 
++ testostéronémie totale si homme +/- LH, FSH si anormale
++ ferritinémie si suspicion hémochromatose ou bilan hépatique anormal
++ prolactine ou cortisol libre urinaire si suspicion endocrinopathie
++ anticorps anti transglutaminase si suspicion maladie coeliaque
++ tryptase sérique (mastocytose) 
 
-    Dans ce contexte de fracture sur une chute de sa hauteur, une recherche d’ostéopathie fragilisante a été réalisée.
-    Le bilan retrouve : TSH à mUI/L, phosphore à mmol/l et calcium à mmol/L, la PTH à ng/l, vitamine D à nmol/l. L’électrophorèse des protéines sériques retrouve : Phosphatases alcalines à UI/l..
-    Une ostéodensitométrie a été réalisée le // retrouvant un T-score au niveau du rachis à -, un T-score au niveau du col à - et au niveau du fémur à -.
+Une ostéodensitométrie a été réalisée le // retrouvant un T-score au niveau du rachis à - , un T-score au niveau du col à - et au niveau du fémur à - .
 
-    Calcul du FRAX dans le contexte de T-score >-2.5, sans fracture majeure, qui retrouve un risque de fracture majeur à 10 ans de x % (seuil d’intervention à x %). Il y a / n’y a donc pas d’indication à mettre en place un traitement à visée anti-ostéoporotique.`;
+Calcul du FRAX dans le contexte de T-score >-2.5, sans fracture majeure, qui retrouve un risque de fracture majeur à 10 ans de x % (seuil d’intervention à x %). Il y a / n’y a donc pas d’indication à mettre en place un traitement à visée anti-ostéoporotique. / Il y a donc une indication à mettre en place un traitement à visée anti-ostéoporotique`;
 
     // Fonction pour formater le bilan d'ostéoporose
     function formatBilanOsteoporose(inputText) {
-        var formattedBilanOsteoporose = 'Bilan d\'ostéoporose:\n';
+        var formattedBilanOsteoporose = ' Dans ce contexte de fracture sur chute à faible cinétique, une recherche d’ostéopathie fragilisante a été réalisée : \n';
         for (var param in bilanOsteoporoseParams) {
             var pattern = new RegExp(param + "\\s*[:\\s]*\\s*([\\d.,]+)\\s*(" + bilanOsteoporoseParams[param].unit + ")?", "i");
             var match = inputText.match(pattern);
