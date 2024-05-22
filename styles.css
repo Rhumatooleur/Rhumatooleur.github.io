@@ -74,10 +74,10 @@ textarea#bioDeBaseText,
 textarea#bilanAnemieText,
 textarea#bilanPhosphocalciqueText,
 textarea#bilanOsteoporoseText,
-textarea#bilanAutoImmunText, 
+textarea#bilanAutoImmunText,
 textarea#bilannutritionnelText,
 textarea#bilanmyelomeText,
-textarea#seroviralesText{
+textarea#seroviralesText {
     width: 100%;
     height: 30rem;
     margin: 0.5rem 0;
@@ -87,6 +87,7 @@ textarea#seroviralesText{
     resize: vertical;
     font-size: var(--font-size-base);
 }
+
 
 /* Button styling */
 button {
