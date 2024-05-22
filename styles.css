@@ -35,7 +35,7 @@ header {
 
 header h1 {
     font-size: var(--font-size-large);
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Légère ombre */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Légère ombre */
 }
 
 /* Main styling */
@@ -60,7 +60,7 @@ label {
 /* Textarea styling */
 textarea#inputText {
     width: 100%;
-    height: 1.5rem;
+    height: 8rem;
     margin: 0.5rem 0;
     padding: var(--padding-small);
     border: 1px solid var(--colorGris3, #CFDDE5); /* Gris clair */
@@ -72,8 +72,12 @@ textarea#inputText {
 textarea#finalText,
 textarea#bioDeBaseText,
 textarea#bilanAnemieText,
+textarea#bilanPhosphocalciqueText,
 textarea#bilanOsteoporoseText,
-textarea#bilanAutoImmunText {
+textarea#bilanAutoImmunText, 
+textarea#bilannutritionnelText,
+textarea#bilanmyelomeText,
+textarea#seroviralesText{
     width: 100%;
     height: 30rem;
     margin: 0.5rem 0;
@@ -124,6 +128,10 @@ button:hover {
     border-radius: 8px;
     text-align: center;
     font-size: var(--font-size-base);
+}
+#uricemieContainer {
+    border: 3px solid rgba(255, 174, 0, 0.671); /* Bordure jaune */
+    background-color: lightyellow; /* Fond jaune clair */
 }
 
 .checkbox-container-wrapper .draggable-checkbox-container label {

@@ -1,0 +1,244 @@
+NUMERATION	
+ 
+  NUMERATION	 	
+ 	 
+  Leucocytes	 	
+6,6
+giga/l	3,8 - 10,0
+  Hématies	 	
+4,86
+tera/l	4,08 - 5,60
+  Hémoglobine	 	
+133
+g/l	110 - 154
+  Hématocrite	 	
+0,45
+l/l	0,38 - 0,49
+  VGM	 	
+91,6
+femtol	83,0 - 97,0
+  TCMH	B	
+27,4
+picog	27,8 - 33,9
+  CCMH	B	
+299
+g/l	323 - 361
+  IDR	 	
+20,9
+ 	 
+  aniso	 	
+Anisocytose.
+ 	 
+  Plaquettes	 	
+194
+giga/l	140 - 385
+  VPM	 	
+11,4
+femtol	 
+  FORMULE LEUCOCYTAIRE	
+ 
+    FORMULE LEUCOCYTAIRE	 	
+ 	 
+    Poly neutrophiles	 	
+77,9
+%	 
+    Poly neutro calc	 	
+5,14
+giga/l	1,60 - 5,90
+    Poly éosinophiles	 	
+0,8
+%	 
+    Poly éosino calc	 	
+0,05
+giga/l	0,03 - 0,50
+    Poly basophiles	 	
+0,8
+%	 
+    Poly baso calc	 	
+0,05
+giga/l	0,00 - 0,09
+    Lymphocytes	 	
+12,8
+%	 
+    Lymphocytes calc	B	
+0,84
+giga/l	1,07 - 4,10
+    Monocytes	 	
+7,7
+%	 
+    Monocytes calc	 	
+0,51
+giga/l	0,23 - 0,71
+TCA	
+ 
+  TRAITEMENT	
+ 
+    Traitement Hémostase	 	
+ELIQUIS
+ 	 
+  TCA	
+ 
+    TCA Temoin	 	
+32,4
+sec	 
+    TCA Patient	 	
+33,8
+sec	 
+    TCA Patient/Témoin	 	
+1,04
+ 	< 1,20
+TP	
+ 
+  TRAITEMENT	
+ 
+    Traitement Hémostase	 	
+ELIQUIS
+ 	 
+  TQ Témoin	 	
+13,7
+sec	 
+  TQ Patient	 	
+18,6
+sec	 
+  TP	B	
+63
+%	70 - 100
+  INTERNATIONAL RATIO	
+ 
+    INR	 	
+1,38
+ 	 
+    Interprétation INR	 	
+ZONE THERAPEUTIQUE : SURVEILLANCE D'UN TRAITEMENT AUX AVK
+INR compris (...)
+ 	 
+ASPECT DU PLASMA	 	
+plasma non hémolysé clair et non ictérique
+ 	 
+IONOGRAMME SANGUIN	
+ 
+  IONO	
+ 
+    Sodium	 	
+141
+mmol/l	132 - 146
+    Potassium	B	
+3,3
+mmol/l	3,5 - 4,5
+    Chlore	 	
+105
+mmol/l	99 - 109
+    Réserve alcaline	 	
+28,1
+mmol/l	20,0 - 31,0
+    Protéines	 	
+63
+g/l	57 - 82
+  UREE CREAT	
+ 
+    Urée	
+ 
+      Urée	H	
+17,7
+mmol/l	3,3 - 8,3
+    CREAT	
+ 
+      Créatinine	H	
+215
+µmol/l	55 - 96
+      CKD-EPI	
+ 
+        CKD-EPI	 	
+25
+ml/min	 
+        Commentaire CKD-EPI	 	
+Valeurs de Référence de la clairance CKD-EPI (AJKD, Janvier 2008) :
+ (...)
+ 	 
+  Trou anionique	 	
+11
+mEq/l	8 - 16
+   	 	
+ 	 
+Ca total corrigé	
+ 
+  Calcium	 	
+2,20
+mmol/l	2,18 - 2,60
+  Albumine	 	
+30,4
+g/l	 
+  Ca total corrigé	 	
+2,44
+mmol/l	 
+PHOSPHORE	
+ 
+  Phosphore	 	
+0,88
+mmol/l	0,78 - 1,65
+Acide urique	
+ 
+  Acide urique	H	
+662
+µmol/l	220 - 547
+BILI TRANS PAL GGT	
+ 
+  Bilirubine totale	 	
+9
+µmol/l	< 21
+  TRANSAMINASES	
+ 
+    ASAT-SGOT	 	
+19
+UI/L	0 - 34
+    ALAT-SGPT	 	
+22
+UI/L	10 - 49
+  Phos.Alcalines	 	
+64
+UI/L	46 - 116
+  Gamma GT	 	
+20
+UI/L	< 73
+BilSurchargeMartiale	
+ 
+  Ferritine	 	
+61,6
+µg/l	22,0 - 322,0
+  Fer sérique	 	
+7,3
+µmol/l	 
+  Transferrine	 	
+2,06
+g/l	1,875 - 3,00
+  Cap. fixation TRF	 	
+51
+µmol/l	 
+  coef saturation TRF	B	
+14
+%	20 - 50
+   	 	
+ 	 
+TSH US	
+ 
+  TSH US	 	
+4,75
+mUI/l	0,30 - 8,00
+  Traitemt Bilan Thyro	 	
+Non precisé
+ 	 
+PTH	
+ 
+  PTH INTACT	H	
+116,3
+ng/l	18,4 - 80,1
+  Interprétation PTH	 	
+
+Les valeurs normales de PTH (18,4-80,1 ng/L) ont été établies
+che (...)
+ 	 
+Vit 25 OH D2 et D3	
+ 
+  Vit 25 OH D2 et D3	 	
+24,8
+ng/ml
