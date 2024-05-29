@@ -39,14 +39,13 @@ var bioDeBaseParams = {
     "Potassium": { name: "K", unit: "mmol/L", variations: ["Potassium"] },
     "Urée": { name: "Urée", unit: "mmol/L", variations: ["Urée"] },
     "Créatinine": { name: "Créatinine", unit: "µmol/L", variations: ["Créatinine"] },
+    "ASAT": { name: "ASAT", unit: "UI/L,  ", variations: ["ASAT-SGOT", "ASAT"] }, 
+    "ALAT": { name: "ALAT", unit: "UI/L,  ", variations: ["ALAT-SGPT", "ALAT"] },
+    "Phosphatases alcalines": { name: "PAL", unit: "UI/L,  ", variations: ["Phos.Alcalines", "Phosphatases alcalines"] },
+    "Gamma-GT": { name: "GGT", unit: "UI/L,  ", variations: ["Gamma GT", "Gamma-GT"] },
     "Bilirubine totale": { name: "Bilirubine totale", unit: "mg/dL", variations: ["Bilirubine totale"] },
-    "ASAT": { name: "ASAT", unit: "UI/L", variations: ["ASAT-SGOT", "ASAT"] },
-    "ALAT": { name: "ALAT", unit: "UI/L", variations: ["ALAT-SGPT", "ALAT"] },
-    "Phosphatases alcalines": { name: "PAL", unit: "UI/L", variations: ["Phos.Alcalines", "Phosphatases alcalines"] },
-    "Gamma-GT": { name: "GGT", unit: "UI/L", variations: ["Gamma GT", "Gamma-GT"] },
-    "TP": { name: "TP", unit: "%", variations: ["TP"] },
-    "INR": { name: "INR", unit: "", variations: ["INR"] },
-    "TCA": { name: "TCA", unit: "sec", variations: ["TCA"] },
+    "TP": { name: "TP", unit: "%, ", variations: ["TP"] },
+    "INR": { name: "INR", unit: ", ", variations: ["INR"] },
     "TCA Patient/Témoin":{ name:"TCA ratio", unit: " ", variations: ["TCA Patient/Témoin"]}
 };
 
@@ -63,19 +62,41 @@ function findValue(variations, input, unit) {
 }
 
 // Remplacer les valeurs dans le texte formaté de la bio de base et les placer à leurs positions respectives
+
+var skipNewLine = false; // Variable to control whether to add a new line
+
 for (var param in bioDeBaseParams) {
     var valueObject = findValue(bioDeBaseParams[param].variations, preprocessedText, bioDeBaseParams[param].unit);
     if (valueObject) {
-        var formattedValue = valueObject.operator + " " + valueObject.value + " " + (bioDeBaseParams[param].unit === "%" ? "" : bioDeBaseParams[param].unit); // Ajout d'une condition pour exclure l'unité % de la sortie
-        bioDeBaseText += bioDeBaseParams[param].name + " : " + formattedValue.trim() + "\n";
+        var formattedValue = valueObject.operator + " " + valueObject.value + " " + (bioDeBaseParams[param].unit === "%" ? "" : bioDeBaseParams[param].unit);
+        if (param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "sodium" ) {
+            bioDeBaseText += bioDeBaseParams[param].name + " : " + formattedValue.trim(); // Do not add newline after ASAT
+            skipNewLine = true; // Set flag to skip newline after ASAT
+        } else {
+            if (skipNewLine) {
+                bioDeBaseText += " " + bioDeBaseParams[param].name + " : " + formattedValue.trim() + "\n";
+                skipNewLine = false; // Reset flag
+            } else {
+                bioDeBaseText += bioDeBaseParams[param].name + " : " + formattedValue.trim() + "\n";
+            }
+        }
     } else {
-        bioDeBaseText += bioDeBaseParams[param].name + " : _____ " + bioDeBaseParams[param].unit + "\n";
+        if (param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "sodium" ) {
+            bioDeBaseText += bioDeBaseParams[param].name + " : _____ " + bioDeBaseParams[param].unit; // Do not add newline after ASAT
+            skipNewLine = true; // Set flag to skip newline after ASAT
+        } else {
+            if (skipNewLine) {
+                bioDeBaseText += " " + bioDeBaseParams[param].name + " : _____ " + bioDeBaseParams[param].unit + "\n";
+                skipNewLine = false; // Reset flag
+            } else {
+                bioDeBaseText += bioDeBaseParams[param].name + " : _____ " + bioDeBaseParams[param].unit + "\n";
+            }
+        }
     }
 }
   
     // Ajouter des sauts de ligne à des endroits spécifiques dans bioDeBaseText
     bioDeBaseText = bioDeBaseText.replace(/(Hémoglobine .+\n)/, '$1\n');  // Ajouter un saut de ligne après hémoglobine
-    bioDeBaseText = bioDeBaseText.replace(/(GGT .+\n)/, '$1\n');  // Ajouter un saut de ligne après GGT
     bioDeBaseText = bioDeBaseText.replace(/(Créatinine .+\n)/, '$1\n');
   
     // Afficher le texte formaté de la bio de base dans la zone de sortie correspondante
@@ -256,6 +277,61 @@ for (var param in bioDeBaseParams) {
 
     // Afficher le texte formaté du bilan nutritionnel dans la zone de sortie correspondante
     document.getElementById("bilannutritionnelText").value = bilannutritionnelText.trim();
+
+    // Créer une chaîne pour stocker le texte formaté du bilan de myelome
+    var bilanmyelomeText = '';
+
+    // Définition des paramètres pour le bilan myelome et leurs noms formatés avec les unités
+    var bilanmyelomeParams = {
+        "EPS": { name: "Electrophorèse des protéines sériques", unit: "" },
+    };
+
+
+    // Remplacer les valeurs dans le texte formaté du bilan myelome et les placer à leurs positions respectives
+    for (var param in bilanmyelomeParams) {
+        var variations = [param, bilanmyelomeParams[param].name];
+        var valueObject = findValue(variations, preprocessedText, bilanmyelomeParams[param].unit);
+        if (valueObject) {
+            var formattedValue = valueObject.operator + " " + valueObject.value + " " + (bilanmyelomeParams[param].unit === "%" ? "" : bilanmyelomeParams[param].unit);
+            bilanmyelomeText += bilanmyelomeParams[param].name + " : " + formattedValue.trim() + "\n";
+        } else {
+            bilanmyelomeText += bilanmyelomeParams[param].name + " : _____ " + bilanmyelomeParams[param].unit + "\n";
+        }
+    }
+
+    // Afficher le texte formaté du bilan myelome dans la zone de sortie correspondante
+    document.getElementById("bilanmyelomeText").value = bilanmyelomeText.trim();
+
+    // Créer une chaîne pour stocker le texte formaté des sérologies
+    var serologiesText = 'Sérologies:\n';
+
+    
+    // Définition des paramètres pour les sérologies et leurs noms formatés avec les unités
+    var serologiesParams = {
+        "VHB": { name: "VHB", unit: "" },
+        "VHC": { name: "VHC", unit: "" },
+        "VIH": { name: "VIH", unit: "" },
+        "EBV": { name: "EBV", unit: "" },
+        "CMV": { name: "CMV", unit: "" },
+        "VZV": { name: "VZV", unit: "" },
+        
+    };
+
+
+    // Remplacer les valeurs dans le texte formaté des sérologies  et les placer à leurs positions respectives
+    for (var param in serologiesParams) {
+        var variations = [param, serologiesParams[param].name];
+        var valueObject = findValue(variations, preprocessedText, serologiesParams[param].unit);
+        if (valueObject) {
+            var formattedValue = valueObject.operator + " " + valueObject.value + " " + (serologiesParams[param].unit === "%" ? "" : serologiesParams[param].unit);
+            serologiesText += serologiesParams[param].name + " : " + formattedValue.trim() + "\n";
+        } else {
+            serologiesText += serologiesParams[param].name + " : _____ " + serologiesParams[param].unit + "\n";
+        }
+    }
+
+    // Afficher le texte formaté des sérologies  dans la zone de sortie correspondante
+    document.getElementById("serologiesText").value = serologiesText.trim();
 
     $(function() {
         $(".sortable").sortable();
