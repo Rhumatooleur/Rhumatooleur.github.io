@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CMB</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="icon" type="image/png" href="icon.png">
+</head>
+<body>
+  <header>
+    <h1>CMB Colle ma Bio</h1>
+    <button onclick="location.href='imagerie.html'" style="margin-top: 20px;">Résultats d'Imagerie</button>
+  </header>
+  <main>
+    <label for="inputText">Texte d'entrée :</label>
+    <textarea id="inputText" rows="10"></textarea>
+    <button id="formatButton">Formater</button>
+    <div class="output-container">
+      <div>
+        <h2>Bio de base</h2>
+        <textarea id="bioDeBaseText" readonly class="long-textarea"></textarea>
+      </div>
+      <div>
+        <h2>Bilan d'anémie</h2>
+        <textarea id="bilanAnemieText" readonly class="long-textarea"></textarea>
+      </div>
+      <div>
+        <h2>Bilan PhCa</h2>
+        <textarea id="bilanPhosphocalciqueText" readonly class="long-textarea"></textarea>
+      </div>
+      <div>
+        <h2>Bilan d'ostéoporose</h2>
+        <textarea id="bilanOsteoporoseText" readonly class="long-textarea"></textarea>
+      </div>
+      <div>
+        <h2>Bilan auto-immun</h2>
+        <textarea id="bilanAutoImmunText" readonly class="long-textarea"></textarea>
+      </div>
+      <div>
+        <h2>Bilan nutritionnel</h2>
+        <textarea id="bilannutritionnelText" readonly class="long-textarea"></textarea>
+      </div>
+      <div>
+        <h2>Bilan myélome</h2>
+        <textarea id="bilanmyelomeText" readonly class="long-textarea"></textarea>
+      </div>
+      <div>
+        <h2>Sérologies virales</h2>
+        <textarea id="seroviralesText" readonly class="long-textarea"></textarea>
+      </div>
+    </div>
+    <div class="checkbox-container-wrapper sortable">
+      <div>
+        <h4>Vous pouvez réorganiser l'ordre de la bio générée ci-dessous via un drag and drop des cases:</h4>
+      </div>
+      <div class="draggable-checkbox-container" id="bioDeBaseContainer">
+        <label><input type="checkbox" id="bioDeBaseCheckbox" checked>Inclure bio de base dans le texte final</label>
+      </div>
+      <div class="draggable-checkbox-container" id="bilanAnemieContainer">
+        <label><input type="checkbox" id="bilanAnemieCheckbox">Inclure bilan d'anémie</label>
+      </div>
+      <div class="draggable-checkbox-container" id="bilanPhosphocalciqueContainer">
+        <label><input type="checkbox" id="bilanPhosphocalciqueCheckbox">bilan phosphocalcique</label>
+      </div>
+      <div class="draggable-checkbox-container" id="bilanOsteoporoseContainer">
+        <label><input type="checkbox" id="bilanOsteoporoseCheckbox">bilan d'ostéoporose</label>
+      </div>
+      <div class="draggable-checkbox-container" id="bilanAutoImmunContainer">
+        <label><input type="checkbox" id="bilanAutoImmunCheckbox">bilan auto-immun</label>
+      </div>
+      <div class="draggable-checkbox-container" id="bilannutritionnelContainer">
+        <label><input type="checkbox" id="bilannutritionnelCheckbox">bilan nutritionnel</label>
+      </div>
+      <div class="draggable-checkbox-container" id="bilanmyelomeContainer">
+        <label><input type="checkbox" id="bilanmyelomeCheckbox">bilan myelome</label>
+      </div>
+      <div class="draggable-checkbox-container" id="seroviralesContainer">
+        <label><input type="checkbox" id="seroviralesCheckbox">sérologies virales</label>
+      </div>
+      <div class="draggable-checkbox-container" id="uricemieContainer">
+        <label><input type="checkbox" id="uricemieCheckbox">uricemie</label>
+      </div>
+    </div>
+
+    <button id="generateFinalTextButton">Générer le texte final - le résultat sera copié automatiquement dans le presse papier</button>
+    <textarea id="finalText" rows="10" readonly></textarea>
+    <h22>prochaines MAJ : </h22>
+    <h22>Tout d'abord : trouver une imagerie et une bio avec seros virales et bilan myelome pour tester ces parties </h22>
+    <h22> 1 - ajouter automatiquement biologie : gras souligne</h22>
+    <h22> 2 - possibilité de charger des pdfs</h22>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

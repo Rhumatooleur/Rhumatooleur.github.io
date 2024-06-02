@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Résultats d'Imagerie - CMB</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="icon" type="image/png" href="icon.png">
+</head>
+<body>
+  <header>
+    <h1>Résultats d'Imagerie</h1>
+    <button onclick="location.href='index.html'" style="margin-top: 20px;">Retour au menu</button>
+  </header>
+  <main>
+    <label for="inputImagerieText">Texte d'entrée :</label>
+    <textarea id="inputImagerieText" rows="10"></textarea>
+    <button id="formatImagerieButton">Formater</button>
+    <div class="output-container">
+      <div>
+        <h2>Résultat Formaté</h2>
+        <textarea id="formattedImagerieText" readonly></textarea>
+      </div>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script>
+    document.getElementById("formatImagerieButton").addEventListener("click", function() {
+      var inputText = document.getElementById("inputImagerieText").value;
+      // Implémentez ici le code de formatage des résultats d'imagerie
+      var formattedText = inputText; // Remplacez cette ligne par le code de formatage réel
+      document.getElementById("formattedImagerieText").value = formattedText;
+      navigator.clipboard.writeText(formattedText);
+    });
+  </script>
+</body>
+</html>

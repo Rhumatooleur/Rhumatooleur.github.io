@@ -44,8 +44,15 @@ main {
 }
 
 /* Headings styling */
+h1 {
+    color: var(--colorNoir2, #ffffff); 
+    font-size: var(--font-size-large);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 h2 {
-    color: var(--colorNoir2, #32bb3e); /* Noir foncé */
+    color: var(--colorNoir2, #32bb3e); 
     font-size: var(--font-size-large);
     margin-bottom: 10px;
     text-align: center;
@@ -58,9 +65,8 @@ label {
 }
 
 /* Textarea styling */
-textarea#inputText {
+textarea {
     width: 100%;
-    height: 8rem;
     margin: 0.5rem 0;
     padding: var(--padding-small);
     border: 1px solid var(--colorGris3, #CFDDE5); /* Gris clair */
@@ -68,26 +74,6 @@ textarea#inputText {
     resize: none;
     font-size: var(--font-size-base);
 }
-
-textarea#finalText,
-textarea#bioDeBaseText,
-textarea#bilanAnemieText,
-textarea#bilanPhosphocalciqueText,
-textarea#bilanOsteoporoseText,
-textarea#bilanAutoImmunText,
-textarea#bilannutritionnelText,
-textarea#bilanmyelomeText,
-textarea#seroviralesText {
-    width: 100%;
-    height: 30rem;
-    margin: 0.5rem 0;
-    padding: var(--padding-small);
-    border: 1px solid var(--colorGris3, #CFDDE5); /* Gris clair */
-    border-radius: 4px;
-    resize: vertical;
-    font-size: var(--font-size-base);
-}
-
 
 /* Button styling */
 button {
@@ -104,6 +90,20 @@ button {
 button:hover {
     background-color: var(--bs-blue, #0d6efd); /* Bleu plus foncé au survol */
     color: var(--colorBlanc, #FFFFFF);
+}
+
+header button {
+    background-color: var(--bs-success, #5611d8); /* Vert de succès */
+    color: var(--colorBlanc, #FFFFFF);
+    border: none;
+    padding: var(--padding-base) var(--padding-large);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    font-size: var(--font-size-base);
+    position: absolute;
+    top: var(--padding-base);
+    right: var(--padding-base);
 }
 
 /* Output container styling */
@@ -130,6 +130,20 @@ button:hover {
     text-align: center;
     font-size: var(--font-size-base);
 }
+
+.long-textarea {
+    height: 320px; /* Ou toute autre valeur appropriée en pixels ou en pourcentage */
+}
+
+/* Specific styling for the "Résultats d'Imagerie" page */
+textarea#inputImagerieText {
+    height: 8rem;
+}
+
+textarea#formattedImagerieText {
+    height: 30rem;
+}
+
 #uricemieContainer {
     border: 3px solid rgba(255, 174, 0, 0.671); /* Bordure jaune */
     background-color: lightyellow; /* Fond jaune clair */
@@ -142,3 +156,24 @@ button:hover {
 .checkbox-container-wrapper .draggable-checkbox-container:hover {
     border-color: var(--bs-blue, #0d6efd); /* Bleu foncé au survol */
 }
+
+.btn-container {
+    display: flex;
+    justify-content: space-around; /* Répartit les éléments le long de la largeur de l'écran avec un espace égal autour d'eux */
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* couleur du fond du bouton */
+    color: #fff; /* couleur du texte */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; /* pour arrondir les coins */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* transition fluide pour le changement de couleur au survol */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* couleur du fond du bouton au survol */
+  }
