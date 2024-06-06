@@ -1,0 +1,492 @@
+Num formule plaq 	
+	 
+  NUMERATION 	
+	 
+    NUMERATION 	  	
+	  	 
+    Leucocytes 	  	
+8,8
+	giga/l 	4,05 - 9,92
+    Hématies 	  	
+4,69
+	tera/l 	4,28 - 5,57
+    Hémoglobine 	  	
+141
+	g/l 	134 - 167
+    Hématocrite 	  	
+0,41
+	l/l 	0,392 - 0,486
+    VGM 	  	
+87,8
+	femtol 	82,1 - 97,0
+    TCMH 	  	
+30,1
+	picog 	27,3 - 32,8
+    CCMH 	  	
+342
+	g/l 	324 - 363
+    IDR 	  	
+12,9
+	  	 
+    Plaquettes 	  	
+350
+	giga/l 	161 - 393
+    VPM 	  	
+9,8
+	femtol 	7,4 - 10,8
+  FORMULE LEUCOCYTAIRE 	
+	 
+    FORMULE LEUCOCYTAIRE 	  	
+	  	 
+    Poly neutrophiles 	  	
+72,9
+	% 	 
+    Poly neutro calc 	H 	
+6,42
+	giga/l 	1,847 - 6,138
+    Poly éosinophiles 	  	
+2,6
+	% 	 
+    Poly éosino calc 	  	
+0,23
+	giga/l 	0,052 - 0,576
+    Poly basophiles 	  	
+0,9
+	% 	 
+    Poly baso calc 	  	
+0,08
+	giga/l 	0,00 - 0,091
+    Lymphocytes 	  	
+17,3
+	% 	 
+    Lymphocytes calc 	  	
+1,52
+	giga/l 	1,241 - 3,617
+    Monocytes 	  	
+6,3
+	% 	 
+    Monocytes calc 	  	
+0,55
+	giga/l 	0,233 - 0,725
+TCA 	
+	 
+  TRAITEMENT 	
+	 
+    Traitement Hémostase 	  	
+LOVENOX
+	  	 
+  TCA 	
+	 
+    TCA Temoin 	  	
+32,4
+	sec 	 
+    TCA Patient 	  	
+34,4
+	sec 	 
+    TCA Patient/Témoin 	  	
+1,06
+	  	< 1,20
+TP 	
+	 
+  TRAITEMENT 	
+	 
+    Traitement Hémostase 	  	
+LOVENOX
+	  	 
+  TQ Témoin 	  	
+13,7
+	sec 	 
+  TQ Patient 	  	
+13,9
+	sec 	 
+  TP 	  	
+97
+	% 	70 - 100
+  INTERNATIONAL RATIO 	
+	 
+    INR 	  	
+1,02
+	  	 
+    Interprétation INR 	  	
+ZONE THERAPEUTIQUE : SURVEILLANCE D'UN TRAITEMENT AUX AVK
+INR compris (...)
+	  	 
+NC Biochimie 	
+	 
+  Motif BIOCH NC 	  	
+Echantillon absent
+	  	 
+  Ana concernées 	  	
+prot urinaires
+	  	 
+  NC Dérogation CH 	  	
+Non demandée (analyse non réalisée)
+	  	 
+  NC BIOCH Tel 	  	
+Non
+	  	 
+  Comm bio NCCH 	  	
+Non requis
+	  	 
+ASPECT DU PLASMA 	  	
+plasma non hémolysé clair et non ictérique
+	  	 
+IONOGRAMME SANGUIN 	
+	 
+  IONO 	
+	 
+    Sodium 	  	
+139
+	mmol/l 	132 - 146
+    Potassium 	  	
+4,0
+	mmol/l 	3,5 - 4,5
+    Chlore 	  	
+105
+	mmol/l 	99 - 109
+    Réserve alcaline 	  	
+25,4
+	mmol/l 	20,0 - 31,0
+    Protéines 	  	
+73
+	g/l 	57 - 82
+  UREE CREAT 	
+	 
+    Urée 	
+	 
+      Urée 	  	
+5,1
+	mmol/l 	3,3 - 8,3
+    CREAT 	
+	 
+      Créatinine 	  	
+65
+	µmol/l 	55 - 96
+      CKD-EPI 	
+	 
+        CKD-EPI 	  	
+95
+	ml/min 	 
+        Commentaire CKD-EPI 	  	
+Valeurs de Référence de la clairance CKD-EPI (AJKD, Janvier 2008) :
+ (...)
+	  	 
+  Trou anionique 	  	
+13
+	mEq/l 	8 - 16
+    	  	
+	  	 
+Ca total corrigé 	
+	 
+  Calcium 	  	
+2,45
+	mmol/l 	2,18 - 2,60
+  Albumine 	  	
+36,1
+	g/l 	 
+  Ca total corrigé 	  	
+2,55
+	mmol/l 	 
+PHOSPHORE 	
+	 
+  Phosphore 	  	
+1,19
+	mmol/l 	0,78 - 1,65
+MAGNESIUM P 	
+	 
+  Magnésium 	  	
+0,80
+	mmol/l 	0,53 - 1,11
+BILI TRANS PAL GGT 	
+	 
+  Bilirubine totale 	  	
+11
+	µmol/l 	< 21
+  TRANSAMINASES 	
+	 
+    ASAT-SGOT 	  	
+21
+	UI/L 	0 - 34
+    ALAT-SGPT 	  	
+20
+	UI/L 	10 - 49
+  Phos.Alcalines 	  	
+65
+	UI/L 	46 - 116
+  Gamma GT 	H 	
+81
+	UI/L 	< 73
+BilSurchargeMartiale 	
+	 
+  Ferritine 	H 	
+556,3
+	µg/l 	22,0 - 322,0
+  Fer sérique 	  	
+4,5
+	µmol/l 	 
+  Transferrine 	  	
+2,16
+	g/l 	1,89 - 3,024
+  Cap. fixation TRF 	  	
+54
+	µmol/l 	 
+  coef saturation TRF 	B 	
+8
+	% 	20 - 50
+    	  	
+	  	 
+BILAN THYROIDIEN 	
+	 
+  T3L 	
+	 
+    T3 LIBRE 	  	
+5,4
+	pmol/l 	3,5 - 6,5
+    Traitemt Bilan Thyro 	  	
+Non precisé
+	  	 
+  T4L 	
+	 
+    T4 LIBRE 	  	
+18,9
+	pmol/l 	11,5 - 22,7
+    Traitemt Bilan Thyro 	  	
+Non precisé
+	  	 
+  TSH US 	
+	 
+    TSH US 	  	
+0,63
+	mUI/l 	0,55 - 4,78
+    Traitemt Bilan Thyro 	  	
+Non precisé
+	  	 
+PTH 	
+	 
+  PTH INTACT 	  	
+40,5
+	ng/l 	18,4 - 80,1
+  Interprétation PTH 	  	
+
+Les valeurs normales de PTH (18,4-80,1 ng/L) ont été établies
+che (...)
+	  	 
+Vit 25 OH D2 et D3 	
+	 
+  Vit 25 OH D2 et D3 	  	
+24,1
+	ng/ml 	 
+  Interprétation Vit D 	  	
+Interprétation Vitamine D
+- Enfants < 16 ans :
+Valeurs de référence  (...)
+	  	 
+Electrophorèse Prot 	
+	 
+  Paramètres Electro 	
+	 
+    Protéines totales 	  	
+66
+	g/l 	60 - 80
+    Albumine % 	B 	
+53,7
+	% 	55,8 - 66,1
+    Albumine calculée 	B 	
+35,4
+	g/l 	40,2 - 47,6
+    Alpha 1 % 	H 	
+5,9
+	% 	2,9 - 4,9
+    Alpha 1 calculée 	H 	
+3,9
+	g/l 	2,1 - 3,5
+    Alpha 2 % 	H 	
+13,3
+	% 	7,1 - 11,8
+    Alpha 2 calculée 	H 	
+8,8
+	g/l 	5,1 - 8,5
+    Béta 1 % 	  	
+5,8
+	% 	4,7 - 7,2
+    Béta 1 calculée 	  	
+3,8
+	g/l 	3,4 - 5,2
+    Béta 2 % 	  	
+5,1
+	% 	3,2 - 6,5
+    Béta 2 calculée 	  	
+3,4
+	g/l 	2,3 - 4,7
+    Gamma % 	  	
+16,2
+	% 	11,1 - 18,8
+    Gamma calculée 	  	
+10,7
+	g/l 	8,0 - 13,5
+    Rapport alb/globul 	  	
+1,16
+	  	 
+  REMARQUE ELECTRO : 	  	
+Les normes des Gamma ne concernent que les patients adultes.
+	  	 
+  REMARQUE ELECTRO 1 	  	
+Syndrome inflammatoire modéré.
+	  	 
+    	  	
+	  	 
+  REMARQUE ELECTRO 2 	  	
+Voir immunotypage.
+	  	 
+PROFIL IMMUNITAIRE 	
+	 
+    	  	
+	  	 
+  PROF.IMMUNITAIRE 	
+	 
+    Immunoglobuline M 	  	
+1,30
+	g/l 	0,486 - 1,377
+    Immunoglobuline G 	  	
+11,9
+	g/l 	6,57 - 12,19
+    Immunoglobuline A 	  	
+2,21
+	g/l 	1,00 - 3,20
+CRP 	H 	
+22,9
+	mg/l 	0,0 - 5,0
+IMMUNO-FIXATION SANG 	
+	 
+  Résultat IF 	  	
+IgG MONOCLONALE à
+chaines légères LAMBDA.
+	  	 
+  PIC IMMUNO-FIXATION 	
+	 
+    Protéines totales 	  	
+66
+	g/l 	64 - 83
+    Pic1 % (orthogonal) 	  	
+5,5
+	% 	 
+    Pic1 g/l(orthogonal) 	  	
+3,6
+	g/l 	 
+  Commentaire IF 	  	
+Présence d'une GAMMAPATHIE MONOCLONALE de type IgG LAMBDA
+sans restri (...)
+	  	 
+    	  	
+	  	 
+HEPATITE C 	
+	 
+  hcv résultat= 	  	
+Négatif
+	  	 
+  HCV index= 	  	
+0,14
+	  	0,00 - 0,80
+  hcv 	  	
+Absence de contact avec le VHC.
+En cas d'infection ou de contage réce (...)
+	  	 
+EBV 	
+	 
+  VCA G résultat= 	  	
+Positif
+	  	 
+  VCA G index= 	  	
+2,94
+	  	 
+  VCA M résultat= 	  	
+Négatif
+	  	 
+  VCA M index= 	  	
+0,55
+	  	 
+  EBNA résultat= 	  	
+Positif
+	  	 
+  EBNA index= 	  	
+7,99
+	  	 
+  COM EBV 	  	
+	  	 
+  EBV: 	  	
+Interprétation : profil correspondant à une infection ancienne
+	  	 
+parvovirus b19 	
+	 
+  Parvo IgG résultat= 	  	
+Positif
+	  	 
+  Parvo G index= 	  	
+8,61
+	  	 
+  Parvo M résultat= 	  	
+Négatif
+	  	 
+  Parvo M index= 	  	
+0,17
+	  	 
+  Parvo: 	  	
+Interprétation : Immunité acquise.
+	  	 
+VIH 	
+	 
+  hiv résultat= 	  	
+Négatif
+	  	 
+  hiv index= 	  	
+<0,05
+	  	 
+  hiv 	  	
+Dépistage négatif.
+En cas de risque récent, un contrôle sérologique  (...)
+	  	 
+LYME 	
+	 
+  lyme G résultat= 	  	
+Négatif
+	  	 
+  lyme G index= 	  	
+0,33
+	  	 
+  lyme 	  	
+Absence d'immunité.
+La sérologie Lyme n'est pas recommandée en cas  (...)
+	  	 
+SYPHILIS 	
+	 
+  syphilis 	  	
+Négatif
+	  	 
+  Elisa syphilis 	  	
+0,11
+	  	0,00 - 1,00
+  Syphilis 	  	
+Serologie syphilis négative.
+Ce résultat n 'exclut pas une infection  (...)
+	  	 
+FACTEUR RHUMATO 	
+	 
+  FRH IGM 	  	
+32,0
+	UI/mL 	 
+Anti CCP IgG 	
+	 
+  ccpg3 	  	
+17,7
+	CU 	 
+ACAN 	
+	 
+  Dépistage 	  	
+En cours
+	  	 
+    	  	
+	  	 
+ANCA 	
+	 
+  Dépistage 	  	
+En cours

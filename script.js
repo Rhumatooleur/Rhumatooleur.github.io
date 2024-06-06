@@ -32,13 +32,13 @@ $(function() {
     // Définition des paramètres de la bio de base et leurs noms formatés avec les unités
 var bioDeBaseParams = {
     "CRP": { name: "CRP", unit: "mg/L, ", variations: ["CRP"] },
-    "Leucocytes": { name: "Leucocytes", unit: "G/L", variations: ["Leucocytes"] },
+    "Leucocytes": { name: "Leucocytes", unit: "G/L, ", variations: ["Leucocytes"] },
     "Polynucléaires neutrophiles calc": { name: "PNNs", unit: "G/L", variations: ["Poly neutro calc"] },
     "Hémoglobine": { name: "Hémoglobine", unit: "g/L", variations: ["Hémoglobine"] },
-    "Sodium": { name: "Na", unit: "mmol/L", variations: ["Sodium"] },
-    "Potassium": { name: "K", unit: "mmol/L", variations: ["Potassium"] },
-    "Urée": { name: "Urée", unit: "mmol/L", variations: ["Urée"] },
-    "Créatinine": { name: "Créatinine", unit: "µmol/L", variations: ["Créatinine"] },
+    "Sodium": { name: "Na", unit: "mmol/L, ", variations: ["Sodium"] },
+    "Potassium": { name: "K", unit: "mmol/L, ", variations: ["Potassium"] },
+    "Urée": { name: "Urée", unit: "mmol/L, ", variations: ["Urée"] },
+    "Créatinine": { name: "Créatinine", unit: "µmol/L, ", variations: ["Créatinine"] },
     "ASAT": { name: "ASAT", unit: "UI/L,  ", variations: ["ASAT-SGOT", "ASAT"] }, 
     "ALAT": { name: "ALAT", unit: "UI/L,  ", variations: ["ALAT-SGPT", "ALAT"] },
     "Phosphatases alcalines": { name: "PAL", unit: "UI/L,  ", variations: ["Phos.Alcalines", "Phosphatases alcalines"] },
@@ -163,55 +163,6 @@ for (var param in bioDeBaseParams) {
 
     // Afficher le texte formaté du bilan phosphocalcique dans la zone de sortie correspondante
     document.getElementById("bilanPhosphocalciqueText").value = bilanPhosphocalciqueText.trim();
-
-    // Créer une chaîne pour stocker le texte formaté du bilan d'ostéoporose
-    var bilanOsteoporoseText = 'Bilan d\'ostéoporose:\n';
-
-    // Définition des paramètres pour le bilan d'ostéoporose et leurs noms formatés avec les unités
-    var bilanOsteoporoseParams = {
-        "Ca total corrigé": { name: "calcémie corrigée (albumine)", unit: "mmol/L" },
-        "Phosphore": { name: "phosphore", unit: "mmol/L" },
-        "Vit 25 OH D2 et D3": { name: "vitamine D", unit: "ng/mL" },
-        "PTH INTACT": { name: "PTH", unit: "ng/L" },
-        "TSH US": { name: "TSH", unit: "mUI/mL" },
-    };
-
-    var additionalText = `
-    Bilan hépatique : 
-    Elécrophorèse des protéines sériques : 
-    + testostéronémie totale si homme +/- LH, FSH si anormale
-    + ferritinémie si suspicion hémochromatose ou bilan hépatique anormal
-    + prolactine ou cortisol libre urinaire si suspicion endocrinopathie
-    + anticorps anti transglutaminase si suspicion maladie coeliaque
-    + tryptase sérique (mastocytose) 
-
-    Une ostéodensitométrie a été réalisée le // retrouvant un T-score au niveau du rachis à - , un T-score au niveau du col à - et au niveau du fémur à - .
-
-    Calcul du FRAX dans le contexte de T-score >-2.5, sans fracture majeure, qui retrouve un risque de fracture majeur à 10 ans de x % (seuil d’intervention à x %). Il y a / n’y a donc pas d’indication à mettre en place un traitement à visée anti-ostéoporotique. / Il y a donc une indication à mettre en place un traitement à visée anti-ostéoporotique`;
-
-    // Fonction pour formater le bilan d'ostéoporose
-    function formatBilanOsteoporose(inputText) {
-        var formattedBilanOsteoporose = 'Dans ce contexte de fracture sur chute à faible cinétique, une recherche d’ostéopathie fragilisante a été réalisée :\n';
-        for (var param in bilanOsteoporoseParams) {
-            var variations = [param, bilanOsteoporoseParams[param].name];
-            var valueObject = findValue(variations, inputText, bilanOsteoporoseParams[param].unit);
-            if (valueObject) {
-                var formattedValue = valueObject.operator + " " + valueObject.value + " " + (bilanOsteoporoseParams[param].unit === "%" ? "" : bilanOsteoporoseParams[param].unit);
-                formattedBilanOsteoporose += bilanOsteoporoseParams[param].name + " : " + formattedValue.trim() + "\n";
-            } else {
-                formattedBilanOsteoporose += bilanOsteoporoseParams[param].name + " : _____ " + bilanOsteoporoseParams[param].unit + "\n";
-            }
-        }
-        // Ajouter le texte supplémentaire au format final
-        formattedBilanOsteoporose += additionalText;
-        return formattedBilanOsteoporose;
-    }
-
-    // Appel de la fonction pour formater le bilan d'ostéoporose et stocker le texte formaté dans la variable correspondante
-    bilanOsteoporoseText += formatBilanOsteoporose(preprocessedText);
-
-    // Afficher le texte formaté du bilan d'ostéoporose dans la zone de sortie correspondante
-    document.getElementById("bilanOsteoporoseText").value = bilanOsteoporoseText.trim();
 
 
     // Définition des paramètres pour le bilan auto-immun

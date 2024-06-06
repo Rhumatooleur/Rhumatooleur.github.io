@@ -1,0 +1,59 @@
+Examen demandé par le Docteur service
+SCANNER DU RACHIS LOMBAIRE
+Canon Aquillion Prime SP 17/12/2021 Classe III 5AB2186265
+PDL Total : 626,73 mGy.cm
+Produit :
+Indication :
+Sciatique hyperalgique droite.
+Une information écrite ou orale a été donnée au patient sur le déroulement et les
+risques de l’examen. 
+Technique:
+Acquisition volumique sans injection centrée sur le rachis lombaire.
+Reconstructions en fenêtre parties molles et osseuses dans le plan des 4
+derniers disques intervertébraux.
+Résultat :
+Pas de lésion osseuse suspecte.
+Pas de tassement vertébral.
+Déviation scoliotique à convexité droite.
+Discopathie sévère L1-L2 : bombement discal circonférentiel sans
+protrusion. Pas de rétrécissement canalaire significatif. Rétrécissement
+foraminal gauche marqué.
+En L2-L3 disque de hauteur satisfaisante. Bombement circonférentiel
+postérieur. Arthropathie articulaire postérieure avec épaississement du
+DEPARTEMENT D’IMAGERIE MEDICALE
+SCANNER - IRM
+MAMMOGRAPHIE – ECHOGRAPHIE – DOPPLER
+RADIOLOGIE : GENERALE - VASCULAIRE- INTERVENTIONNELLE
+Centre Hospitalier Annecy Genevois – 1 av. de l’hôpital – Epagny Metz-Tessy – BP 90074 – 74374 Pringy Cedex
+Site internet : www.ch-annecygenevois.fr 2/2
+Membre d’une AGA – Le règlement par chèque est accepté
+ligament jaune. Rétrécissement canalaire modéré.
+En L3-L4 : bombement discal postérieur + comblement du foramen
+gauche potentiellement d'origine discale. Antélisthésis de grade I.
+Laminectomie postérieure avec hypertrophie des massifs articulaires.
+Rétrécissement canalaire d'allure significative.
+En L4-L5 : fixation avec vis transpédiculaire sans lésion du matériel.
+Rétro-listhésis de grade II, avec laminectomie postérieure. Comblement
+du foramen gauche et dimensions du canal d'étude plus limitée par les
+artéfacts.
+En L5-S1 : bombement circonférentiel du disque sans protrusion focale.
+Arthropathie articulaire postérieure modérée. Pas de rétrécissement
+canalaire. Rétrécissement foraminal droit modéré.
+Conclusion : rétrécissement canalaire L2-L3 modéré et L3-L4 plus
+marqué. Rétrécissement foraminal gauche L3-L4 sur protrusion
+discale, rétrécissement foraminal gauche L1-L2. Rétrécissement
+foraminal droit plus modéré L5-S1.
+Bien confraternellement
+Dr LUDWIG Marie
+Ce document a été signé électroniquement.
+Examen archivé sur le PACS
+Les images radiologiques de cet examen sont consultables sur le site :
+https://imagerie.ch-annecygenevois.fr
+Identifiant : A10136241922
+Mot de passe : 1939-09-09
+Région Type d'acquisition Fantôme CTDIVol (mGy) PDL (mGy.cm)
+Pelvis Constant Angle Acquisition IEC Body Dosimetry Phantom 0,5 19,87
+Pelvis Constant Angle Acquisition IEC Body Dosimetry Phantom 0,1 3,96
+Pelvis Spiral Acquisition IEC Body Dosimetry Phantom 20,7 602,90
+
+ 
