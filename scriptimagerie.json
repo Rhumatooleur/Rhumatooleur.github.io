@@ -1,0 +1,65 @@
+document.getElementById("formatImagerieButton").addEventListener("click", function() {
+    var inputText = document.getElementById("inputImagerieText").value;
+
+    // Function to format the imagery text
+    function formatImagerieText(text) {
+        // Remove unwanted sections from the input text
+        text = text.replace(/DEPARTEMENT D’IMAGERIE MEDICALE[\s\S]*?Le règlement par chèque est accepté/, '');
+        
+        // Remove the section between "Bien confraternellement" and "PACS"
+        text = text.replace(/Bien confraternellement[\s\S]*?PACS/, '');
+
+        // Find the title
+        var titleMatch = text.match(/(?:\b[A-ZÀ-ÖØ-Ý]+\b[\s]+){2,}([A-ZÀ-ÖØ-Ý][a-zà-öø-ÿ\s]+)(?=\s(?:Canon|Aquillion|Prime|SP))/);
+        var titleText = titleMatch ? titleMatch[0].trim() : '';
+
+        // Remove the last word from the title
+        titleText = titleText.replace(/\s\S+$/, '');
+
+        // Find the section between "Résultat :" and "Conclusion"
+        var resultatMatch = text.match(/Résultat\s*:\s*([\s\S]*?)(?=Conclusion)/i);
+        var resultatText = resultatMatch ? resultatMatch[1].trim() : '';
+
+        // Find the conclusion section
+        var conclusionMatch = text.match(/Conclusion\s*:\s*([\s\S]*?)(?=https:\/\/)/i);
+        var conclusionText = conclusionMatch ? conclusionMatch[1].trim() : '';
+
+        // Find the images info section
+        var imagesInfoMatch = text.match(/Les images radiologiques de cet examen sont consultables sur le site\s*:\s*(https:\/\/[\s\S]*?Identifiant\s*:\s*\S+\s*Mot de passe\s*:\s*\S+)/i);
+        var imagesInfoText = imagesInfoMatch ? imagesInfoMatch[0].trim() : '';
+
+        // Construction of the formatted text
+        var formattedText = "";
+
+        // Append the title to formatted text
+        if (titleText) {
+            formattedText += "<p><strong><u>" + titleText + "</u></strong></p>";
+        }
+
+        // Append the result section to formatted text
+        if (resultatText) {
+            formattedText += "<p>" + resultatText.replace(/\n{2,}/g, "\n").replace(/\n/g, "<br>") + "</p>";
+        }
+
+        // Append the conclusion section to formatted text
+        if (conclusionText) {
+            formattedText += "<p><br><u>Conclusion</u><br>" + conclusionText.replace(/\n{2,}/g, "\n").replace(/\n/g, "<br>") + "</p>";
+        }
+
+        // Append the images info section to formatted text
+        if (imagesInfoText) {
+            formattedText += "<p><br><i>" + imagesInfoText.replace(/\n/g, "<br>") + "</i></p>";
+        }
+
+        return formattedText;
+    }
+
+    var formattedText = formatImagerieText(inputText);
+
+    // Second formatting to remove duplicate "Les images radiologiques de cet examen sont consultables sur le site :"
+    var secondFormattedText = formattedText.replace(/Les images radiologiques de cet examen sont consultables sur le site :/, '');
+    document.getElementById("FormattedImagerieText").innerHTML = secondFormattedText;
+
+    // Copy formatted text to clipboard
+    navigator.clipboard.writeText(secondFormattedText.replace(/<br>/g, '\n').replace(/<[^>]+>/g, ''));
+});
