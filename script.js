@@ -25,16 +25,17 @@ $(function() {
   
     // Pré-traiter le texte d'entrée pour supprimer les retours à la ligne, les "H" entourés de deux espaces, et les espaces de plus d'une case
     var preprocessedText = inputText.replace(/\n/g, ' ').replace(/ H /g, ' ').replace(/\s\s+/g, ' ');
+    var preprocessedText = inputText.replace(/Ferritine/g, 'Ferritineeeeeeeeeee');
   
     // Créer une chaîne pour stocker le texte formaté de la bio de base
     var bioDeBaseText = 'Biologie:\n';
   
     // Définition des paramètres de la bio de base et leurs noms formatés avec les unités
 var bioDeBaseParams = {
-    "CRP": { name: "CRP", unit: "mg/L, ", variations: ["CRP"] },
+    "Hémoglobine": { name: "Hémoglobine", unit: "g/L", variations: ["Hémoglobine"] },
     "Leucocytes": { name: "Leucocytes", unit: "G/L, ", variations: ["Leucocytes"] },
     "Polynucléaires neutrophiles calc": { name: "PNNs", unit: "G/L", variations: ["Poly neutro calc"] },
-    "Hémoglobine": { name: "Hémoglobine", unit: "g/L", variations: ["Hémoglobine"] },
+    "CRP": { name: "CRP", unit: "mg/L, ", variations: ["CRP"] },
     "Sodium": { name: "Na", unit: "mmol/L, ", variations: ["Sodium"] },
     "Potassium": { name: "K", unit: "mmol/L, ", variations: ["Potassium"] },
     "Urée": { name: "Urée", unit: "mmol/L, ", variations: ["Urée"] },
@@ -43,7 +44,7 @@ var bioDeBaseParams = {
     "ALAT": { name: "ALAT", unit: "UI/L,  ", variations: ["ALAT-SGPT", "ALAT"] },
     "Phosphatases alcalines": { name: "PAL", unit: "UI/L,  ", variations: ["Phos.Alcalines", "Phosphatases alcalines"] },
     "Gamma-GT": { name: "GGT", unit: "UI/L,  ", variations: ["Gamma GT", "Gamma-GT"] },
-    "Bilirubine totale": { name: "Bilirubine totale", unit: "mg/dL", variations: ["Bilirubine totale"] },
+    "Bilirubine totale": { name: "Bilirubine totale", unit: "µmol/l", variations: ["Bilirubine totale"] },
     "TP": { name: "TP", unit: "%, ", variations: ["TP"] },
     "INR": { name: "INR", unit: ", ", variations: ["INR"] },
     "TCA Patient/Témoin":{ name:"TCA ratio", unit: " ", variations: ["TCA Patient/Témoin"]}
@@ -69,7 +70,7 @@ for (var param in bioDeBaseParams) {
     var valueObject = findValue(bioDeBaseParams[param].variations, preprocessedText, bioDeBaseParams[param].unit);
     if (valueObject) {
         var formattedValue = valueObject.operator + " " + valueObject.value + " " + (bioDeBaseParams[param].unit === "%" ? "" : bioDeBaseParams[param].unit);
-        if (param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes" || param === "CRP" ) {
+        if (param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes" ) {
             bioDeBaseText += bioDeBaseParams[param].name + " : " + formattedValue.trim(); // Do not add newline after ASAT
             skipNewLine = true; // Set flag to skip newline after ASAT
         } else {
@@ -81,7 +82,7 @@ for (var param in bioDeBaseParams) {
             }
         }
     } else {
-        if (param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes" || param === "CRP" ) {
+        if (param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes" ) {
             bioDeBaseText += bioDeBaseParams[param].name + " : _____ " + bioDeBaseParams[param].unit; // Do not add newline after ASAT
             skipNewLine = true; // Set flag to skip newline after ASAT
         } else {
@@ -98,43 +99,50 @@ for (var param in bioDeBaseParams) {
     // Afficher le texte formaté de la bio de base dans la zone de sortie correspondante
     document.getElementById("bioDeBaseText").value = bioDeBaseText;
 
-    // Créer une chaîne pour stocker le texte formaté du bilan d'anémie
-    var bilanAnemieText = 'Bilan d\'anémie:\n';
+    // Fonction pour rechercher les variations d'un paramètre et extraire la valeur et l'unité pour le bilan d'anémie
+    function findValueBilanAnemie(variations, input, unit) {
+        for (var i = 0; i < variations.length; i++) {
+            var pattern = new RegExp(variations[i] + "\\s*[:\\s]*\\s*(?:B|H)?\\s*(<|>)?\\s*([\\d.,]+)\\s*(" + unit + ")?", "i");
+            var match = input.match(pattern);
+            if (match) {
+                return { operator: match[1] || "", value: match[2].replace(",", "."), unit: match[3] || unit };
+            }
+        }
+        return null;
+    }
 
     // Définition des paramètres pour le bilan d'anémie et leurs noms formatés avec les unités
     var bilanAnemieParams = {
-        "Hémoglobine": { name: "Hémoglobine", unit: "g/L" },
-        "VGM": { name: "VGM", unit: "fL" },
+        "Hémoglobine": { name: "Hémoglobine", unit: "g/l" },
+        "VGM": { name: "VGM", unit: "fl" },
         "Réticulocytes": { name: "Réticulocytes", unit: "" },
-        "Ferritine": { name: "Ferritine", unit: "ng/mL" },
-        "CST": { name: "CST", unit: "%" },
+        "Ferritine": { name: "Ferritine", unit: "µg/l", variations: ["Ferritineeeeeeeeeee"]  },
+        "coef saturation TRF": { name: "CST", unit: "%" },
         "B9": { name: "B9", unit: "ng/mL" },
         "B12": { name: "B12", unit: "pg/mL" },
-        "TSH": { name: "TSH", unit: "µUI/mL" }
+        "TSH US": { name: "TSH", unit: "mUI/l" }
     };
 
-    // Fonction pour rechercher les valeurs du bilan d'anémie et les formater
+    // Fonction pour formater le bilan d'anémie
     function formatBilanAnemie(inputText) {
-        var formattedBilanAnemie = '';
+        var formattedBilanAnemie = 'Bilan d\'anémie:\n';
         for (var param in bilanAnemieParams) {
-            var pattern = new RegExp(param + "\\s*[:\\s]*\\s*([\\d.]+)\\s*(" + bilanAnemieParams[param].unit + ")?", "i");
-            var match = inputText.match(pattern);
-            if (match) {
-                var value = match[1].replace(",", ".");
-                var unit = match[2] || bilanAnemieParams[param].unit;
-                formattedBilanAnemie += bilanAnemieParams[param].name + " : " + value + " " + unit + ";\n";
+            var valueObject = findValueBilanAnemie(bilanAnemieParams[param].variations || [param], inputText, bilanAnemieParams[param].unit);
+            if (valueObject) {
+                formattedBilanAnemie += bilanAnemieParams[param].name + " : " + valueObject.operator + " " + valueObject.value + " " + bilanAnemieParams[param].unit + "\n";
             } else {
-                formattedBilanAnemie += bilanAnemieParams[param].name + " : _____ " + bilanAnemieParams[param].unit + ";\n";
+                formattedBilanAnemie += bilanAnemieParams[param].name + " : _____ " + bilanAnemieParams[param].unit + "\n";
             }
         }
         return formattedBilanAnemie;
     }
 
     // Appel de la fonction pour formater le bilan d'anémie et stocker le texte formaté dans la variable correspondante
-    bilanAnemieText += formatBilanAnemie(preprocessedText);
+    var bilanAnemieText = formatBilanAnemie(preprocessedText);
 
     // Afficher le texte formaté du bilan d'anémie dans la zone de sortie correspondante
     document.getElementById("bilanAnemieText").value = bilanAnemieText.trim();
+
 
     // Créer une chaîne pour stocker le texte formaté du bilan phosphocalcique
     var bilanPhosphocalciqueText = 'Bilan phosphocalcique:\n';
@@ -145,7 +153,7 @@ for (var param in bioDeBaseParams) {
         "Phosphore": { name: "phosphore", unit: "mmol/L" },
         "Vit 25 OH D2 et D3": { name: "vitamine D", unit: "ng/mL" },
         "PTH INTACT": { name: "PTH", unit: "ng/L" },
-        "TSH US": { name: "TSH", unit: "mUI/mL" },
+        "TSH US": { name: "TSH", unit: "mUI/L" },
     };
 
 
@@ -167,14 +175,10 @@ for (var param in bioDeBaseParams) {
 
     // Définition des paramètres pour le bilan auto-immun
     var bilanAutoImmunParams = {
-        "ACPA / Anti-CPP": { name: "ACPA / Anti-CPP", unit: "" },
-        "Anticorps anti-nucléaires": { name: "Anticorps anti-nucléaires", unit: "" },
-        "Anticorps anti ADN natifs": { name: "Anticorps anti ADN natifs", unit: "" },
-        "Anticorps anti-Sm": { name: "Anticorps anti-Sm", unit: "" },
-        "Anticorps anti-RNP": { name: "Anticorps anti-RNP", unit: "" },
-        "Anticorps anti-SSA": { name: "Anticorps anti-SSA", unit: "" },
-        "Anticorps anti-SSB": { name: "Anticorps anti-SSB", unit: "" },
-        "Anticorps anti-Scl-70": { name: "Anticorps anti-Scl-70", unit: "" }
+        "FRH IGM": { name: "FR", unit: "" },
+        "ccpg3": { name: "ACPA / Anti-CPP", unit: "" },
+        "ACAN": { name: "Anticorps anti-nucléaires", unit: "" },
+        "ANCA": { name: "ANCAs", unit: "" },
     };
 
     // Fonction pour formater le bilan auto-immun
@@ -185,9 +189,9 @@ for (var param in bioDeBaseParams) {
             var match = inputText.match(pattern);
             if (match) {
                 var value = match[1];
-                formattedBilanAutoImmun += bilanAutoImmunParams[param].name + " : " + value + " " + bilanAutoImmunParams[param].unit + ";\n";
+                formattedBilanAutoImmun += bilanAutoImmunParams[param].name + " : " + value + " " + bilanAutoImmunParams[param].unit + "\n";
             } else {
-                formattedBilanAutoImmun += bilanAutoImmunParams[param].name + " : _____ " + bilanAutoImmunParams[param].unit + ";\n";
+                formattedBilanAutoImmun += bilanAutoImmunParams[param].name + " : _____ " + bilanAutoImmunParams[param].unit + "\n";
             }
         }
         return formattedBilanAutoImmun;
@@ -224,30 +228,7 @@ for (var param in bioDeBaseParams) {
 
     // Afficher le texte formaté du bilan nutritionnel dans la zone de sortie correspondante
     document.getElementById("bilannutritionnelText").value = bilannutritionnelText.trim();
-
-    // Créer une chaîne pour stocker le texte formaté du bilan de myelome
-    var bilanmyelomeText = '';
-
-    // Définition des paramètres pour le bilan myelome et leurs noms formatés avec les unités
-    var bilanmyelomeParams = {
-        "EPS": { name: "Electrophorèse des protéines sériques", unit: "" },
-    };
-
-
-    // Remplacer les valeurs dans le texte formaté du bilan myelome et les placer à leurs positions respectives
-    for (var param in bilanmyelomeParams) {
-        var variations = [param, bilanmyelomeParams[param].name];
-        var valueObject = findValue(variations, preprocessedText, bilanmyelomeParams[param].unit);
-        if (valueObject) {
-            var formattedValue = valueObject.operator + " " + valueObject.value + " " + (bilanmyelomeParams[param].unit === "%" ? "" : bilanmyelomeParams[param].unit);
-            bilanmyelomeText += bilanmyelomeParams[param].name + " : " + formattedValue.trim() + "\n";
-        } else {
-            bilanmyelomeText += bilanmyelomeParams[param].name + " : _____ " + bilanmyelomeParams[param].unit + "\n";
-        }
-    }
-
-    // Afficher le texte formaté du bilan myelome dans la zone de sortie correspondante
-    document.getElementById("bilanmyelomeText").value = bilanmyelomeText.trim();
+    
 
     // Créer une chaîne pour stocker le texte formaté des sérologies
     var serologiesText = 'Sérologies:\n';
