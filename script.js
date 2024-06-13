@@ -25,6 +25,7 @@ $(function() {
   
     // Pré-traiter le texte d'entrée pour supprimer les retours à la ligne, les "H" entourés de deux espaces, et les espaces de plus d'une case
     var preprocessedText = inputText.replace(/\n/g, ' ').replace(/ H /g, ' ').replace(/\s\s+/g, ' ');
+    var preprocessedText = inputText.replace(/\n/g, ' ').replace(/ B /g, ' ').replace(/\s\s+/g, ' ');
     var preprocessedText = inputText.replace(/Ferritine/g, 'Ferritineeeeeeeeeee');
   
     // Créer une chaîne pour stocker le texte formaté de la bio de base
@@ -188,7 +189,11 @@ for (var param in bioDeBaseParams) {
             var pattern = new RegExp(param + "\\s*[:\\s]*\\s*([\\w\\s]+)", "i");
             var match = inputText.match(pattern);
             if (match) {
-                var value = match[1];
+                var value = match[1].trim();
+                // Vérifier si la valeur contient uniquement des chiffres
+                if (!/^\d+(\.\d+)?$/.test(value)) {
+                    value = "_____";
+                }
                 formattedBilanAutoImmun += bilanAutoImmunParams[param].name + " : " + value + " " + bilanAutoImmunParams[param].unit + "\n";
             } else {
                 formattedBilanAutoImmun += bilanAutoImmunParams[param].name + " : _____ " + bilanAutoImmunParams[param].unit + "\n";
@@ -238,7 +243,7 @@ for (var param in bioDeBaseParams) {
     var serologiesParams = {
         "VHB": { name: "VHB", unit: "" },
         "VHC": { name: "VHC", unit: "" },
-        "VIH": { name: "VIH", unit: "" },
+        "hiv": { name: "VIH", unit: "" },
         "EBV": { name: "EBV", unit: "" },
         "CMV": { name: "CMV", unit: "" },
         "VZV": { name: "VZV", unit: "" },
@@ -265,6 +270,7 @@ for (var param in bioDeBaseParams) {
         $(".sortable").sortable();
         $(".sortable").disableSelection();
     });
+    
     
     document.getElementById("generateFinalTextButton").addEventListener("click", function() {
         var selectedTexts = [];

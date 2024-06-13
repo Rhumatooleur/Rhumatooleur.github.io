@@ -1,0 +1,69 @@
+{
+    "symptomatologie_articulaire": {
+        "nombre_articulations_douloureuses": 0,
+        "nombre_articulations_gonflees": 0,
+        "detail_articulations_douloureuses": [
+            {
+                "articulation": "épaule",
+                "cote": "droite"
+            },
+            {
+                "articulation": "épaule",
+                "cote": "gauche"
+            },
+            {
+                "articulation": "poignet",
+                "cote": "droite"
+            },
+            {
+                "articulation": "poignet",
+                "cote": "gauche"
+            }
+        
+        ],
+        "detail_articulations_gonflees": [
+            {
+                "articulation": "épaule",
+                "cote": "droite"
+            },
+            {
+                "articulation": "épaule",
+                "cote": "gauche"
+            },
+            {
+                "articulation": "poignet",
+                "cote": "droite"
+            },
+            {
+                "articulation": "poignet",
+                "cote": "gauche"
+            }
+        
+        ]
+    },
+    "symptomatologie_extra_articulaire": {
+        "spondyloarthrites": false,
+        "lupus": false,
+        "behcet": false
+    },
+    "antecedents_familiaux": {
+        "rhumatisme": false,
+        "diabete": false,
+        "thyroide": false
+    },
+    "plan_general": {
+        "fatigue": false,
+        "perte_poids": false,
+        "fievre": false
+    },
+    "examens_complementaires_realises": {
+        "radio": false,
+        "irm": false,
+        "prise_sang": false
+    },
+    "therapeutiques": {
+        "anti_inflammatoires": false,
+        "physiotherapie": false,
+        "chirurgie": false
+    }
+}
