@@ -33,22 +33,22 @@ $(function() {
   
     // Définition des paramètres de la bio de base et leurs noms formatés avec les unités
 var bioDeBaseParams = {
-    "Hémoglobine": { name: "Hémoglobine", unit: "g/L", variations: ["Hémoglobine"] },
-    "Leucocytes": { name: "Leucocytes", unit: "G/L, ", variations: ["Leucocytes"] },
-    "Polynucléaires neutrophiles calc": { name: "PNNs", unit: "G/L", variations: ["Poly neutro calc"] },
-    "Plaquettes": { name: "Plaquettes", unit: "G/L", variations: ["plaquettes"] },
+    "Hémoglobine": { name: "Hémoglobine", unit: "g/L,", variations: ["Hémoglobine"] },
+    "Leucocytes": { name: " Leucocytes", unit: "G/L, ", variations: ["Leucocytes"] },
+    "Polynucléaires neutrophiles calc": { name: " PNNs", unit: "G/L,", variations: ["Poly neutro calc"] },
+    "Plaquettes": { name: " Plaquettes", unit: "G/L", variations: ["plaquettes"] },
     "CRP": { name: "CRP", unit: "mg/L ", variations: ["CRP"] },
     "Sodium": { name: "Na", unit: "mmol/L, ", variations: ["Sodium"] },
-    "Potassium": { name: "K", unit: "mmol/L, ", variations: ["Potassium"] },
-    "Urée": { name: "Urée", unit: "mmol/L, ", variations: ["Urée"] },
-    "Créatinine": { name: "Créatinine", unit: "µmol/L, ", variations: ["Créatinine"] },
+    "Potassium": { name: " K", unit: "mmol/L, ", variations: ["Potassium"] },
+    "Urée": { name: " Urée", unit: "mmol/L,", variations: ["Urée"] },
+    "Créatinine": { name: " Créatinine", unit: "µmol/L", variations: ["Créatinine"] },
     "ASAT": { name: "ASAT", unit: "UI/L,  ", variations: ["ASAT-SGOT", "ASAT"] }, 
-    "ALAT": { name: "ALAT", unit: "UI/L,  ", variations: ["ALAT-SGPT", "ALAT"] },
-    "Phosphatases alcalines": { name: "PAL", unit: "UI/L,  ", variations: ["Phos.Alcalines", "Phosphatases alcalines"] },
-    "Gamma-GT": { name: "GGT", unit: "UI/L,  ", variations: ["Gamma GT", "Gamma-GT"] },
-    "Bilirubine totale": { name: "Bilirubine totale", unit: "µmol/l", variations: ["Bilirubine totale"] },
+    "ALAT": { name: " ALAT", unit: "UI/L,  ", variations: ["ALAT-SGPT", "ALAT"] },
+    "Phosphatases alcalines": { name: " PAL", unit: "UI/L,  ", variations: ["Phos.Alcalines", "Phosphatases alcalines"] },
+    "Gamma-GT": { name: " GGT", unit: "UI/L,  ", variations: ["Gamma GT", "Gamma-GT"] },
+    "Bilirubine totale": { name: " Bilirubine totale", unit: "µmol/l", variations: ["Bilirubine totale"] },
     "TP": { name: "TP", unit: "%, ", variations: ["TP"] },
-    "INR": { name: "INR", unit: ", ", variations: ["INR"] },
+    "INR": { name: " INR", unit: ", ", variations: ["INR"] },
     "TCA Patient/Témoin":{ name:"TCA ratio", unit: " ", variations: ["TCA Patient/Témoin"]}
 };
 
@@ -72,7 +72,7 @@ for (var param in bioDeBaseParams) {
     var valueObject = findValue(bioDeBaseParams[param].variations, preprocessedText, bioDeBaseParams[param].unit);
     if (valueObject) {
         var formattedValue = valueObject.operator + " " + valueObject.value + " " + (bioDeBaseParams[param].unit === "%" ? "" : bioDeBaseParams[param].unit);
-        if (param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes" ) {
+        if (param === "Hémoglobine" || param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes" || param === "Polynucléaires neutrophiles calc" ) {
             bioDeBaseText += bioDeBaseParams[param].name + " : " + formattedValue.trim(); // Do not add newline after ASAT
             skipNewLine = true; // Set flag to skip newline after ASAT
         } else {
@@ -84,7 +84,7 @@ for (var param in bioDeBaseParams) {
             }
         }
     } else {
-        if (param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes" ) {
+        if (param === "Hémoglobine" || param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes"  || param === "Polynucléaires neutrophiles calc" ) {
             bioDeBaseText += bioDeBaseParams[param].name + " : _____ " + bioDeBaseParams[param].unit; // Do not add newline after ASAT
             skipNewLine = true; // Set flag to skip newline after ASAT
         } else {
