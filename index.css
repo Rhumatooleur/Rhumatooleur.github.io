@@ -38,16 +38,17 @@ header h1 {
 
 /* Main styling */
 main {
-    padding: var(--padding-base);
+    padding:5vh;
     display: flex;
     justify-content: center; /* Centrage horizontal des éléments */
+    height: 100vh; /* Hauteur de la vue pour centrer verticalement */
 }
 
 /* Boutons */
 .btn-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
-    gap: 20px; /* Espacement entre les boutons */
+    gap: 40px; /* Espacement entre les boutons */
 }
 
 .btn {
