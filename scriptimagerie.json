@@ -1,13 +1,25 @@
 document.getElementById("formatImagerieButton").addEventListener("click", function() {
     var inputText = document.getElementById("inputImagerieText").value;
 
+    // Function to remove personal information
+    function removePersonalInfo(text) {
+        // Remove expressions in the format "NOMENMAJUSCULE Prenomaveclapremièrelettreenmajuscule - JJ/MM/AAAA"
+        return text.replace(/\b[A-ZÀ-ÖØ-Ý]+ [A-ZÀ-ÖØ-Ý][a-zà-öø-ÿ]+ - \d{2}\/\d{2}\/\d{4}\b/g, '');
+    }
+
+    // Function to remove unwanted sections
+    function removeUnwantedSection(text) {
+        return text.replace(/Le règlement par chèque est accepté\s+\S+\s+\S+\s+\d{2}\/\d{2}\/\d{4}/, '');
+    }
+
     // Function to format the imagery text
     function formatImagerieText(text) {
+        // Remove personal information
+        text = removePersonalInfo(text);
+
         // Remove unwanted sections from the input text
         text = text.replace(/DEPARTEMENT D’IMAGERIE MEDICALE[\s\S]*?Le règlement par chèque est accepté/, '');
-        
-        // Remove the section between "Bien confraternellement" and "PACS"
-        text = text.replace(/Bien confraternellement[\s\S]*?PACS/, '');
+        text = removeUnwantedSection(text);
 
         // Find the title
         var titleMatch = text.match(/(?:\b[A-ZÀ-ÖØ-Ý]+\b[\s]+){2,}([A-ZÀ-ÖØ-Ý][a-zà-öø-ÿ\s]+)(?=\s(?:Canon|Aquillion|Prime|SP))/);
@@ -16,17 +28,20 @@ document.getElementById("formatImagerieButton").addEventListener("click", functi
         // Remove the last word from the title
         titleText = titleText.replace(/\s\S+$/, '');
 
-        // Find the section between "Résultat :" and "Conclusion"
-        var resultatMatch = text.match(/Résultat\s*:\s*([\s\S]*?)(?=Conclusion)/i);
+        // Find the section between "RESULTAT" and "CONCLUSION"
+        var resultatMatch = text.match(/RESULTAT\s*([\s\S]*?)(?=CONCLUSION)/i);
         var resultatText = resultatMatch ? resultatMatch[1].trim() : '';
 
         // Find the conclusion section
-        var conclusionMatch = text.match(/Conclusion\s*:\s*([\s\S]*?)(?=https:\/\/)/i);
+        var conclusionMatch = text.match(/CONCLUSION\s*([\s\S]*?)(?=Bien confraternellement)/i);
         var conclusionText = conclusionMatch ? conclusionMatch[1].trim() : '';
 
         // Find the images info section
         var imagesInfoMatch = text.match(/Les images radiologiques de cet examen sont consultables sur le site\s*:\s*(https:\/\/[\s\S]*?Identifiant\s*:\s*\S+\s*Mot de passe\s*:\s*\S+)/i);
-        var imagesInfoText = imagesInfoMatch ? imagesInfoMatch[0].trim() : '';
+        var imagesInfoText = imagesInfoMatch ? imagesInfoMatch[1].trim() : '';
+
+        // Phrase for images information
+        var imagesInfoPhrase = "Les images radiologiques de cet examen sont consultables sur le site :";
 
         // Construction of the formatted text
         var formattedText = "";
@@ -46,9 +61,9 @@ document.getElementById("formatImagerieButton").addEventListener("click", functi
             formattedText += "<p><br><u>Conclusion</u><br>" + conclusionText.replace(/\n{2,}/g, "\n").replace(/\n/g, "<br>") + "</p>";
         }
 
-        // Append the images info section to formatted text
+        // Append the images info section to formatted text in italic
         if (imagesInfoText) {
-            formattedText += "<p><br><i>" + imagesInfoText.replace(/\n/g, "<br>") + "</i></p>";
+            formattedText += "<p><br><i>" + imagesInfoPhrase + "</i><br><i>" + imagesInfoText.replace(/\n/g, "<br>") + "</i></p>";
         }
 
         return formattedText;
@@ -56,10 +71,18 @@ document.getElementById("formatImagerieButton").addEventListener("click", functi
 
     var formattedText = formatImagerieText(inputText);
 
-    // Second formatting to remove duplicate "Les images radiologiques de cet examen sont consultables sur le site :"
-    var secondFormattedText = formattedText.replace(/Les images radiologiques de cet examen sont consultables sur le site :/, '');
-    document.getElementById("FormattedImagerieText").innerHTML = secondFormattedText;
+    document.getElementById("FormattedImagerieText").innerHTML = formattedText;
 
     // Copy formatted text to clipboard
-    navigator.clipboard.writeText(secondFormattedText.replace(/<br>/g, '\n').replace(/<[^>]+>/g, ''));
+    navigator.clipboard.writeText(formattedText.replace(/<br>/g, '\n').replace(/<[^>]+>/g, ''));
+
+    // Format second zone text removing multiple line breaks
+    var formattedSecondZoneText = removeMultipleLineBreaks(formattedText);
+
+    document.getElementById("SecondFormattedImagerieText").innerHTML = formattedSecondZoneText;
 });
+
+// Function to remove multiple line breaks
+function removeMultipleLineBreaks(text) {
+    return text.replace(/\n{2,}/g, '\n');
+}

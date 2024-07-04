@@ -1,0 +1,61 @@
+
+__________________________________________________________________
+Nom d'usage : CAMPEOL QUENTIN
+Nom de naissance : CAMPEOL
+Prénom(s) de naissance : QUENTIN ALEXANDRE
+Sexe : M - Date naiss : 29/06/1960 - IPP : 120700756841
+Lieu de naissance : PARIS (INSEE : 01407)
+Adresse : LÄZD
+Matricule INS : 160060197 (NIR)
+Courriel : coureil@gmial.com
+Date et heure de validation du CR : 20/06/2024 12:46
+__________________________________________________________________
+Examen demandé par le service des urgences
+SCANNER DU RACHIS LOMBAIRE
+Canon Aquillion Prime SP 17/12/2021 Classe III 5AB2186265
+PDL Total : 814,10 mGy.cm
+Produit :
+INDICATION
+Lombosciatique gauche hyperalgique.
+Une information écrite ou orale a été donnée au patient sur le déroulement et les risques de
+l’examen.
+TECHNIQUE
+Acquisition hélicoïdale sur le rachis lombaire sans injection.
+RESULTAT
+Respect de la hauteur des corps vertébraux.
+Canal lombaire de taille normale.
+Discopathies étagées modérément évoluées prédominant de L3 à S1.
+En L3-L4 : étalement discal circonférentiel.
+Rétrécissement foraminal bilatéral prédominant à gauche au passage de la racine L3
+gauche.
+Rétrécissement modéré symétrique des récessus latéraux au passage de l’émergence des
+racines L4.
+En L4-L5 : débord discal circonférentiel, rétrécissement modéré et symétrique des récessus
+DEPARTEMENT D’IMAGERIE MEDICALE
+SCANNER - IRM
+MAMMOGRAPHIE – ECHOGRAPHIE – DOPPLER
+RADIOLOGIE : GENERALE - VASCULAIRE- INTERVENTIONNELLE
+Centre Hospitalier Annecy Genevois – 1 av. de l’hôpital – Epagny Metz-Tessy – BP 90074 – 74374 Pringy Cedex
+Site internet : www.ch-annecygenevois.fr 2/2
+Membre d’une AGA – Le règlement par chèque est accepté CAMPEOL Quentin - 29/06/1999
+latéraux et des foramens de conjugaison.
+En L5-S1 : débord disco-ostéophytique minime.
+Pas de conflit disco-radiculaire décelé.
+Arthrose interapophysaire postérieure peu évoluée prédominant en L4-L5.
+CONCLUSION
+Discopathies dégénératives modérément évoluées.
+Rétrécissement foraminal prédominant à gauche en L3-L4 au passage de la racine L3
+gauche.
+Pas de conflit disco-radiculaire décelé par ailleurs.
+Bien confraternellement
+Dr COFFE jean Pierre
+Ce document a été signé électroniquement.
+Examen archivé sur le PACS
+Les images radiologiques de cet examen sont consultables sur le site :
+https://imagerie.ch-annecygenevois.fr
+Identifiant : A1011010101
+Mot de passe : 1900-00-00
+Région Type d'acquisition Fantôme CTDIVol (mGy) PDL (mGy.cm)
+Pelvis Constant Angle Acquisition IEC Body Dosimetry Phantom 0,5 25,17
+Pelvis Constant Angle Acquisition IEC Body Dosimetry Phantom 0,1 5,03
+Pelvis Spiral Acquisition IEC Body Dosimetry Phantom 20,7 783,90

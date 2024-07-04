@@ -1,0 +1,386 @@
+Num formule plaq 	
+	 
+  NUMERATION 	
+	 
+    NUMERATION 	  	
+	  	 
+    Leucocytes 	H 	
+10,9
+	giga/l 	4,06 - 10,46
+    Hématies 	  	
+4,44
+	tera/l 	4,38 - 5,65
+    Hémoglobine 	B 	
+132
+	g/l 	134 - 167
+    Hématocrite 	  	
+0,41
+	l/l 	0,392 - 0,486
+    VGM 	  	
+91,7
+	femtol 	82,2 - 96,3
+    TCMH 	  	
+29,7
+	picog 	27,3 - 32,8
+    CCMH 	  	
+324
+	g/l 	324 - 363
+    IDR 	  	
+13,4
+	  	 
+    Plaquettes 	  	
+315
+	giga/l 	172 - 398
+    VPM 	  	
+9,6
+	femtol 	7,4 - 10,8
+  FORMULE LEUCOCYTAIRE 	
+	 
+    FORMULE LEUCOCYTAIRE 	  	
+	  	 
+    Poly neutrophiles 	  	
+67,5
+	% 	 
+    Poly neutro calc 	H 	
+7,36
+	giga/l 	1,915 - 6,634
+    Poly éosinophiles 	  	
+0,7
+	% 	 
+    Poly éosino calc 	  	
+0,08
+	giga/l 	0,046 - 0,574
+    Poly basophiles 	  	
+0,6
+	% 	 
+    Poly baso calc 	  	
+0,07
+	giga/l 	0,00 - 0,091
+    Lymphocytes 	  	
+21,5
+	% 	 
+    Lymphocytes calc 	  	
+2,34
+	giga/l 	1,241 - 3,617
+    Monocytes 	  	
+9,7
+	% 	 
+    Monocytes calc 	H 	
+1,06
+	giga/l 	0,233 - 0,725
+TCA 	
+	 
+  
+FIBRINOGENE 	
+	 
+  TRAITEMENT 	
+	 
+    Traitement Hémostase 	  	
+LOVENOX
+	  	 
+  Fibrinogène 	H 	
+5,8
+	g/l 	1,56 - 4,0
+REMARQUE COAG HEMO 	  	
+Hémostase : Plasma hémolytique.
+Dosage non effectué. Fournir un nouve (...)
+	  	 
+ASPECT DU PLASMA 	  	
+plasma non hémolysé clair et non ictérique
+	  	 
+IONOGRAMME SANGUIN 	
+	 
+  IONO 	
+	 
+    Sodium 	  	
+137
+	mmol/l 	132 - 146
+    Potassium 	  	
+4,2
+	mmol/l 	3,5 - 4,5
+    Chlore 	  	
+105
+	mmol/l 	99 - 109
+    Réserve alcaline 	  	
+24,4
+	mmol/l 	20,0 - 31,0
+    Protéines 	  	
+72
+	g/l 	57 - 82
+  UREE CREAT 	
+	 
+    Urée 	
+	 
+      Urée 	  	
+4,8
+	mmol/l 	3,3 - 8,3
+    CREAT 	
+	 
+      Créatinine 	  	
+62
+	µmol/l 	55 - 96
+      CKD-EPI 	
+	 
+        CKD-EPI 	  	
+104
+	ml/min 	 
+        Commentaire CKD-EPI 	  	
+Valeurs de Référence de la clairance CKD-EPI (AJKD, Janvier 2008) :
+ (...)
+	  	 
+  Trou anionique 	  	
+12
+	mEq/l 	8 - 16
+    	  	
+	  	 
+Ca total corrigé 	
+	 
+  Calcium 	  	
+2,39
+	mmol/l 	2,18 - 2,60
+  Albumine 	  	
+35,6
+	g/l 	 
+  Ca total corrigé 	  	
+2,50
+	mmol/l 	 
+PHOSPHORE 	
+	 
+  Phosphore 	  	
+1,07
+	mmol/l 	0,78 - 1,65
+Acide urique 	
+	 
+  Acide urique 	  	
+249
+	µmol/l 	220 - 547
+BILI TRANS PAL GGT 	
+	 
+  Bilirubine totale 	  	
+7
+	µmol/l 	< 21
+  TRANSAMINASES 	
+	 
+    ASAT-SGOT 	  	
+18
+	UI/L 	0 - 34
+    ALAT-SGPT 	  	
+15
+	UI/L 	10 - 49
+  Phos.Alcalines 	  	
+51
+	UI/L 	46 - 116
+  Gamma GT 	  	
+35
+	UI/L 	< 73
+LDH 	  	
+228
+	UI/L 	120 - 246
+CK 	B 	
+28
+	UI/L 	46 - 171
+TSH US 	
+	 
+  TSH US 	  	
+1,00
+	mUI/l 	0,55 - 4,78
+  Traitemt Bilan Thyro 	  	
+Non precisé
+	  	 
+Vit 25 OH D2 et D3 	
+	 
+  Vit 25 OH D2 et D3 	  	
+27,1
+	ng/ml 	 
+  Interprétation Vit D 	  	
+Interprétation Vitamine D
+- Enfants < 16 ans :
+Valeurs de référence  (...)
+	  	 
+Electrophorèse Prot 	
+	 
+  Paramètres Electro 	
+	 
+    Protéines totales 	  	
+En attente de validation
+	
+ 
+	
+ 
+    Albumine % 	  	
+En cours
+	  	 
+    Albumine calculée 	  	
+En cours
+	  	 
+    Alpha 1 % 	  	
+En cours
+	  	 
+    Alpha 1 calculée 	  	
+En cours
+	  	 
+    Alpha 2 % 	  	
+En cours
+	  	 
+    Alpha 2 calculée 	  	
+En cours
+	  	 
+    Béta 1 % 	  	
+En cours
+	  	 
+    Béta 1 calculée 	  	
+En cours
+	  	 
+    Béta 2 % 	  	
+En cours
+	  	 
+    Béta 2 calculée 	  	
+En cours
+	  	 
+    Gamma % 	  	
+En cours
+	  	 
+    Gamma calculée 	  	
+En cours
+	  	 
+    Rapport alb/globul 	  	
+En cours
+	  	 
+  REMARQUE ELECTRO : 	  	
+En cours
+	  	 
+  REMARQUE ELECTRO 1 	  	
+En cours
+	  	 
+    	  	
+	  	 
+CRP 	H 	
+101,3
+	mg/l 	0,0 - 5,0
+Ferritine 	  	
+222,6
+	µg/l 	22,0 - 322,0
+DEPISTAGE HEPATITE B 	
+	 
+  Ag HBs 	
+	 
+    AgHBs résultat: 	  	
+Négatif
+	  	 
+    ag hbs index= 	  	
+0,20
+	  	0,00 - 0,80
+  AC anti-HBcT 	
+	 
+    HBCT résultat: 	  	
+Négatif
+	  	 
+    hbct index= 	  	
+0,27
+	  	0,00 - 0,80
+  AC anti-HBs 	
+	 
+    ACHBS résultat UI/L 	B 	
+<10
+	  	10 - 1001
+    COM ACHBS 	  	
+	  	 
+    interprétation hep B 	  	
+Interprétation : Absence de contact avec le virus.
+A (...)
+	  	 
+HEPATITE C 	
+	 
+  hcv résultat= 	  	
+Négatif
+	  	 
+  HCV index= 	  	
+0,13
+	  	0,00 - 0,80
+  hcv 	  	
+Absence de contact avec le VHC.
+En cas d'infection ou de contage réce (...)
+	  	 
+EBV 	
+	 
+  VCA G résultat= 	  	
+Positif
+	  	 
+  VCA G index= 	  	
+4,37
+	  	 
+  VCA M résultat= 	  	
+Négatif
+	  	 
+  VCA M index= 	  	
+0,31
+	  	 
+  EBNA résultat= 	  	
+Positif
+	  	 
+  EBNA index= 	  	
+14,10
+	  	 
+  COM EBV 	  	
+	  	 
+  EBV: 	  	
+Interprétation : profil correspondant à une infection ancienne
+	  	 
+parvovirus b19 	
+	 
+  Parvo IgG résultat= 	  	
+Négatif
+	  	 
+  Parvo G index= 	  	
+0,15
+	  	 
+  Parvo M résultat= 	  	
+Négatif
+	  	 
+  Parvo M index= 	  	
+0,10
+	  	 
+  Parvo: 	  	
+Interprétation : Absence d'immunité.En cas de contage récent,
+un con (...)
+	  	 
+VIH 	
+	 
+  hiv résultat= 	  	
+Négatif
+	  	 
+  hiv index= 	  	
+0,20
+	  	 
+  hiv 	  	
+Dépistage négatif.
+En cas de risque récent, un contrôle sérologique  (...)
+	  	 
+LYME 	
+	 
+  lyme G résultat= 	  	
+Négatif
+	  	 
+  lyme G index= 	  	
+0,10
+	  	 
+  lyme 	  	
+Absence d'immunité.
+La sérologie Lyme n'est pas recommandée en cas  (...)
+	  	 
+Anti CCP IgG 	
+	 
+  ccpg3 	  	
+En cours
+	  	 
+ACAN 	
+	 
+  Dépistage 	  	
+En cours
+	  	 
+    	  	
+	  	 
+ANCA 	
+	 
+  Dépistage 	  	
+En cours
