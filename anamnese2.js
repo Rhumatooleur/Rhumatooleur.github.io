@@ -108,26 +108,27 @@ function submitForm() {
     resultText += "Thérapeutiques : ";
     resultText += formData.therapeutiques === '' ? "non spécifié" : formData.therapeutiques;
     resultText += "\n\n";
-
-    // Au total
-    resultText += "Au total :\n";
-    resultText += "- Il s'agit d'une ";
+    
+   // Au total
+    resultText += "Au total : Il s'agit ";
     let totalConditions = [];
     if (formData.auTotal.polyarthrite) {
-        totalConditions.push("polyarthrite");
+        totalConditions.push("d'une polyarthrite");
     }
     if (formData.auTotal.polyarthralgies) {
-        totalConditions.push("polyarthralgies");
+        totalConditions.push("de polyarthralgies");
     }
     if (formData.auTotal.nue) {
         totalConditions.push("nue");
     }
-    resultText += totalConditions.join(" ou ") + " selon la case cochée\n";
-    resultText += "- Associée à : ";
-    resultText += formData.auTotal.associeeA === '' ? "non spécifié" : formData.auTotal.associeeA;
-    resultText += "\n- Évolution : ";
-    resultText += formData.auTotal.evolution === '' ? "non spécifié" : (formData.auTotal.evolution === "plus6semaines" ? "plus de 6 semaines" : "moins de 6 semaines");
-    resultText += "\n";
+    resultText += totalConditions.join(" ");
+
+    let associeeA = formData.auTotal.associeeA.trim() === '' ? "" : "associée à " + formData.auTotal.associeeA;
+    let evolution = formData.auTotal.evolution === '' ? "non spécifié" : (formData.auTotal.evolution === "plus6semaines" ? "plus de 6 semaines" : "moins de 6 semaines");
+
+    resultText += " " + associeeA + ", ";
+    resultText += "évoluant depuis " + evolution + " ";
+
     if (formData.auTotal.commentaires !== '') {
         resultText += formData.auTotal.commentaires + "\n\n";
     } else {
@@ -139,6 +140,9 @@ function submitForm() {
 
     // Copier le résultat dans le presse-papier
     copyToClipboard(resultText);
+
+    // Générer et afficher le texte type d'anamnèse
+    generateTexteTypeAnamnese(formData);
 }
 
 function generateArticulationsText(articulations) {
@@ -162,144 +166,152 @@ function generateArticulationsText(articulations) {
         text += "Genoux, ";
     }
     if (articulations.Autres !== '') {
-        text += "Autres : " + articulations.Autres;
+        text += "Autres : " + articulations.Autres + ", ";
     }
-    // Enlever la dernière virgule et l'espace si elle existe
-    if (text.endsWith(", ")) {
-        text = text.slice(0, -2);
-    }
-    return text === "" ? "non spécifié" : text;
+    return text.trim().replace(/,$/, "") + "\n";
 }
 
-function generateSymptomatologieExtraArticulaireText(extraArticulaire) {
+function generateSymptomatologieExtraArticulaireText(symptomatologieExtraArticulaire) {
     let text = "";
-    if (extraArticulaire.douleursAbdominales) {
-        text += "douleurs abdominales, ";
+    if (symptomatologieExtraArticulaire.douleursAbdominales) {
+        text += "Douleurs abdominales, ";
     }
-    if (extraArticulaire.diarrhee) {
-        text += "diarrhée, ";
+    if (symptomatologieExtraArticulaire.diarrhee) {
+        text += "Diarrhée, ";
     }
-    if (extraArticulaire.bruluresMictionnelles) {
-        text += "brûlures mictionnelles, ";
+    if (symptomatologieExtraArticulaire.bruluresMictionnelles) {
+        text += "Brûlures mictionnelles, ";
     }
-    if (extraArticulaire.ecoulementsUretraux) {
-        text += "écoulements urétraux, ";
+    if (symptomatologieExtraArticulaire.ecoulementsUretraux) {
+        text += "Ecoulements urétraux, ";
     }
-    if (extraArticulaire.conjonctivite) {
-        text += "conjonctivite, ";
+    if (symptomatologieExtraArticulaire.conjonctivite) {
+        text += "Conjonctivite, ";
     }
-    if (extraArticulaire.angine) {
-        text += "angine, ";
+    if (symptomatologieExtraArticulaire.angine) {
+        text += "Angine, ";
     }
-    if (extraArticulaire.raynaud) {
-        text += "phénomène de Raynaud, ";
+    if (symptomatologieExtraArticulaire.raynaud) {
+        text += "Phénomène de Raynaud, ";
     }
-    if (extraArticulaire.psoriasis) {
-        text += "psoriasis, ";
+    if (symptomatologieExtraArticulaire.psoriasis) {
+        text += "Psoriasis, ";
     }
-    if (extraArticulaire.vascularites) {
-        text += "vascularites, ";
+    if (symptomatologieExtraArticulaire.vascularites) {
+        text += "Vascularites, ";
     }
-    if (extraArticulaire.exhantheme) {
-        text += "exanthème, ";
+    if (symptomatologieExtraArticulaire.exhantheme) {
+        text += "Exanthème, ";
     }
-    if (extraArticulaire.eruptionCutanee) {
-        text += "éruption cutanée photosensible, ";
+    if (symptomatologieExtraArticulaire.eruptionCutanee) {
+        text += "Eruption cutanée, ";
     }
-    if (extraArticulaire.erythemeNoueux) {
-        text += "érythème noueux, ";
+    if (symptomatologieExtraArticulaire.erythemeNoueux) {
+        text += "Erythème noueux, ";
     }
-    if (extraArticulaire.acneeSevere) {
-        text += "acné sévère et pustulose palmo-plantaire (sapho), ";
+    if (symptomatologieExtraArticulaire.acneeSevere) {
+        text += "Acné sévère, ";
     }
-    if (extraArticulaire.crisesFebriles) {
-        text += "crises fébriles + douleurs abdo (MEFV), ";
+    if (symptomatologieExtraArticulaire.crisesFebriles) {
+        text += "Crises fébriles, ";
     }
-    if (extraArticulaire.syndromeSec) {
-        text += "syndrome sec oculaire, ";
+    if (symptomatologieExtraArticulaire.syndromeSec) {
+        text += "Syndrome sec, ";
     }
-    if (extraArticulaire.xerostomie) {
-        text += "xérostomie, ";
+    if (symptomatologieExtraArticulaire.xerostomie) {
+        text += "Xérostomie, ";
     }
-    if (extraArticulaire.aphtoseBipolaire) {
-        text += "aphtose bipolaire, ";
+    if (symptomatologieExtraArticulaire.aphtoseBipolaire) {
+        text += "Aphtose bipolaire, ";
     }
-    if (extraArticulaire.commentaires !== '') {
-        text += extraArticulaire.commentaires;
+    if (symptomatologieExtraArticulaire.commentaires !== '') {
+        text += "Commentaires : " + symptomatologieExtraArticulaire.commentaires + ", ";
     }
-    // Enlever la dernière virgule et l'espace si elle existe
-    if (text.endsWith(", ")) {
-        text = text.slice(0, -2);
-    }
-    // Ajouter un point à la fin si aucun commentaire supplémentaire
-    if (!text.endsWith(":")) {
-        text += ".";
-    }
-    return text === "" ? "non spécifié" : text;
+    return text.trim().replace(/,$/, "") + "\n";
 }
 
-function generateAntecedentsFamiliauxText(antecedents) {
+function generateAntecedentsFamiliauxText(antecedentsFamiliaux) {
     let text = "";
-    if (antecedents.polyarthriteRhumatoide) {
-        text += "polyarthrite rhumatoïde, ";
+    if (antecedentsFamiliaux.polyarthriteRhumatoide) {
+        text += "Polyarthrite rhumatoïde, ";
     }
-    if (antecedents.spondyloarthrite) {
-        text += "spondyloarthrite, ";
+    if (antecedentsFamiliaux.spondyloarthrite) {
+        text += "Spondyloarthrite, ";
     }
-    if (antecedents.commentaires !== '') {
-        text += antecedents.commentaires;
+    if (antecedentsFamiliaux.commentaires !== '') {
+        text += "Commentaires : " + antecedentsFamiliaux.commentaires + ", ";
     }
-    // Enlever la dernière virgule et l'espace si elle existe
-    if (text.endsWith(", ")) {
-        text = text.slice(0, -2);
-    }
-    // Ajouter un point à la fin si aucun commentaire supplémentaire
-    if (!text.endsWith(":")) {
-        text += ".";
-    }
-    return text === "" ? "non spécifié" : text;
+    return text.trim().replace(/,$/, "") + "\n";
 }
 
-function generateSurLePlanGeneralText(planGeneral) {
+function generateSurLePlanGeneralText(surLePlanGeneral) {
     let text = "";
-    if (planGeneral.fievre) {
-        text += "fièvre, ";
+    if (surLePlanGeneral.fievre) {
+        text += "Fièvre, ";
     }
-    if (planGeneral.sueursNocurnes) {
-        text += "sueurs nocturnes, ";
+    if (surLePlanGeneral.sueursNocurnes) {
+        text += "Sueurs nocturnes, ";
     }
-    if (planGeneral.asthenie) {
-        text += "asthénie, ";
+    if (surLePlanGeneral.asthenie) {
+        text += "Asthénie, ";
     }
-    if (planGeneral.anorexie) {
-        text += "anorexie, ";
+    if (surLePlanGeneral.anorexie) {
+        text += "Anorexie, ";
     }
-    if (planGeneral.pertePoids) {
-        text += "perte de poids, ";
+    if (surLePlanGeneral.pertePoids) {
+        text += "Perte de poids, ";
     }
-    if (planGeneral.commentaires !== '') {
-        text += planGeneral.commentaires;
+    if (surLePlanGeneral.commentaires !== '') {
+        text += "Commentaires : " + surLePlanGeneral.commentaires + ", ";
     }
-    // Enlever la dernière virgule et l'espace si elle existe
-    if (text.endsWith(", ")) {
-        text = text.slice(0, -2);
-    }
-    // Ajouter un point à la fin si aucun commentaire supplémentaire
-    if (!text.endsWith(":")) {
-        text += ".";
-    }
-    return text === "" ? "non spécifié" : text;
+    return text.trim().replace(/,$/, "") + "\n";
 }
 
 function copyToClipboard(text) {
     const textarea = document.createElement('textarea');
     textarea.value = text;
-    textarea.setAttribute('readonly', '');
-    textarea.style.position = 'absolute';
-    textarea.style.left = '-9999px';
     document.body.appendChild(textarea);
     textarea.select();
     document.execCommand('copy');
     document.body.removeChild(textarea);
-    alert('Résultat copié dans le presse-papiers.');
+}
+
+function generateTexteTypeAnamnese(formData) {
+    let texteTypeAnamnese = `
+    **Données:**
+
+    * **Texte type d'anamnèse:** 
+    ${document.getElementById('resultat').value}
+
+    **Tâche:**
+
+    Sur la base du texte type d'anamnèse fourni, générer une anamnèse détaillée et intelligible en langage naturel, en incluant les points suivants:
+
+    * **Histoire de la maladie actuelle:**
+        * Symptomatologie articulaire
+        * Présence de symptômes extra-articulaires 
+        * Symptomatologie générale 
+    * **Antécédents familiaux:**
+        * Présence ou absence de maladies rhumatismales dans la famille
+    * **Examens complémentaires :**
+        * Résultats des examens biologiques et d'imagerie pertinents
+    * **Thérapeutiques entreprises :**
+        * Thérapeutiques entreprises et efficacité correspondante 
+    * **Conclusion:**
+        * Synthèse
+
+    **Instructions supplémentaires:**
+
+    * Veuillez utiliser un langage clair, concis et précis.
+    * Respectez la terminologie médicale appropriée.
+    * Assurez-vous que l'anamnèse est cohérente et bien structurée.
+    * Assurez-vous de bien retranscrire toutes les informations fournies dans le texte type d'anamnèse fourni
+    * Assurez-vous de ne rien inventer par rapport au texte type d'anamnèse fournie mais d'y rester fidèle
+    * Assurez-vous de ne pas intégrer vous interprétations personnelles
+    * Assurez-vous que la synthèse soit rédigée en une phrase
+    * Assurez-vous de ne pas répéter plusieurs fois les mêmes informations
+    * Assurez vous de ne pas ajouter de phrase inutile d'explication de la tâche que vous avez réalisé`;
+
+    // Affichage du texte type d'anamnèse dans le second textarea
+    document.getElementById('texteTypeAnamnese').value = texteTypeAnamnese;
 }
