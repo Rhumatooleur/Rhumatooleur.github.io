@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anamnèse - Formulaire</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
             margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333; /* Couleur de texte pour le corps */
         }
-
+    
         h1 {
             text-align: center;
-            color: #fff;
+            color: #fff; /* Couleur de texte */
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            background-color: #009fe3;
+            background-color: #089DE6; /* Couleur de fond */
             padding: 20px;
             margin: -20px -20px 20px -20px;
             border-radius: 8px 8px 0 0;
         }
-
+    
         .section {
             background-color: #fff;
             border-radius: 8px;
@@ -29,19 +29,19 @@
             margin-bottom: 20px;
             padding: 20px;
         }
-
+    
         .section h2 {
             color: #333;
             font-weight: bold;
         }
-
+    
         .section label {
             display: block;
             margin-top: 10px;
             font-weight: bold;
             color: #333;
         }
-
+    
         .section textarea,
         .section select,
         .section input[type="text"],
@@ -54,44 +54,67 @@
             border-radius: 4px;
             box-sizing: border-box;
         }
-
+    
         .section input[type="checkbox"],
         .section input[type="radio"] {
             width: auto;
             margin-right: 10px;
         }
-
+    
         button {
-            background-color: #009fe3;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
+            background-color: #007BFF; /* Couleur de fond du bouton */
+            color: #fff; /* Couleur du texte du bouton */
+            padding: 15px 30px; /* Espacement interne du bouton */
+            border: none; /* Pas de bordure */
+            border-radius: 4px; /* Coins arrondis */
+            cursor: pointer; /* Curseur en forme de main */
+            font-size: 18px; /* Taille de la police */
+            display: block; /* Affichage en bloc pour occuper toute la largeur */
+            width: 100%; /* Largeur du bouton */
+            margin-top: 20px; /* Marge supérieure */
         }
-
+    
         button:hover {
-            background-color: #007bb5;
+            background-color: #0056b3; /* Couleur de fond du bouton lorsqu'on le survole */
         }
 
+        button#retourMenu {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #5611d8; /* Bleu foncé */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: auto; /* Largeur automatique pour s'adapter au contenu */
+        }
+
+        button#retourMenu:hover {
+            background-color: #007BFF; /* Bleu plus clair au survol
+        }
+    
+        .green-text {
+            color: #32CD32; /* Couleur verte */
+        }
+    
         #resultat {
             width: 100%;
             height: 300px;
         }
-
+    
         #articulationImage {
             position: relative;
             width: 25vw;
             height: auto;
             margin: 20px 0;
         }
-
+    
         #articulationImage img {
             width: 100%;
             height: auto;
         }
-
+    
         #articulationImage canvas {
             position: absolute;
             top: 0;
@@ -99,29 +122,29 @@
             width: 100%;
             height: 100%;
         }
-
+    
         .articulation-container {
             display: flex;
             justify-content: space-between;
         }
-
+    
         .articulation-selector {
             width: 48%;
         }
-
+    
         .image-container {
             position: relative;
             width: 100%;
             max-width: 500px;
             margin: 0 auto;
         }
-
+    
         .image-container img {
             width: 100%;
             height: auto;
             display: block;
         }
-
+    
         .image-container canvas {
             position: absolute;
             top: 0;
@@ -129,38 +152,47 @@
             width: 100%;
             height: 100%;
         }
-
-        .green-text {
-            color: #32CD32;
+    
+        #texteTypeAnamnese {
+            width: 100%; /* Assure que la largeur est de 100% de son conteneur parent */
+            height: 400px; /* Augmente la hauteur pour un affichage plus long */
+            padding: 10px; /* Ajoute du padding pour améliorer l'apparence */
+            margin-top: 10px; /* Marge supérieure pour espacer des éléments adjacents */
+            border: 1px solid #ccc; /* Bordure grise pour correspondre aux autres zones de texte */
+            border-radius: 4px; /* Coins arrondis */
+            box-sizing: border-box; /* Assure que le padding et la bordure sont inclus dans la largeur et la hauteur totales */
         }
-
-    </style>
+    
+    </style>    
 </head>
 <body>
-    <h1>Formulaire d'Anamnèse</h1>
+    <header>
+        <h1>Formulaire d'Anamnèse découverte de polyarthrite</h1>
+        <button id="retourMenu" onclick="location.href='index.html'">Retour au menu</button>
+    </header>
     <form id="anamnesisForm">
         <div class="section">
             <h2>Symptomatologie articulaire</h2>
             
             <div class="articulation-container">
                 <div class="articulation-selector">
-                    <h3>Synovites :</h3>
-                    <div id="articulationImageSynovites" class="image-container">
-                        <img src="topographiearticulaire.png" alt="Topographie Articulaire" id="imageArticulationsSynovites">
-                        <canvas id="canvasOverlaySynovites"></canvas>
-                    </div>
-                    <div id="articulationCompteurSynovites">Nombre d'articulations : 0</div>
-                    <textarea id="articulationTextareaSynovites" readonly>Cliquez sur une articulation pour voir son nom.</textarea>
-                </div>
-            
-                <div class="articulation-selector">
-                    <h3>Douleurs :</h3>
+                    <h3>Nombre d'articulations douloureuses :</h3>
                     <div id="articulationImageDouleurs" class="image-container">
                         <img src="topographiearticulaire.png" alt="Topographie Articulaire" id="imageArticulationsDouleurs">
                         <canvas id="canvasOverlayDouleurs"></canvas>
                     </div>
                     <div id="articulationCompteurDouleurs">Nombre d'articulations : 0</div>
-                    <textarea id="articulationTextareaDouleurs" readonly>Cliquez sur une articulation pour voir son nom.</textarea>
+                    <textarea id="articulationTextareaDouleurs" readonly>Cliquez sur une articulation pour commencer...</textarea>
+                </div>
+
+                <div class="articulation-selector">
+                    <h3>Nombre d'articulations gonflées :</h3>
+                    <div id="articulationImageSynovites" class="image-container">
+                        <img src="topographiearticulaire.png" alt="Topographie Articulaire" id="imageArticulationsSynovites">
+                        <canvas id="canvasOverlaySynovites"></canvas>
+                    </div>
+                    <div id="articulationCompteurSynovites">Nombre d'articulations : 0</div>
+                    <textarea id="articulationTextareaSynovites" readonly>Cliquez sur une articulation pour commencer...</textarea>
                 </div>
             </div>
 
