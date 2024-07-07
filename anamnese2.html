@@ -7,23 +7,133 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
             margin: 20px;
         }
-        .section {
-            margin-bottom: 20px;
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            background-color: #009fe3;
+            padding: 20px;
+            margin: -20px -20px 20px -20px;
+            border-radius: 8px 8px 0 0;
         }
+
+        .section {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .section h2 {
+            color: #333;
+            font-weight: bold;
+        }
+
         .section label {
             display: block;
             margin-top: 10px;
+            font-weight: bold;
+            color: #333;
         }
-        .section textarea {
+
+        .section textarea,
+        .section select,
+        .section input[type="text"],
+        .section input[type="checkbox"],
+        .section input[type="radio"] {
             width: 100%;
-            height: 50px;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
         }
+
+        .section input[type="checkbox"],
+        .section input[type="radio"] {
+            width: auto;
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #009fe3;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #007bb5;
+        }
+
         #resultat {
             width: 100%;
             height: 300px;
         }
+
+        #articulationImage {
+            position: relative;
+            width: 25vw;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        #articulationImage img {
+            width: 100%;
+            height: auto;
+        }
+
+        #articulationImage canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .articulation-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .articulation-selector {
+            width: 48%;
+        }
+
+        .image-container {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .image-container canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .green-text {
+            color: #32CD32;
+        }
+
     </style>
 </head>
 <body>
@@ -31,30 +141,44 @@
     <form id="anamnesisForm">
         <div class="section">
             <h2>Symptomatologie articulaire</h2>
-            <label>Synovites :</label>
-            <label>IPPs : <input type="checkbox" id="synovitesIPPs"></label>
-            <label>MCPs : <input type="checkbox" id="synovitesMCPs"></label>
-            <label>Poignets : <input type="checkbox" id="synovitesPoignets"></label>
-            <label>Coudes : <input type="checkbox" id="synovitesCoudes"></label>
-            <label>Epaules : <input type="checkbox" id="synovitesEpaules"></label>
-            <label>Genoux : <input type="checkbox" id="synovitesGenoux"></label>
-            <label>Autres articulations : <input type="text" id="synovitesAutres"></label>
-
-            <label>Douleurs :</label>
-            <label>IPPs : <input type="checkbox" id="douleursIPPs"></label>
-            <label>MCPs : <input type="checkbox" id="douleursMCPs"></label>
-            <label>Poignets : <input type="checkbox" id="douleursPoignets"></label>
-            <label>Coudes : <input type="checkbox" id="douleursCoudes"></label>
-            <label>Epaules : <input type="checkbox" id="douleursEpaules"></label>
-            <label>Genoux : <input type="checkbox" id="douleursGenoux"></label>
-            <label>Autres articulations : <input type="text" id="douleursAutres"></label>
-            <label>L'horaire des douleurs est :</label>
             
-            <textarea id="horaireDouleurs"></textarea>
-        
-            <label>L'évolution se fait par :</label>
-            <label><input type="checkbox" id="poussee"> poussée</label>
-            <label><input type="checkbox" id="aggravation"> aggravation progressive</label>
+            <div class="articulation-container">
+                <div class="articulation-selector">
+                    <h3>Synovites :</h3>
+                    <div id="articulationImageSynovites" class="image-container">
+                        <img src="topographiearticulaire.png" alt="Topographie Articulaire" id="imageArticulationsSynovites">
+                        <canvas id="canvasOverlaySynovites"></canvas>
+                    </div>
+                    <div id="articulationCompteurSynovites">Nombre d'articulations : 0</div>
+                    <textarea id="articulationTextareaSynovites" readonly>Cliquez sur une articulation pour voir son nom.</textarea>
+                </div>
+            
+                <div class="articulation-selector">
+                    <h3>Douleurs :</h3>
+                    <div id="articulationImageDouleurs" class="image-container">
+                        <img src="topographiearticulaire.png" alt="Topographie Articulaire" id="imageArticulationsDouleurs">
+                        <canvas id="canvasOverlayDouleurs"></canvas>
+                    </div>
+                    <div id="articulationCompteurDouleurs">Nombre d'articulations : 0</div>
+                    <textarea id="articulationTextareaDouleurs" readonly>Cliquez sur une articulation pour voir son nom.</textarea>
+                </div>
+            </div>
+
+            <label for="horaireDouleurs">Horaire des douleurs :</label>
+            <select id="horaireDouleurs">
+                <option value="">Sélectionnez</option>
+                <option value="Inflammatoire">Inflammatoire</option>
+                <option value="Mécanique">Mécanique</option>
+                <option value="Mixte">Mixte</option>
+            </select>
+            <label for="commentHoraireDouleurs">Commentaires sur l'horaire des douleurs :</label>
+            <textarea id="commentHoraireDouleurs"></textarea>
+
+            <h3>Évolution :</h3>
+            <label><input type="checkbox" id="poussee"> Poussée</label>
+            <label><input type="checkbox" id="aggravation"> Aggravation progressive</label>
+            <label for="commentEvolution">Commentaires sur l'évolution :</label>
+            <textarea id="commentEvolution"></textarea>
         </div>
 
         <div class="section">

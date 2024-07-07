@@ -1,29 +1,171 @@
+document.addEventListener('DOMContentLoaded', () => {
+    initArticulationSelector('Synovites');
+    initArticulationSelector('Douleurs');
+});
+
+function initArticulationSelector(type) {
+    window[`selectedArticulations${type}`] = [];
+    const container = document.getElementById(`articulationImage${type}`);
+    const image = document.getElementById(`imageArticulations${type}`);
+    const canvas = document.getElementById(`canvasOverlay${type}`);
+    const ctx = canvas.getContext('2d');
+    const articulationTextarea = document.getElementById(`articulationTextarea${type}`);
+    const articulationCompteur = document.getElementById(`articulationCompteur${type}`);
+
+    let selectedArticulations = [];
+
+    const articulations = [
+        { name: 'Épaule droite', x: 187, y: 156 },
+        { name: 'Coude droit', x: 176, y: 223 },
+        { name: 'Poignet droit', x: 159, y: 291 },
+        { name: 'Articulation trapézo métacarpienne droite', x: 169 , y: 320 },
+        { name: 'MTcP1 droite', x: 176, y: 344 },
+        { name: 'MTcP2 droite', x: 158, y: 350 },
+        { name: 'MTcP3 droite', x: 139, y: 346 },
+        { name: 'MTcP4 droite', x: 123, y: 339 },
+        { name: 'MTcP5 droite', x: 111, y: 323 },
+        { name: 'IP du pouce droit', x: 179, y: 370 },
+        { name: 'IPP2 droite', x: 145, y: 385 },
+        { name: 'IPP3 droite', x: 125, y: 375 },
+        { name: 'IPP4 droite', x: 109, y: 361 },
+        { name: 'IPP5 droite', x: 95, y: 346 },
+        { name: 'IPD2 droite', x: 139, y: 405 },
+        { name: 'IPD3 droite', x: 112, y: 396 },
+        { name: 'IPD4 droite', x: 97, y: 378 },
+        { name: 'IPD5 droite', x: 87, y: 360 },
+        { name: 'Hanche droite', x: 212, y: 314 },
+        { name: 'Genou droit', x: 213, y: 438 },
+        { name: 'Cheville droite', x: 209, y: 573 },
+        { name: 'MTtP1 droite', x: 237, y: 668 },
+        { name: 'MTtP2 droite', x: 220, y: 662 },
+        { name: 'MTtP3 droite', x: 207, y: 650 },
+        { name: 'MTtP4 droite', x: 192, y: 637 },
+        { name: 'MTtP5 droite', x: 178, y: 627 },
+        { name: 'IP de l hallux droit', x: 231, y: 693 },
+        { name: 'IPP2 du pied droit', x: 214, y: 681 },
+        { name: 'IPP3 du pied droit', x: 200, y: 675 },
+        { name: 'IPP4 du pied droit', x: 188, y: 664 },
+        { name: 'IPP5 du pied droit', x: 176, y: 649 },
+        { name: 'Épaule gauche', x: 303, y: 156 },
+        { name: 'Coude gauche', x: 322, y: 223 },
+        { name: 'Poignet gauche', x: 337, y: 291 },
+        { name: 'Articulation trapézo métacarpienne gauche', x: 325 , y: 320 },
+        { name: 'MTcP1 gauche', x: 320, y: 344 },
+        { name: 'MTcP2 gauche', x: 337, y: 350 },
+        { name: 'MTcP3 gauche', x: 356, y: 346 },
+        { name: 'MTcP4 gauche', x: 372, y: 339 },
+        { name: 'MTcP5 gauche', x: 383, y: 323 },
+        { name: 'IP du pouce gauche', x: 317, y: 370 },
+        { name: 'IPP2 gauche', x: 349, y: 385 },
+        { name: 'IPP3 gauche', x: 371, y: 375 },
+        { name: 'IPP4 gauche', x: 386, y: 361 },
+        { name: 'IPP5 gauche', x: 399, y: 346 },
+        { name: 'IPD2 gauche', x: 357, y: 405 },
+        { name: 'IPD3 gauche', x: 385, y: 396 },
+        { name: 'IPD4 gauche', x: 397, y: 378 },
+        { name: 'IPD5 gauche', x: 409, y: 360 },
+        { name: 'Hanche gauche', x: 284, y: 314 },
+        { name: 'Genou gauche', x: 281, y: 438 },
+        { name: 'Cheville gauche', x: 289, y: 573 },
+        { name: 'MTtP1 gauche', x: 259, y: 668 },
+        { name: 'MTtP2 gauche', x: 275, y: 662 },
+        { name: 'MTtP3 gauche', x: 290, y: 650 },
+        { name: 'MTtP4 gauche', x: 302, y: 637 },
+        { name: 'MTtP5 gauche', x: 316, y: 627 },
+        { name: 'IP de l hallux gauche', x: 263, y: 693 },
+        { name: 'IPP2 du pied gauche', x: 279, y: 681 },
+        { name: 'IPP3 du pied gauche', x: 296, y: 675 },
+        { name: 'IPP4 du pied gauche', x: 309, y: 664 },
+        { name: 'IPP5 du pied gauche', x: 317, y: 649 },
+    ];
+
+    function resizeCanvas() {
+        canvas.width = image.width;
+        canvas.height = image.height;
+        redrawCircles();
+    }
+
+    function getMousePos(canvas, evt) {
+        const rect = canvas.getBoundingClientRect();
+        const scaleX = canvas.width / rect.width;
+        const scaleY = canvas.height / rect.height;
+        return {
+            x: (evt.clientX - rect.left) * scaleX,
+            y: (evt.clientY - rect.top) * scaleY
+        };
+    }
+
+    function findClosestArticulation(x, y) {
+        let closest = null;
+        let closestDist = Infinity;
+        articulations.forEach(articulation => {
+            const dist = Math.hypot(articulation.x - x, articulation.y - y);
+            if (dist < closestDist) {
+                closestDist = dist;
+                closest = articulation;
+            }
+        });
+        return closest;
+    }
+
+    function redrawCircles() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        selectedArticulations.forEach(articulation => {
+            ctx.beginPath();
+            ctx.arc(
+                articulation.x * (canvas.width / image.naturalWidth),
+                articulation.y * (canvas.height / image.naturalHeight),
+                10, 0, 2 * Math.PI, false
+            );
+            ctx.fillStyle = 'yellow';
+            ctx.fill();
+            ctx.lineWidth = 2;
+            ctx.strokeStyle = '#003300';
+            ctx.stroke();
+        });
+    }
+
+    function updateArticulationInfo() {
+        const names = selectedArticulations.map(art => art.name).join(', ');
+        articulationTextarea.value = names || "Cliquez sur une articulation pour voir son nom.";
+        articulationCompteur.textContent = `Nombre d'articulations : ${selectedArticulations.length}`;
+        window[`selectedArticulations${type}`] = selectedArticulations;
+    }
+
+    image.addEventListener('load', resizeCanvas);
+    window.addEventListener('resize', resizeCanvas);
+
+    canvas.addEventListener('click', (evt) => {
+        const mousePos = getMousePos(canvas, evt);
+        const closestArticulation = findClosestArticulation(mousePos.x, mousePos.y);
+
+        if (closestArticulation) {
+            const index = selectedArticulations.findIndex(art => art.name === closestArticulation.name);
+            if (index !== -1) {
+                selectedArticulations.splice(index, 1);
+            } else {
+                selectedArticulations.push(closestArticulation);
+            }
+            redrawCircles();
+            updateArticulationInfo();
+        }
+    });
+
+    resizeCanvas();
+}
+
 function submitForm() {
     const formData = {
         symptomatologieArticulaire: {
-            synovites: {
-                IPPs: document.getElementById('synovitesIPPs').checked,
-                MCPs: document.getElementById('synovitesMCPs').checked,
-                Poignets: document.getElementById('synovitesPoignets').checked,
-                Coudes: document.getElementById('synovitesCoudes').checked,
-                Epaules: document.getElementById('synovitesEpaules').checked,
-                Genoux: document.getElementById('synovitesGenoux').checked,
-                Autres: document.getElementById('synovitesAutres').value.trim(),
-            },
-            douleurs: {
-                IPPs: document.getElementById('douleursIPPs').checked,
-                MCPs: document.getElementById('douleursMCPs').checked,
-                Poignets: document.getElementById('douleursPoignets').checked,
-                Coudes: document.getElementById('douleursCoudes').checked,
-                Epaules: document.getElementById('douleursEpaules').checked,
-                Genoux: document.getElementById('douleursGenoux').checked,
-                Autres: document.getElementById('douleursAutres').value.trim(),
-            },
+            synovites: getSelectedArticulations('Synovites'),
+            douleurs: getSelectedArticulations('Douleurs'),
             horaireDouleurs: document.getElementById('horaireDouleurs').value.trim(),
+            commentHoraireDouleurs: document.getElementById('commentHoraireDouleurs').value.trim(),
             evolution: {
                 poussee: document.getElementById('poussee').checked,
                 aggravation: document.getElementById('aggravation').checked,
-            }
+            },
+            commentEvolution: document.getElementById('commentEvolution').value.trim(),
         },
         symptomatologieExtraArticulaire: {
             douleursAbdominales: document.getElementById('douleursAbdominales').checked,
@@ -70,20 +212,50 @@ function submitForm() {
         }
     };
 
+    let resultText = generateResultText(formData);
+
+    // Affichage du résultat
+    document.getElementById('resultat').value = resultText;
+
+    // Copier le résultat dans le presse-papier
+    copyToClipboard(resultText);
+
+    // Générer et afficher le texte type d'anamnèse
+    generateTexteTypeAnamnese(formData);
+}
+
+function getSelectedArticulations(type) {
+    return window[`selectedArticulations${type}`] || [];
+}
+
+function generateResultText(formData) {
     let resultText = "";
 
     // Symptomatologie articulaire
     resultText += "Symptomatologie articulaire :\n";
-    resultText += "- Nb articulations gonflées (synovites) :\n";
-    resultText += generateArticulationsText(formData.symptomatologieArticulaire.synovites);
-    resultText += "\n- Nb articulations douloureuses :\n";
-    resultText += generateArticulationsText(formData.symptomatologieArticulaire.douleurs);
-    resultText += "\n- Horaire des douleurs : ";
-    resultText += formData.symptomatologieArticulaire.horaireDouleurs === '' ? "non spécifié" : formData.symptomatologieArticulaire.horaireDouleurs;
-    resultText += "\n- L'évolution se fait par : ";
-    resultText += (formData.symptomatologieArticulaire.evolution.poussee ? "poussée" : "") + (formData.symptomatologieArticulaire.evolution.poussee && formData.symptomatologieArticulaire.evolution.aggravation ? ", " : "") + (formData.symptomatologieArticulaire.evolution.aggravation ? "aggravation progressive" : "");
-    resultText += "\n\n";
-
+    resultText += "- Synovites : " + formData.symptomatologieArticulaire.synovites.length + " articulations";
+    if (formData.symptomatologieArticulaire.synovites.length > 0) {
+        resultText += " (" + formData.symptomatologieArticulaire.synovites.map(a => a.name).join(", ") + ")";
+    }
+    resultText += "\n";
+    resultText += "- Douleurs : " + formData.symptomatologieArticulaire.douleurs.length + " articulations";
+    if (formData.symptomatologieArticulaire.douleurs.length > 0) {
+        resultText += " (" + formData.symptomatologieArticulaire.douleurs.map(a => a.name).join(", ") + ")";
+    }
+    resultText += "\n";
+    resultText += "- Horaire des douleurs : " + (formData.symptomatologieArticulaire.horaireDouleurs || "non spécifié") + "\n";
+    if (formData.symptomatologieArticulaire.commentHoraireDouleurs) {
+        resultText += "  Commentaire : " + formData.symptomatologieArticulaire.commentHoraireDouleurs + "\n";
+    }
+    resultText += "- L'évolution se fait par : " + 
+        (formData.symptomatologieArticulaire.evolution.poussee ? "poussée" : "") + 
+        (formData.symptomatologieArticulaire.evolution.poussee && formData.symptomatologieArticulaire.evolution.aggravation ? ", " : "") + 
+        (formData.symptomatologieArticulaire.evolution.aggravation ? "aggravation progressive" : "") + "\n";
+    if (formData.symptomatologieArticulaire.commentEvolution) {
+        resultText += "  Commentaire : " + formData.symptomatologieArticulaire.commentEvolution + "\n";
+    }
+    resultText += "\n";
+    
     // Symptomatologie extra-articulaire
     resultText += "Symptomatologie extra-articulaire :\n";
     resultText += generateSymptomatologieExtraArticulaireText(formData.symptomatologieExtraArticulaire);
@@ -100,16 +272,12 @@ function submitForm() {
     resultText += "\n";
 
     // Examens complémentaires
-    resultText += "Examens complémentaires : ";
-    resultText += formData.examensComplementaires === '' ? "non spécifié" : formData.examensComplementaires;
-    resultText += "\n\n";
+    resultText += "Examens complémentaires : " + (formData.examensComplementaires || "non spécifié") + "\n\n";
 
     // Thérapeutiques
-    resultText += "Thérapeutiques : ";
-    resultText += formData.therapeutiques === '' ? "non spécifié" : formData.therapeutiques;
-    resultText += "\n\n";
-    
-   // Au total
+    resultText += "Thérapeutiques : " + (formData.therapeutiques || "non spécifié") + "\n\n";
+
+    // Au total
     resultText += "Au total : Il s'agit ";
     let totalConditions = [];
     if (formData.auTotal.polyarthrite) {
@@ -135,40 +303,7 @@ function submitForm() {
         resultText += "\n";
     }
 
-    // Affichage du résultat
-    document.getElementById('resultat').value = resultText;
-
-    // Copier le résultat dans le presse-papier
-    copyToClipboard(resultText);
-
-    // Générer et afficher le texte type d'anamnèse
-    generateTexteTypeAnamnese(formData);
-}
-
-function generateArticulationsText(articulations) {
-    let text = "";
-    if (articulations.IPPs) {
-        text += "IPPs, ";
-    }
-    if (articulations.MCPs) {
-        text += "MCPs, ";
-    }
-    if (articulations.Poignets) {
-        text += "Poignets, ";
-    }
-    if (articulations.Coudes) {
-        text += "Coudes, ";
-    }
-    if (articulations.Epaules) {
-        text += "Epaules, ";
-    }
-    if (articulations.Genoux) {
-        text += "Genoux, ";
-    }
-    if (articulations.Autres !== '') {
-        text += "Autres : " + articulations.Autres + ", ";
-    }
-    return text.trim().replace(/,$/, "") + "\n";
+    return resultText;
 }
 
 function generateSymptomatologieExtraArticulaireText(symptomatologieExtraArticulaire) {

@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const image = document.getElementById('imageArticulations');
     const canvas = document.getElementById('canvasOverlay');
     const ctx = canvas.getContext('2d');
-    const articulationNom = document.getElementById('articulationNom');
+    const articulationTextarea = document.getElementById('articulationTextarea');
+    const articulationCompteur = document.getElementById('articulationCompteur');
 
     const articulations = [
         { name: 'Épaule droite', x: 187, y: 156 },
@@ -117,6 +118,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function updateArticulationInfo() {
+        const names = selectedArticulations.map(art => art.name).join(', ');
+        articulationTextarea.value = names || "Cliquez sur une articulation pour voir son nom.";
+        articulationCompteur.textContent = `Nombre d'articulations : ${selectedArticulations.length}`;
+    }
+
     image.addEventListener('load', resizeCanvas);
     window.addEventListener('resize', resizeCanvas);
 
@@ -125,10 +132,16 @@ document.addEventListener('DOMContentLoaded', () => {
         const closestArticulation = findClosestArticulation(mousePos.x, mousePos.y);
 
         if (closestArticulation) {
-            selectedArticulations.push(closestArticulation);
+            const index = selectedArticulations.findIndex(art => art.name === closestArticulation.name);
+            if (index !== -1) {
+                // Si l'articulation est déjà sélectionnée, la retirer
+                selectedArticulations.splice(index, 1);
+            } else {
+                // Sinon, l'ajouter
+                selectedArticulations.push(closestArticulation);
+            }
             redrawCircles();
-            const names = selectedArticulations.map(art => art.name).join(', ');
-            articulationNom.textContent = names;
+            updateArticulationInfo();
         }
     });
 

@@ -12,7 +12,7 @@
         }
         #articulationImage {
             position: relative;
-            width: 25vw; /* Un quart de la largeur de la fenêtre */
+            width: 25vw;
             height: auto;
         }
         #articulationImage img {
@@ -30,6 +30,15 @@
             margin-top: 20px;
             font-size: 18px;
         }
+        #articulationTextarea {
+            width: 80%;
+            height: 100px;
+            margin-top: 20px;
+        }
+        #articulationCompteur {
+            margin-top: 10px;
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
@@ -37,7 +46,8 @@
         <img src="topographiearticulaire.png" alt="Topographie Articulaire" id="imageArticulations">
         <canvas id="canvasOverlay"></canvas>
     </div>
-    <div id="articulationNom">Cliquez sur une articulation pour voir son nom.</div>
+    <div id="articulationCompteur">Nombre d'articulations : 0</div>
+    <textarea id="articulationTextarea" readonly>Cliquez sur une articulation pour voir son nom.</textarea>
     <script src="topo.js"></script>
 </body>
 </html>
