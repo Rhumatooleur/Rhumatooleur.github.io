@@ -245,14 +245,14 @@ function generateResultText(formData) {
     resultText += "\n";
     resultText += "- Horaire des douleurs : " + (formData.symptomatologieArticulaire.horaireDouleurs || "non spécifié") + "\n";
     if (formData.symptomatologieArticulaire.commentHoraireDouleurs) {
-        resultText += "  Commentaire : " + formData.symptomatologieArticulaire.commentHoraireDouleurs + "\n";
+        resultText += "" + formData.symptomatologieArticulaire.commentHoraireDouleurs + "\n";
     }
     resultText += "- L'évolution se fait par : " + 
         (formData.symptomatologieArticulaire.evolution.poussee ? "poussée" : "") + 
         (formData.symptomatologieArticulaire.evolution.poussee && formData.symptomatologieArticulaire.evolution.aggravation ? ", " : "") + 
         (formData.symptomatologieArticulaire.evolution.aggravation ? "aggravation progressive" : "") + "\n";
     if (formData.symptomatologieArticulaire.commentEvolution) {
-        resultText += "  Commentaire : " + formData.symptomatologieArticulaire.commentEvolution + "\n";
+        resultText += "" + formData.symptomatologieArticulaire.commentEvolution + "\n";
     }
     resultText += "\n";
     
@@ -360,7 +360,7 @@ function generateSymptomatologieExtraArticulaireText(symptomatologieExtraArticul
         text += "Aphtose bipolaire, ";
     }
     if (symptomatologieExtraArticulaire.commentaires !== '') {
-        text += "Commentaires : " + symptomatologieExtraArticulaire.commentaires + ", ";
+        text += "" + symptomatologieExtraArticulaire.commentaires + ", ";
     }
     return text.trim().replace(/,$/, "") + "\n";
 }
@@ -374,7 +374,7 @@ function generateAntecedentsFamiliauxText(antecedentsFamiliaux) {
         text += "Spondyloarthrite, ";
     }
     if (antecedentsFamiliaux.commentaires !== '') {
-        text += "Commentaires : " + antecedentsFamiliaux.commentaires + ", ";
+        text += "" + antecedentsFamiliaux.commentaires + ", ";
     }
     return text.trim().replace(/,$/, "") + "\n";
 }
@@ -397,7 +397,7 @@ function generateSurLePlanGeneralText(surLePlanGeneral) {
         text += "Perte de poids, ";
     }
     if (surLePlanGeneral.commentaires !== '') {
-        text += "Commentaires : " + surLePlanGeneral.commentaires + ", ";
+        text += "" + surLePlanGeneral.commentaires + ", ";
     }
     return text.trim().replace(/,$/, "") + "\n";
 }
