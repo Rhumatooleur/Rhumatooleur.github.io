@@ -19,11 +19,11 @@ function initArticulationSelector(type) {
         { name: 'Coude droit', x: 176, y: 223 },
         { name: 'Poignet droit', x: 159, y: 291 },
         { name: 'Articulation trapézo métacarpienne droite', x: 169 , y: 320 },
-        { name: 'MTcP1 droite', x: 176, y: 344 },
-        { name: 'MTcP2 droite', x: 158, y: 350 },
-        { name: 'MTcP3 droite', x: 139, y: 346 },
-        { name: 'MTcP4 droite', x: 123, y: 339 },
-        { name: 'MTcP5 droite', x: 111, y: 323 },
+        { name: 'MCP1 droite', x: 176, y: 344 },
+        { name: 'MCP2 droite', x: 158, y: 350 },
+        { name: 'MCP3 droite', x: 139, y: 346 },
+        { name: 'MCP4 droite', x: 123, y: 339 },
+        { name: 'MCP5 droite', x: 111, y: 323 },
         { name: 'IP du pouce droit', x: 179, y: 370 },
         { name: 'IPP2 droite', x: 145, y: 385 },
         { name: 'IPP3 droite', x: 125, y: 375 },
@@ -36,11 +36,11 @@ function initArticulationSelector(type) {
         { name: 'Hanche droite', x: 212, y: 314 },
         { name: 'Genou droit', x: 213, y: 438 },
         { name: 'Cheville droite', x: 209, y: 573 },
-        { name: 'MTtP1 droite', x: 237, y: 668 },
-        { name: 'MTtP2 droite', x: 220, y: 662 },
-        { name: 'MTtP3 droite', x: 207, y: 650 },
-        { name: 'MTtP4 droite', x: 192, y: 637 },
-        { name: 'MTtP5 droite', x: 178, y: 627 },
+        { name: 'MTP1 droite', x: 237, y: 668 },
+        { name: 'MTP2 droite', x: 220, y: 662 },
+        { name: 'MTP3 droite', x: 207, y: 650 },
+        { name: 'MTP4 droite', x: 192, y: 637 },
+        { name: 'MTP5 droite', x: 178, y: 627 },
         { name: 'IP de l hallux droit', x: 231, y: 693 },
         { name: 'IPP2 du pied droit', x: 214, y: 681 },
         { name: 'IPP3 du pied droit', x: 200, y: 675 },
@@ -50,11 +50,11 @@ function initArticulationSelector(type) {
         { name: 'Coude gauche', x: 322, y: 223 },
         { name: 'Poignet gauche', x: 337, y: 291 },
         { name: 'Articulation trapézo métacarpienne gauche', x: 325 , y: 320 },
-        { name: 'MTcP1 gauche', x: 320, y: 344 },
-        { name: 'MTcP2 gauche', x: 337, y: 350 },
-        { name: 'MTcP3 gauche', x: 356, y: 346 },
-        { name: 'MTcP4 gauche', x: 372, y: 339 },
-        { name: 'MTcP5 gauche', x: 383, y: 323 },
+        { name: 'MCP1 gauche', x: 320, y: 344 },
+        { name: 'MCP2 gauche', x: 337, y: 350 },
+        { name: 'MCP3 gauche', x: 356, y: 346 },
+        { name: 'MCP4 gauche', x: 372, y: 339 },
+        { name: 'MCP5 gauche', x: 383, y: 323 },
         { name: 'IP du pouce gauche', x: 317, y: 370 },
         { name: 'IPP2 gauche', x: 349, y: 385 },
         { name: 'IPP3 gauche', x: 371, y: 375 },
@@ -67,11 +67,11 @@ function initArticulationSelector(type) {
         { name: 'Hanche gauche', x: 284, y: 314 },
         { name: 'Genou gauche', x: 281, y: 438 },
         { name: 'Cheville gauche', x: 289, y: 573 },
-        { name: 'MTtP1 gauche', x: 259, y: 668 },
-        { name: 'MTtP2 gauche', x: 275, y: 662 },
-        { name: 'MTtP3 gauche', x: 290, y: 650 },
-        { name: 'MTtP4 gauche', x: 302, y: 637 },
-        { name: 'MTtP5 gauche', x: 316, y: 627 },
+        { name: 'MTP1 gauche', x: 259, y: 668 },
+        { name: 'MTP2 gauche', x: 275, y: 662 },
+        { name: 'MTP3 gauche', x: 290, y: 650 },
+        { name: 'MTP4 gauche', x: 302, y: 637 },
+        { name: 'MTP5 gauche', x: 316, y: 627 },
         { name: 'IP de l hallux gauche', x: 263, y: 693 },
         { name: 'IPP2 du pied gauche', x: 279, y: 681 },
         { name: 'IPP3 du pied gauche', x: 296, y: 675 },
@@ -307,6 +307,10 @@ function generateResultText(formData) {
 }
 
 function generateSymptomatologieExtraArticulaireText(symptomatologieExtraArticulaire) {
+    if (Object.values(symptomatologieExtraArticulaire).every(value => value === false || value === '') && symptomatologieExtraArticulaire.commentaires === '') {
+        return "Pas de symptomatologie extra-articulaire\n";
+    }
+    
     let text = "";
     if (symptomatologieExtraArticulaire.douleursAbdominales) {
         text += "Douleurs abdominales, ";
@@ -366,6 +370,10 @@ function generateSymptomatologieExtraArticulaireText(symptomatologieExtraArticul
 }
 
 function generateAntecedentsFamiliauxText(antecedentsFamiliaux) {
+    if (!antecedentsFamiliaux.polyarthriteRhumatoide && !antecedentsFamiliaux.spondyloarthrite && antecedentsFamiliaux.commentaires === '') {
+        return "Pas d'antécédents familiaux de rhumatismes inflammatoire chronique\n";
+    }
+    
     let text = "";
     if (antecedentsFamiliaux.polyarthriteRhumatoide) {
         text += "Polyarthrite rhumatoïde, ";
@@ -381,19 +389,29 @@ function generateAntecedentsFamiliauxText(antecedentsFamiliaux) {
 
 function generateSurLePlanGeneralText(surLePlanGeneral) {
     let text = "";
-    if (surLePlanGeneral.fievre) {
+    if (!surLePlanGeneral.fievre) {
+        text += "Pas de fièvre, ";
+    } else {
         text += "Fièvre, ";
     }
-    if (surLePlanGeneral.sueursNocurnes) {
+    if (!surLePlanGeneral.sueursNocurnes) {
+        text += "pas de sueurs nocturnes, ";
+    } else {
         text += "Sueurs nocturnes, ";
     }
-    if (surLePlanGeneral.asthenie) {
+    if (!surLePlanGeneral.asthenie) {
+        text += "pas d'asthénie, ";
+    } else {
         text += "Asthénie, ";
     }
-    if (surLePlanGeneral.anorexie) {
+    if (!surLePlanGeneral.anorexie) {
+        text += "pas d'anorexie, ";
+    } else {
         text += "Anorexie, ";
     }
-    if (surLePlanGeneral.pertePoids) {
+    if (!surLePlanGeneral.pertePoids) {
+        text += "pas de perte de poids, ";
+    } else {
         text += "Perte de poids, ";
     }
     if (surLePlanGeneral.commentaires !== '') {
