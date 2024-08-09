@@ -24,10 +24,6 @@
         <textarea id="bioDeBaseText" readonly class="long-textarea"></textarea>
       </div>
       <div>
-        <h2>Bilan d'anémie</h2>
-        <textarea id="bilanAnemieText" readonly class="long-textarea"></textarea>
-      </div>
-      <div>
         <h2>Bilan PhCa</h2>
         <textarea id="bilanPhosphocalciqueText" readonly class="long-textarea"></textarea>
       </div>
@@ -39,6 +35,10 @@
         <h2>Bilan nutritionnel</h2>
         <textarea id="bilannutritionnelText" readonly class="long-textarea"></textarea>
       </div>
+      <div>
+        <h2>Autres</h2>
+        <textarea id="autresText" readonly class="long-textarea">Sérologies virales : VIH, VHB, VHC négatives en cours positives</textarea>
+      </div>
     </div>
     <div class="checkbox-container-wrapper sortable">
       <div>
@@ -47,8 +47,8 @@
       <div class="draggable-checkbox-container" id="bioDeBaseContainer">
         <label><input type="checkbox" id="bioDeBaseCheckbox" checked>Inclure bio de base dans le texte final</label>
       </div>
-      <div class="draggable-checkbox-container" id="bilanAnemieContainer">
-        <label><input type="checkbox" id="bilanAnemieCheckbox">Inclure bilan d'anémie</label>
+      <div class="draggable-checkbox-container" id="bilannutritionnelContainer">
+        <label><input type="checkbox" id="bilannutritionnelCheckbox">bilan nutritionnel</label>
       </div>
       <div class="draggable-checkbox-container" id="bilanPhosphocalciqueContainer">
         <label><input type="checkbox" id="bilanPhosphocalciqueCheckbox">bilan phosphocalcique</label>
@@ -56,8 +56,8 @@
       <div class="draggable-checkbox-container" id="bilanAutoImmunContainer">
         <label><input type="checkbox" id="bilanAutoImmunCheckbox">bilan auto-immun</label>
       </div>
-      <div class="draggable-checkbox-container" id="bilannutritionnelContainer">
-        <label><input type="checkbox" id="bilannutritionnelCheckbox">bilan nutritionnel</label>
+      <div class="draggable-checkbox-container" id="autresContainer">
+        <label><input type="checkbox" id="autresCheckbox">Autres</label>
       </div>
     </div>
 
@@ -68,6 +68,6 @@
   </main>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-  <script src="script.js"></script>
+  <script src="cmb.js"></script>
 </body>
 </html>
