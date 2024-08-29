@@ -168,28 +168,28 @@ function submitForm() {
             commentEvolution: document.getElementById('commentEvolution').value.trim(),
         },
         symptomatologieExtraArticulaire: {
-            douleursAbdominales: document.getElementById('douleursAbdominales').checked,
-            diarrhee: document.getElementById('diarrhee').checked,
-            bruluresMictionnelles: document.getElementById('bruluresMictionnelles').checked,
-            ecoulementsUretraux: document.getElementById('ecoulementsUretraux').checked,
-            conjonctivite: document.getElementById('conjonctivite').checked,
-            angine: document.getElementById('angine').checked,
-            raynaud: document.getElementById('raynaud').checked,
             psoriasis: document.getElementById('psoriasis').checked,
-            vascularites: document.getElementById('vascularites').checked,
+            acneeSevere: document.getElementById('acneeSevere').checked,
+            sclérite: document.getElementById('sclérite').checked,
+            douleursAbdominales: document.getElementById('douleursAbdominales').checked,
+            bruluresMictionnelles: document.getElementById('bruluresMictionnelles').checked,
+            angine: document.getElementById('angine').checked,
+            aphtoseBipolaire: document.getElementById('aphtoseBipolaire').checked,
+            syndromeSec: document.getElementById('syndromeSec').checked,
             exhantheme: document.getElementById('exhantheme').checked,
             eruptionCutanee: document.getElementById('eruptionCutanee').checked,
             erythemeNoueux: document.getElementById('erythemeNoueux').checked,
-            acneeSevere: document.getElementById('acneeSevere').checked,
+            vascularites: document.getElementById('vascularites').checked,
+            raynaud: document.getElementById('raynaud').checked,
             crisesFebriles: document.getElementById('crisesFebriles').checked,
-            syndromeSec: document.getElementById('syndromeSec').checked,
-            xerostomie: document.getElementById('xerostomie').checked,
-            aphtoseBipolaire: document.getElementById('aphtoseBipolaire').checked,
-            commentaires: document.getElementById('commentSymptomatologieExtraArticulaire').value.trim(),
+            commentaires: document.getElementById('commentSymptomatologieExtraArticulaire').value.trim(),  
         },
         antecedentsFamiliaux: {
             polyarthriteRhumatoide: document.getElementById('polyarthriteRhumatoide').checked,
             spondyloarthrite: document.getElementById('spondyloarthrite').checked,
+            psoo: document.getElementById('psoo').checked,
+            micii: document.getElementById('micii').checked,
+            MAIi: document.getElementById('MAIi').checked,
             commentaires: document.getElementById('commentAntecedentsFamiliaux').value.trim(),
         },
         surLePlanGeneral: {
@@ -198,6 +198,7 @@ function submitForm() {
             asthenie: document.getElementById('asthenie').checked,
             anorexie: document.getElementById('anorexie').checked,
             pertePoids: document.getElementById('pertePoids').checked,
+            consoGoutte: document.getElementById('consoGoutte').checked,
             commentaires: document.getElementById('commentSurLePlanGeneral').value.trim(),
         },
         examensComplementaires: document.getElementById('examensComplementaires').value.trim(),
@@ -312,57 +313,49 @@ function generateSymptomatologieExtraArticulaireText(symptomatologieExtraArticul
     }
     
     let text = "";
-    if (symptomatologieExtraArticulaire.douleursAbdominales) {
-        text += "Douleurs abdominales, ";
-    }
-    if (symptomatologieExtraArticulaire.diarrhee) {
-        text += "Diarrhée, ";
-    }
-    if (symptomatologieExtraArticulaire.bruluresMictionnelles) {
-        text += "Brûlures mictionnelles, ";
-    }
-    if (symptomatologieExtraArticulaire.ecoulementsUretraux) {
-        text += "Ecoulements urétraux, ";
-    }
-    if (symptomatologieExtraArticulaire.conjonctivite) {
-        text += "Conjonctivite, ";
-    }
-    if (symptomatologieExtraArticulaire.angine) {
-        text += "Angine, ";
-    }
-    if (symptomatologieExtraArticulaire.raynaud) {
-        text += "Phénomène de Raynaud, ";
-    }
     if (symptomatologieExtraArticulaire.psoriasis) {
         text += "Psoriasis, ";
     }
-    if (symptomatologieExtraArticulaire.vascularites) {
-        text += "Vascularites, ";
-    }
-    if (symptomatologieExtraArticulaire.exhantheme) {
-        text += "Exanthème, ";
-    }
-    if (symptomatologieExtraArticulaire.eruptionCutanee) {
-        text += "Eruption cutanée, ";
-    }
-    if (symptomatologieExtraArticulaire.erythemeNoueux) {
-        text += "Erythème noueux, ";
-    }
     if (symptomatologieExtraArticulaire.acneeSevere) {
-        text += "Acné sévère, ";
+        text += "acné sévère et/ou pustulose palmoplantaire, ";
     }
-    if (symptomatologieExtraArticulaire.crisesFebriles) {
-        text += "Crises fébriles, ";
+    if (symptomatologieExtraArticulaire.sclérite) {
+        text += "oeil rouge et douloureux, ";
     }
-    if (symptomatologieExtraArticulaire.syndromeSec) {
-        text += "Syndrome sec, ";
+    if (symptomatologieExtraArticulaire.douleursAbdominales) {
+        text += "douleurs abdominales, et/ou diarrhées +/- sanglantes, liquides,  ";
     }
-    if (symptomatologieExtraArticulaire.xerostomie) {
-        text += "Xérostomie, ";
+    if (symptomatologieExtraArticulaire.bruluresMictionnelles) {
+        text += "brûlures mictionnelles, et/ou écoulement uréthraux, conjonctivite, ";
+    }
+    if (symptomatologieExtraArticulaire.angine) {
+        text += "angine et fièvre, ";
     }
     if (symptomatologieExtraArticulaire.aphtoseBipolaire) {
-        text += "Aphtose bipolaire, ";
+        text += "aphtose bipolaire, ";
     }
+    if (symptomatologieExtraArticulaire.syndromeSec) {
+        text += "syndrome sec oculaire et/ou xérostomie, ";
+    }
+    if (symptomatologieExtraArticulaire.exhantheme) {
+        text += "exanthème, ";
+    }
+    if (symptomatologieExtraArticulaire.eruptionCutanee) {
+        text += "éruption cutanée photosensible, ";
+    }
+    if (symptomatologieExtraArticulaire.erythemeNoueux) {
+        text += "érythème noueux, ";
+    }
+    if (symptomatologieExtraArticulaire.vascularites) {
+        text += "vascularites, ";
+    }
+    if (symptomatologieExtraArticulaire.raynaud) {
+        text += "phénomène de Raynaud, ";
+    }
+    if (symptomatologieExtraArticulaire.crisesFebriles) {
+        text += "crises fébriles accompagnées de douleurs abdominales, ";
+    }
+    
     if (symptomatologieExtraArticulaire.commentaires !== '') {
         text += "" + symptomatologieExtraArticulaire.commentaires + ", ";
     }
@@ -376,10 +369,19 @@ function generateAntecedentsFamiliauxText(antecedentsFamiliaux) {
     
     let text = "";
     if (antecedentsFamiliaux.polyarthriteRhumatoide) {
-        text += "Polyarthrite rhumatoïde, ";
+        text += "polyarthrite rhumatoïde, ";
     }
     if (antecedentsFamiliaux.spondyloarthrite) {
-        text += "Spondyloarthrite, ";
+        text += "spondyloarthrite, ";
+    }
+    if (antecedentsFamiliaux.psoo) {
+        text += "psoriasis, ";
+    }
+    if (antecedentsFamiliaux.micii) {
+        text += "rCH ou Crohn, ";
+    }
+    if (antecedentsFamiliaux.MAIi) {
+        text += "autres maladies auto-immunes, ";
     }
     if (antecedentsFamiliaux.commentaires !== '') {
         text += "" + antecedentsFamiliaux.commentaires + ", ";
@@ -413,6 +415,11 @@ function generateSurLePlanGeneralText(surLePlanGeneral) {
         text += "pas de perte de poids, ";
     } else {
         text += "Perte de poids, ";
+    }
+    if (!surLePlanGeneral.consoGoutte) {
+        text += "";
+    } else {
+        text += "Excès alimentaire ou alcool récent, ";
     }
     if (surLePlanGeneral.commentaires !== '') {
         text += "" + surLePlanGeneral.commentaires + ", ";

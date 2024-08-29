@@ -119,6 +119,7 @@ for (var param in bioDeBaseParams) {
 
     // Définition des paramètres pour le bilan phosphocalcique et leurs noms formatés avec les unités
     var bilanPhosphocalciqueParams = {
+        "Calcium": { name: "Calcium", unit: "mmol/L" },
         "Ca total corrigé": { name: "Calcémie corrigée (albumine)", unit: "mmol/L" },
         "Phosphore": { name: "Phosphore", unit: "mmol/L" },
         "Vit 25 OH D2 et D3": { name: "Vitamine D", unit: "ng/mL" },
