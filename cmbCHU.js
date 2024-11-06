@@ -23,46 +23,72 @@ $(function() {
     // Récupérer le texte entré par l'utilisateur
     var inputText = document.getElementById("inputText").value;
   
-    // Pré-traiter le texte d'entrée pour supprimer les retours à la ligne, les "H" entourés de deux espaces, et les espaces de plus d'une case
-    var preprocessedText = inputText.replace(/\n/g, ' ').replace(/ H /g, ' ').replace(/\s\s+/g, ' ');
-    var preprocessedText = inputText.replace(/\n/g, ' ').replace(/ B /g, ' ').replace(/\s\s+/g, ' ');
-    var preprocessedText = inputText.replace(/Ferritine/g, 'Ferritineeeeeeeeeee');
+    var preprocessedText = inputText
+    .replace(/\n/g, ' ')                     // Remplacer les retours à la ligne par des espaces
+    .replace(/#/g, '')                       // Supprimer tous les dièses
+    .replace(/\*/g, '')                      // Supprimer tous les astérisques
+    .replace(/\(CRP\)/g, '')                          // Supprimer "(CRP)"
+    .replace(/\bsoit\b/g, '')                   // Supprimer tous les mots "soit"
+    .replace(/\s\s+/g, ' ')                  // Remplacer les espaces de plus d'une case par un espace unique
+    .replace(/\(Immunoturbidimétrie - Siemens ATELLICA\)/g, '') // Supprimer le texte spécifique
+    .replace(/\s+/g, '');                    // Supprimer tous les espaces
+    
+
+    // Afficher le texte pré-formaté dans la nouvelle zone de texte
+    document.getElementById("preFormattedText").value = preprocessedText;
+
   
     // Créer une chaîne pour stocker le texte formaté de la bio de base
-    var bioDeBaseText = 'Biologie:\n';
+    var bioDeBaseText = '';
   
     // Définition des paramètres de la bio de base et leurs noms formatés avec les unités
 var bioDeBaseParams = {
     "Hémoglobine": { name: "Hémoglobine", unit: "g/L,", variations: ["Hémoglobine"] },
     "Leucocytes": { name: " Leucocytes", unit: "G/L, ", variations: ["Leucocytes"] },
-    "Polynucléaires neutrophiles calc": { name: " PNNs", unit: "G/L,", variations: ["Poly neutro calc"] },
-    "Plaquettes": { name: " Plaquettes", unit: "G/L", variations: ["plaquettes"] },
-    "CRP": { name: "CRP", unit: "mg/L ", variations: ["CRP"] },
+    "Polynucléaires neutrophiles": { name: " PNNs", unit: "G/L,", variations: ["PNNs", "Polynucléaires neutrophiles", "Polynucléairesneutrophiles"] },
+    "Plaquettes": { name: "Plaquettes", unit: "G/L", variations: ["Thrombocytes"] },
+    "CRP": { name: "CRP", unit: "mg/L ", variations: ["ProtéineCréactive"] },
     "Sodium": { name: "Na", unit: "mmol/L, ", variations: ["Sodium"] },
     "Potassium": { name: " K", unit: "mmol/L, ", variations: ["Potassium"] },
     "Urée": { name: " Urée", unit: "mmol/L,", variations: ["Urée"] },
-    "Créatinine": { name: " Créatinine", unit: "µmol/L", variations: ["Créatinine"] },
+    "Créatinine": { name: "Créatinine", unit: "µmol/L", variations: ["Créatinine"] },
     "ASAT": { name: "ASAT", unit: "UI/L,  ", variations: ["ASAT-SGOT", "ASAT"] }, 
     "ALAT": { name: " ALAT", unit: "UI/L,  ", variations: ["ALAT-SGPT", "ALAT"] },
-    "Phosphatases alcalines": { name: " PAL", unit: "UI/L,  ", variations: ["Phos.Alcalines", "Phosphatases alcalines"] },
-    "Gamma-GT": { name: " GGT", unit: "UI/L,  ", variations: ["Gamma GT", "Gamma-GT"] },
-    "Bilirubine totale": { name: " Bilirubine totale", unit: "µmol/l", variations: ["Bilirubine totale"] },
+    "Phosphatases alcalines": { name: " PAL", unit: "UI/L,  ", variations: ["Phos.Alcalines", "Phosphatases alcalines", "Phosphatase alcaline"] },
+    "Gamma-GT": { name: "GGT", unit: "UI/L, ", variations: ["Gamma GT", "Gamma-GT", "Gamma Glutamyl Transférase"] },
+    "Bilirubine totale": { name: "Bilirubine totale", unit: "µmol/l", variations: ["Bilirubine totale"] },
     "TP": { name: "TP", unit: "%, ", variations: ["TP"] },
-    "INR": { name: " INR", unit: ", ", variations: ["INR"] },
+    "INR": { name: "INR", unit: ", ", variations: ["INR"] },
     "TCA Patient/Témoin":{ name:"TCA ratio", unit: " ", variations: ["TCA Patient/Témoin"]}
 };
 
-// Fonction pour rechercher les variations d'un paramètre et extraire la valeur et l'unité
 function findValue(variations, input, unit) {
     for (var i = 0; i < variations.length; i++) {
-        var pattern = new RegExp(variations[i] + "\\s*[:\\s]*\\s*(?:B|H)?\\s*(<|>)?\\s*([\\d.,]+)\\s*(" + unit + ")?", "i");
+        var pattern;
+        
+        // Cas spécifique pour "Polynucléaires neutrophiles" et "Polynucléairesneutrophiles"
+        if (variations[i] === "Polynucléaires neutrophiles" || variations[i] === "Polynucléairesneutrophiles") {
+            // Chercher le pourcentage suivi de la valeur en "G/l"
+            pattern = new RegExp(variations[i] + "\\s*[:\\s]*\\s*(?:B|H)?\\s*(<|>)?\\s*\\d+(?:,\\d+)?%\\s*(\\d+(?:,\\d+)?)\\s*G/l", "i");
+        } else {
+            // Pour les autres paramètres, continuer la recherche classique
+            pattern = new RegExp(variations[i] + "\\s*[:\\s]*\\s*(?:B|H)?\\s*(<|>)?\\s*([\\d.,]+)\\s*(" + unit + ")?", "i");
+        }
+
         var match = input.match(pattern);
         if (match) {
-            return { operator: match[1] || "", value: match[2].replace(",", "."), unit: match[3] || unit };
+            if (variations[i] === "Polynucléaires neutrophiles" || variations[i] === "Polynucléairesneutrophiles") {
+                // Si on a trouvé le pourcentage, retourner la valeur en "G/l" après le pourcentage
+                return { operator: match[1] || "", value: match[2].replace(",", "."), unit: "G/l" };
+            } else {
+                // Sinon, retourner la valeur classique trouvée
+                return { operator: match[1] || "", value: match[2].replace(",", "."), unit: match[3] || unit };
+            }
         }
     }
     return null;
 }
+
 
 // Remplacer les valeurs dans le texte formaté de la bio de base et les placer à leurs positions respectives
 
@@ -72,8 +98,8 @@ for (var param in bioDeBaseParams) {
     var valueObject = findValue(bioDeBaseParams[param].variations, preprocessedText, bioDeBaseParams[param].unit);
     if (valueObject) {
         var formattedValue = valueObject.operator + " " + valueObject.value + " " + (bioDeBaseParams[param].unit === "%" ? "" : bioDeBaseParams[param].unit);
-        if (param === "Hémoglobine" || param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes" || param === "Polynucléaires neutrophiles calc" ) {
-            bioDeBaseText += bioDeBaseParams[param].name + " : " + formattedValue.trim(); // Do not add newline after ASAT
+        if (param === "Hémoglobine" || param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes" || param === "Polynucléaires neutrophiles" ) {
+            bioDeBaseText += bioDeBaseParams[param].name + " : " + formattedValue.trim(); // Do not add newline after 
             skipNewLine = true; // Set flag to skip newline after ASAT
         } else {
             if (skipNewLine) {
@@ -84,8 +110,8 @@ for (var param in bioDeBaseParams) {
             }
         }
     } else {
-        if (param === "Hémoglobine" || param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes"  || param === "Polynucléaires neutrophiles calc" ) {
-            bioDeBaseText += bioDeBaseParams[param].name + " : _____ " + bioDeBaseParams[param].unit; // Do not add newline after ASAT
+        if (param === "Hémoglobine" || param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes"  || param === "Polynucléaires neutrophiles" ) {
+            bioDeBaseText += bioDeBaseParams[param].name + " : _____ " + bioDeBaseParams[param].unit; // Do not add newline after 
             skipNewLine = true; // Set flag to skip newline after ASAT
         } else {
             if (skipNewLine) {
