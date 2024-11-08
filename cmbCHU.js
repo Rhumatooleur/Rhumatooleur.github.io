@@ -54,12 +54,12 @@ var bioDeBaseParams = {
     "Créatinine": { name: "Créatinine", unit: "µmol/L", variations: ["Créatinine"] },
     "ASAT": { name: "ASAT", unit: "UI/L,  ", variations: ["ASAT-SGOT", "ASAT"] }, 
     "ALAT": { name: " ALAT", unit: "UI/L,  ", variations: ["ALAT-SGPT", "ALAT"] },
-    "Phosphatases alcalines": { name: " PAL", unit: "UI/L,  ", variations: ["Phos.Alcalines", "Phosphatases alcalines", "Phosphatase alcaline"] },
-    "Gamma-GT": { name: "GGT", unit: "UI/L, ", variations: ["Gamma GT", "Gamma-GT", "Gamma Glutamyl Transférase"] },
-    "Bilirubine totale": { name: "Bilirubine totale", unit: "µmol/l", variations: ["Bilirubine totale"] },
-    "TP": { name: "TP", unit: "%, ", variations: ["TP"] },
+    "Phosphatases alcalines": { name: "PAL", unit: "UI/L,  ", variations: ["Phos.Alcalines", "Phosphatases alcalines", "Phosphatase alcaline", "Phosphatasealcaline"] },
+    "Gamma-GT": { name: "GGT", unit: "UI/L, ", variations: ["Gamma GT", "Gamma-GT", "Gamma Glutamyl Transférase", "GammaGlutamylTransférase"] },
+    "Bilirubine totale": { name: "Bilirubine totale", unit: "µmol/l", variations: ["Bilirubine totale", "Bilirubinetotale"] },
+    "TP": { name: "TP", unit: "%, ", variations: ["Tauxdeprothrombine"] },
     "INR": { name: "INR", unit: ", ", variations: ["INR"] },
-    "TCA Patient/Témoin":{ name:"TCA ratio", unit: " ", variations: ["TCA Patient/Témoin"]}
+    "TCA Patient/Témoin":{ name:"TCA ratio", unit: " ", variations: ["Ratiopatient/témoin"]}
 };
 
 function findValue(variations, input, unit) {
@@ -136,9 +136,9 @@ for (var param in bioDeBaseParams) {
         "Calcium": { name: "Calcium", unit: "mmol/L" },
         "Ca total corrigé": { name: "Calcémie corrigée (albumine)", unit: "mmol/L" },
         "Phosphore": { name: "Phosphore", unit: "mmol/L" },
-        "Vit 25 OH D2 et D3": { name: "Vitamine D", unit: "ng/mL" },
-        "PTH INTACT": { name: "PTH", unit: "ng/L" },
-        "TSH US": { name: "TSH", unit: "mUI/L" },
+        "25-OH Vitamine D": { name: "25-OH Vitamine D", unit: "nmol/L" },
+        "PTH": { name: "PTH", unit: "ng/L" },
+        "TSH": { name: "TSH", unit: "mUI/L" },
     };
 
 
@@ -163,9 +163,9 @@ for (var param in bioDeBaseParams) {
 
     // Définition des paramètres pour le bilan auto-immun
     var bilanAutoImmunParams = {
-        "FRH IGM": { name: "FR", unit: "" },
-        "ccpg3": { name: "Ac Anti-CPP", unit: "" },
-        "ACAN": { name: "Anticorps anti-nucléaires", unit: "" },
+        "Rhumatoides": { name: "Facteurs Rhumatoides", unit: "" },
+        "AntiPeptidesCycliquesCitrullinés": { name: "Anticorps Anti-CPP", unit: "" },
+        "AntiNucléaires(cellules HEp2)": { name: "Anti Nucléaires (cellules HEp2)", unit: "" },
         "ANCA": { name: "ANCAs", unit: "" },
     };
 
@@ -202,8 +202,8 @@ for (var param in bioDeBaseParams) {
     // Définition des paramètres pour le bilan nutritionnel et leurs noms formatés avec les unités
     var bilannutritionnelParams = {
         "Albumine": { name: "Albumine", unit: "g/L" },
-        "Pré-albumine": { name: "Pré-albumine", unit: "g/L" },
-        "Acide urique": { name: "Acide urique", unit: "µmol/l" },
+        "Préalbumine": { name: "Préalbumine", unit: "g/L" },
+        "Acideurique": { name: "Acide urique", unit: "µmol/l" },
 
     };
 

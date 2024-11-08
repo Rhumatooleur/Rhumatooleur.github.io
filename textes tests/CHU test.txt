@@ -1,0 +1,5145 @@
+Bilan CR -614P
+BOGGIO ARTHUR
+(CH - 66123647) Du 31/08/2022 au 07/11/2024
+42 résultats
+Tri par date de rÃ©sultat
+
+
+
+Imprimer
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4114807332
+Demandé le
+ Prélevé le 04/11/2024 10:32
+ Réceptionné le 04/11/2024 10:32:44
+ Edité le 07/11/2024 09:55:26
+ Traité le 07/11/2024 09:56:09
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+
+
+NON CONFORMITE - DYSFONCTIONNEMENT
+ 
+           Laboratoire d'IMMUNOLOGIE
+           Tel 04 76 76 54 16 - Fax 04 76 76 52 66
+
+ 
+  Examen(s)  demandé(s)       QFINF 
+  Motif                      Heure ou Date de prélèvement absentes ou erronées
+  Action engagée             Prélèvement critique. Service prévenu. Examen réalisé avec déclaration de non-conformité.
+  Traité par   MM2   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                     
+
+_______________________________________________________________________________
+
+Immunologie (04 76 76 54 16)
+C. Dumestre-Perard - M. Pernollet
+
+
+
+
+Dépistage de l'infection tuberculeuse par quantification de la production d'interféron gamma (test IGRA) #
+(méthode LIAISON QuantiFERON-TB Gold Plus)
+
+                                     résultats      références         antériorités
+
+Peptides ciblant la réponse T CD4+       0,00        <0.35 UI/ml                          du  
+
+Peptides ciblant la réponse T CD8+       0,00        <0.35 UI/ml                          du  
+
+Mitogène PHA (témoin positif)            * 0,33      >=0,5 UI/ml                           du  
+
+Résultat du test                        Indeterminé                                  Négatif   du 27/11/19
+
+Interprétation :
+
+Résultat indéterminé en raison d'une production insuffisante d'interféron gamma dans le tube témoin positif. Un tel résultat peut
+être observé chez un patient immunodéprimé (notamment en cas de lymphopénie et/ou de traitement par corticoïdes ou autres
+immunosuppresseurs), il est alors conseillé de prescrire un test elispot tuberculose. Ce résultat peut être également observé en cas
+de non-respect des conditions pré-analytiques (voir si une non-conformité est déclarée).
+
+Heure et/ou Date de prélèvement erronées du fait de l'absence de validation informatique du prélèvement par le préleveur (voir
+non-conformité).
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Martine PERNOLLET
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+CENTRE HOSPITALIER UNIVERSITAIRE DE GRENOBLE
+Service de BIOPHYSIQUE ET MEDECINE NUCLEAIRE
+B.P. 217 - 38043 GRENOBLE Cedex 9
+Chef de Service : VUILLEZ JEAN-PHILIPPE
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 100000099035268
+
+Examen(s)  07/11/2024 08:31:16
+ Traité le 07/11/2024 08:31:24
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : Virginie AKNIN
+
+
+  Pièces jointes   
+
+
+
+
+- COMPTE-RENDU PRINCIPAL
+
+Grenoble, le Jeudi 07 Novembre 2024
+Monsieur Arthur BOGGIO (BOGGIO)
+Né le 31/01/2006
+Examen du : Mercredi 06 Novembre 2024
+
+Scintigraphie au FDG
+
+INDICATION :
+Exploration chez un patient de 18 ans, en rémission d'une spondylarthrite,
+présentant un tableau d'hypercalcémie avec syndrome inflammatoire biologique,
+oligoarthrite, fièvre et adénopathies centimétriques. Recherche d'argument
+pour un lymphome ou une sarcoïdose.
+
+TECHNIQUE :
+Les acquisitions ont été réalisées après l'injection de  185 MBq de 18FDG
+chez une personne de 74,2 kg, à jeun et au repos. La glycémie veineuse était à
+4.8 mmol/l. Prémédication donnée : 20 mg de Propranolol (mg                    
+       ). La qualité des images est bonne. Acquisition couplée à une
+tomodensitométrie pour correction de l'atténuation et repérage topographique,
+réalisée sans injection de produit de contraste. PDL : 753 mGy-cm. CTDI : 3.62
+mGy
+Caméra TEP-TDM Siemens Biograph Horizon 16 mise en service le 18/09/2017.
+Codage CIM : d86
+
+RESULTATS :
+    A l'étage cervicothoracique :
+Plusieurs foyers de graisse brune activée cervicothoracique, sans valeur
+pathologique.
+Quelques adénopathies hypermétaboliques axillaires gauches (SUV max = 5,5).
+Absence d'autre adénopathie hypermétabolique cervicale, des creux sus-
+claviculaires, des chaînes médiastinohilaires.
+Absence de foyer hypermétabolique suspect pleuroparenchymateux ou de la sphère
+ORL.
+    A l'étage abdomino-pelvien :
+Absence de foyer hypermétabolique suspect du foie, de la rate, des surrénales
+ou du pancréas.
+Plusieurs adénopathies infracentimétriques iliaques externes et inguinales
+bilatérales, modérément hypermétaboliques (SUV max = 6,2).
+Absence d'adénopathie hypermétabolique cœliomésentérique ou rétropéritonéale.
+Hypermétabolisme pariétal modéré assez diffus du côlon droit.
+    Sur le plan osseux :
+Hypermétabolisme ostéomédullaire modéré diffus, probablement lié au syndrome
+inflammatoire.
+Hypermétabolisme modéré des chevilles et du poignet gauche, d'allure
+inflammatoire.
+Foyer modérément hypermétabolique dans les parties molles au contact de la
+face interne de l'extrémité supérieure du tibia gauche, également d'allure
+inflammatoire.
+Hypermétabolisme modéré interapophysaire postérieur L1-L2 et L2-L3 à droite.
+
+CONCLUSION :
+Hypermétabolisme modéré des chevilles, du poignet gauche et du rachis
+lombaire, d'allure inflammatoire.
+Plusieurs adénopathies modérément hypermétaboliques sus et sous
+diaphragmatiques, peu spécifiques (origine réactionnelle car du territoire de
+drainage des membres ?).
+Absence d'argument pour un lymphome agressif ou pour une lésion néoplasique
+évolutive.
+
+Dr DE LEIRIS Nicolas                 
+
+
+
+BOGGIO Arthur
+31/01/2006
+
+CLINIQUE UNIVERSITAIRE DE
+MEDECINE NUCLEAIRE
+Scintigraphie au FDG
+Mercredi 06 Novembre 2024
+
+
+
+
+
+
+
+
+
+Page 2/2
+
+
+                                            CENTRE HOSPITALIER UNIVERSITAIRE
+                                                 GRENOBLE ALPES
+                                                               CS 10 217 -
+38043 Grenoble Cedex 9 - Standard : 04 76 76 75 75
+                                                               www.chu-
+grenoble.fr - N° SIREN : 263 800 302 - N°FINESS : 38 07800 80
+
+
+
+Page 1/2
+
+
+
+
+"NOM_PATIENT" "Prénom_Patient"
+"Date_de_Naissance"
+
+CLINIQUE UNIVERSITAIRE DE
+MEDECINE NUCLEAIRE
+"Protocole"
+"Date_Examen"
+
+
+
+
+
+
+
+
+
+Page 2/2
+
+
+                                            CENTRE HOSPITALIER UNIVERSITAIRE
+                                                 GRENOBLE ALPES
+                                                               CS 10 217 -
+38043 Grenoble Cedex 9 - Standard : 04 76 76 75 75
+                                                               www.chu-
+grenoble.fr - N° SIREN : 263 800 302 - N°FINESS : 38 07800 80
+
+
+
+Page 1/1
+
+
+
+
+CENTRE HOSPITALIER UNIVERSITAIRE DE GRENOBLE
+Service de BIOPHYSIQUE ET MEDECINE NUCLEAIRE
+B.P. 217 - 38043 GRENOBLE Cedex 9
+Chef de Service : VUILLEZ JEAN-PHILIPPE
+
+
+Identité patient Résultat - Partiel UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue :  DMT : G100000099035268
+
+Examen(s)  06/11/2024 16:32:05
+ Traité le 06/11/2024 16:32:13
+ Code : 2374 (CH)
+ TEP TDM MED NUCLEAIRE
+ Prescripteur : Inconnu
+
+
+  Pièces jointes   
+
+
+
+*** Le compte rendu texte de ce résultat est vide ou n'a pas été transmis ***
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104795001
+Demandé le
+ Prélevé le 31/10/2024 07:43
+ Réceptionné le 31/10/2024 07:42:56
+ Edité le 06/11/2024 13:27:40
+ Traité le 06/11/2024 13:27:59
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+
+
+Immunologie - Immunophénotypage par cytométrie en flux et Immuno-Monitoring (04 76 76 54 16)
+T. Raskovalova - E. Bonneville - M. Pernollet - C. Dumestre-Perard
+
+
+Prélèvement :  Sang périphérique
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Edouard BONNEVILLE
+
+_______________________________________________________________________________
+
+
+
+Immunophénotypage par cytométrie de flux   (Technique sur sang total lysé lavé) 
+
+
+     leucocytes :   10,0    G/L
+cellules lymphoïdes :  12  %                                                    1,2     G/l
+     CD45 :          100 % 
+
+   Lymphocytes T
+
+     CD3 :        72   %            (67  - 76 )
+                  * 0,9  G/L       (1,1 - 1,7 )
+
+     CD4 :        * 49 %            (38  - 46 )
+                  * 0,6  G/L       (0,7 - 1,1 )
+
+     CD8 :        * 18 %            (31  - 40 )
+                  * 0,2  G/L       (0,5 - 0,9 )
+
+     CD4/CD8 :    * 2,72           (1,00- 1,50)
+
+   Lymphocytes NK
+
+     CD56+CD16+ : 19   %            (10  - 19 )
+                  0,2     G/L         (0,2 - 0,4 )
+
+   Lymphocytes B
+
+     CD19 :       * 7,9%            (11,0- 16,0
+                  * 0,1  G/L      (0,2 - 0,4 )
+
+
+
+
+
+
+
+                                     
+                                      Dr Edouard BONNEVILLE
+
+_______________________________________________________________________________
+
+
+   Marqueurs pour recherche d'un clone
+
+     CD5 :    72   % 
+     CD10 :   0    % 
+     CD5 / CD19 :    5   % 
+     CD10 / CD19 :   2   % 
+     CD20 / CD19 :   93  % 
+
+   Caractéristiques phénotypiques des lymphocytes B CD19+
+
+     IgS / CD19 :    100 %              hétérogène
+
+Conclusion :  Absence de population homogène identifiable avec les marqueurs analysés.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Edouard BONNEVILLE
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception Anatomie et Cytologie Pathologique
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+Chef de Service : STURM NATHALIE
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : H240015730
+Demandé le
+ Prélevé le 31/10/2024 15:37
+ Réceptionné le 31/10/2024 17:14:42
+ Edité le 05/11/2024 16:01:22
+ Traité le 05/11/2024 16:01:26
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : Inconnu
+
+
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104794995
+Demandé le
+ Prélevé le 31/10/2024 08:14
+ Réceptionné le 31/10/2024 08:14:45
+ Edité le 04/11/2024 16:56:59
+ Traité le 04/11/2024 16:57:24
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+
+
+Sérologie Bactérienne (04 76 76 54 79)
+I. Pelloux - C. Richarme
+
+
+                                                                                       antériorités
+
+
+SEROLOGIE BRUCELLA
+
+  Technique : Brucella VIRCLIA IgG Monotest
+
+  IgG                           Négatif                              Négatif  25/04/23
+  Index                          0,04                                 0,02     25/04/23
+
+  Technique : Brucella VIRCLIA IgM Monotest
+
+  IgM                           Négatif                              Négatif  25/04/23
+  Index                          0,56                                 0,54     25/04/23
+
+
+
+
+
+
+
+
+                                     
+                                      SAVOYE Chloé (Interne)
+
+_______________________________________________________________________________
+
+Virologie moléculaire
+Grenoble : P Morand - R Germi - P Poignard - J Lupo - L Pelletier - S Larrat - A Signori-Schmuck - AK Faure
+- A Truffot - I Almahmoud - H Kazakova (04 76 76 56 04)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+
+                                                                                       antériorités
+
+
+
+QUANTIFICATION DU GENOME DU CYTOMEGALOVIRUS (CMV) #
+
+Nature du prélèvement: Sang total
+Technique: extraction automatique sur EasyMag ou eMag (BioMérieux)
+Technique PCR: PCR quantitative en temps réel (BioMérieux) sur LightCycler 480 (Roche Diagnostics)
+Limite de détection:  350 Copies/mL, soit 455 UI/mL
+Limite de quantification:  500 Copies/mL ou 1000 UI/mL
+Variation significative:  1 log
+
+RESULTAT                                          Génome viral non détecté                       
+
+Interprétation :                                   Charge virale négative
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Sylvie LARRAT
+
+_______________________________________________________________________________
+
+QUANTIFICATION DU GENOME DU VIRUS EPSTEIN-BARR (EBV) #
+
+Nature du prélèvement: Sang total
+Technique: extraction automatique sur EasyMag ou eMag (BioMérieux)
+Technique PCR: PCR quantitative en temps réel (BioMérieux) sur LightCycler 480 (Roche Diagnostics)
+Limite de détection : 182 Copies/mL ou 364 UI/mL
+Limite de quantification:  500 Copies/mL ou 1000 UI/mL
+Variation significative:  1 log
+
+Résultat                                          1 204      UI/mL                               
+soit                                              3,1        log UI/mL                           
+
+Interprétation :                                   Charge virale positive
+
+
+
+QUANTIFICATION DU GENOME DU VIRUS HERPES TYPE 6
+
+Nature du prélèvement: Sang total
+Technique: extraction automatique sur EasyMag ou eMag (BioMérieux)
+Technique PCR: PCR quantitative en temps réel (BioMérieux) sur LightCycler 480 (Roche Diagnostics)
+Limite de détection : 200 copies/mL
+Limite de quantification:  500 Copies/mL ou 1000 UI/mL
+Variation significative:  1 log
+
+RESULTAT                                          Génome viral détectable (inférieur au seuil de quantification)
+
+Interprétation :                                   Charge virale positive
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Sylvie LARRAT
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104794999
+Demandé le
+ Prélevé le 31/10/2024 08:23
+ Réceptionné le 31/10/2024 08:23:52
+ Edité le 04/11/2024 16:35:43
+ Traité le 04/11/2024 16:35:55
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+
+
+Immunologie - Secteur : maladies auto-immunes (04 76 76 54 16)
+G. Clavarino - C. Dumestre-Pérard - F. Defendi
+
+
+
+
+  Anticorps Anti Nucléaires
+
+                                       résultats      références         antériorités
+
+Anti Nucléaires (cellules HEp2) #         <80         <160                       <80       du 25/04/23
+(Sang)(Immunofluorescence indirecte)
+Aspect de la Fluorescence nucléaire      -                                            -         du 25/04/23
+
+Commentaire résultat
+
+La recherche d'anticorps anti-nucléaires est négative ou <160, les specificités (anti-ADN natif et anti-ENA) n'ont pas été
+recherchées.
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Federica DEFENDI
+
+_______________________________________________________________________________
+
+Marqueurs Immunologiques de la Polyarthrite Rhumatoïde
+
+                                     résultats      références         antériorités
+
+Dosage des Facteurs Rhumatoides #         <9,8        <16 U/ml                             du  
+(Sang)(néphélomètre Atellica Siemens)
+Anti Peptides Cycliques Citrullinés #       <4,6        <20 U/ml                             du  
+(Sang)(Electrochimiluminescence WERFEN)
+
+Anticorps anti-phospholipides et anti-cofacteurs
+                                      résultats        références         antériorités
+
+Anti Cardiolipine IgM #                   3,1         <20 CU                              du  
+(Sang)(Electrochimiluminescence WERFEN)
+
+Anti Cardiolipine IgG #                   8,8         <20 CU                             du  
+(Sang)(Electrochimiluminescence WERFEN)
+
+Anti-Beta2 glycoprotéine I IgM #            1,2         <20 CU                              du  
+(Sang)(Electrochimiluminescence WERFEN)
+
+Anti-Beta2 glycoprotéine I IgG #            9,6         <20 CU                              du  
+(Sang)(Electrochimiluminescence WERFEN)
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Federica DEFENDI
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4114807331
+Demandé le
+ Prélevé le 04/11/2024 10:37
+ Réceptionné le 04/11/2024 10:37:04
+ Edité le 04/11/2024 11:26:34
+ Traité le 04/11/2024 11:26:59
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+
+
+Unité Biochimie Immunoanalyse
+Grenoble : D Guergour - C Chirica (04 76 76 54 84)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 valeurs de référence      antériorités
+
+  Protéine C réactive (CRP) #
+   (Immunoturbidimétrie  - Siemens ATELLICA)        * 159    mg/l     <10     184      31/10/24
+                                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Dr Benoit CHOVELON
+
+_______________________________________________________________________________
+
+IONOGRAMME PLASMATIQUE
+(Analyses effectuées sur automate Siemens ATELLICA)
+  Sodium #                       137    mmol/l   136   -145   135      31/10/24   
+  (Potentiométrie indirecte - Siemens ATELLICA)    
+  Potassium #                     4,4    mmol/l   3,4   -5,1   4,1      31/10/24
+  (Potentiométrie indirecte - Siemens ATELLICA)     
+  Chlorures #                   * 99     mmol/l   103   -112   99       31/10/24
+  (Potentiométrie indirecte - Siemens ATELLICA)     
+  Bicarbonates #               * 32     mmol/l   20    -31    28       31/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Protéines #                  * 81     g/l      59    -77    80       31/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Trou anionique                10     mmol/l   7     -17    12       31/10/24
+  (calcul)
+  Créatinine #                    68     µmol/l   45    -86    67       31/10/24
+  (Technique enzymatique - Siemens ATELLICA)     
+
+  Débit de filtration glomérulaire CKD-EPI  133    ml/mn/1,73m2
+Stade 1 (DFG supérieur ou égal à 90) : Résultat normal ou maladie rénale chronique en cas de marqueurs
+d'atteinte rénale (albuminurie, hématurie, leucocyturie, ou anomalies morphologiques ou
+histologiques, ou marqueurs de dysfonction tubulaire, persistant plus de trois mois).
+Un suivi annuel du DFG est conseillé dans ce cas.
+  Bilirubine totale #           13     µmol/l   5     -21    10       31/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+
+
+  Transaminase ASAT #         32     UI/l     16    -44    32       31/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Transaminase ALAT #          * 66     UI/l     8     -44    57       31/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Phosphatase alcaline #         174    UI/l     59    -294   106      31/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Gamma Glutamyl Transférase #   * 141    UI/l     <31   -      79       31/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Dr Benoit CHOVELON
+
+_______________________________________________________________________________
+
+Hématologie Cellulaire
+Grenoble : P Mossuz - G Szymanski - B Bulabois - S Chevalier - S Carras (04 76 76 94 93)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 Valeurs de référence     antériorités
+NUMERATION #
+Analyses effectuées sur sang total, automate Sysmex
+Cytométrie de flux et fluorescence, impédancemétrie, photométrie
+Leucocytes                       8,7    G/l      ( 4,1   -   11,0  )     10,7     31/10/24
+Erythrocytes                   * 4,13   T/l      ( 4,53  -   5,79  )     4,11     31/10/24
+Hémoglobine                    * 123    g/l      ( 134   -   167   )     122      31/10/24
+Hématocrite                    * 0,37   l/l      ( 0,39  -   0,49  )     0,36     31/10/24
+VMC                              89,1   fl       ( 78,0  -   91,9  )     87,8     31/10/24
+TCMH                             30     pg       ( 26    -   32    )     30       31/10/24
+CCMH                             334    g/l      ( 324   -   363   )     338      31/10/24
+IDR                            * 10,9   %        ( 11,0  -   14,2  )     11,1     31/10/24
+Thrombocytes                   * 550    G/l      ( 172   -   398   )     482      31/10/24
+VMP                              10,4   fl       ( 8,0   -   13,0  )     10,3     31/10/24
+
+Erythroblastes                   0,0    G/l                              0,0      31/10/24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Pascal MOSSUZ
+
+_______________________________________________________________________________
+
+FORMULE LEUCOCYTAIRE #
+Analyses effectuées sur sang total, automate Sysmex
+Cytométrie de flux et fluorescence, impédancemétrie
+Contrôles  microscopiques des frottis sanguins effectués sur microscope et microscope automatisé Cellavision
+Polynucléaires neutrophiles      74,8   %        
+                       soit      6,5    G/l      ( 1,8   -   6,9   )     7,2      31/10/24
+Polynucléaires éosinophiles      1,0    %        
+                       soit      0,1    G/l      ( 0,05  -   0,6   )     0,1      31/10/24
+Polynucléaires basophiles        0,5    %        
+                       soit      0,0    G/l      ( 0,0   -   0,1   )     0,0      31/10/24
+Lymphocytes                      12,5   %        
+                       soit    * 1,1    G/l      ( 1,3   -   3,9   )     1,7      31/10/24
+Monocytes                        10,9   %        
+                       soit    * 0,9    G/l      ( 0,2   -   0,8   )     1,6      31/10/24
+Myélémie (Myélocytes + Métamyélocytes)   0,3    %                       0,5      31/10/24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Pascal MOSSUZ
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104788788
+Demandé le
+ Prélevé le 29/10/2024 22:03
+ Réceptionné le 29/10/2024 22:03:24
+ Edité le 03/11/2024 22:46:30
+ Traité le 03/11/2024 22:47:02
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : GAUDIN PHILIPPE
+
+
+  Pièces jointes       
+
+
+
+Hyperthermie
+
+BACTERIOLOGIE : Cultures et tests rapides (04 76 76 54 79)
+M. Maurin - C. Recule - I. Pelloux - S. Boisset - Y. Caspar - A.Hennebique - C.Richarme - L.Pondérand - L.Coussa-Riviere
+
+
+
+Hémoculture bactérienne :
+
+  Localisation : (HEMP) Hémoculture Périphérique
+                
+
+  Hémoculture aérobie
+  (Flacon Bactec Plus Aerobic/F) :Négatif
+
+5 Jour(s), 0 Heure(s), 4 Minute(s)
+
+  Hémoculture anaérobie
+  (Flacon Bactec Lytique/F) :Négatif
+
+5 Jour(s), 0 Heure(s), 4 Minute(s)
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Hervé Pelloux
+
+_______________________________________________________________________________
+
+   Cytologie : technique manuelle (cellule de comptage à usage unique) ou automatisée (analyseur UF-4000,  Sysmex)
+   Coloration de Gram : technique automatisée (Colorateur Aerospray Serie 2, EliTech) ou manuelle
+   Ensemencement  manuel ou automatisé (BD-Kiestra) 
+   Identification bactérienne : spectrométrie de masse MALDI-TOF (Microflex LT, Bruker)  
+   Antibiogramme :
+   (D) : technique par diffusion en milieu gélosé, lecture automatisée (ADAGIO, Bio-Rad), interprétation selon le CASFM 2022
+   CMI : déterminée par bandelette en milieu gélosé ou microdilution en milieu liquide
+   Si non précisé : antibiogramme automatisé en milieu liquide (BD Phoenix), interprétation selon le CASFM 2022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Hervé Pelloux
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104794996
+Demandé le
+ Prélevé le 31/10/2024 08:26
+ Réceptionné le 31/10/2024 08:25:54
+ Edité le 31/10/2024 17:26:03
+ Traité le 31/10/2024 17:26:18
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+
+
+Sérologie Virale
+Grenoble : P Morand - R Germi - P Poignard - J Lupo - L Pelletier - S Larrat - A Signori-Schmuck - AK Faure
+- A Truffot - I Almahmoud - H Kazakova (04 76 76 56 04)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+
+                                                                               antériorités
+
+
+SEROLOGIE VIH 1+2
+
+  Nature du prélèvement: Sérum
+  Technique ATELLICA IM (SIEMENS)
+  Ac anti-VIH1+2 et Ag P24      Négatif                                   Négatif  24/10/24
+  Index                         <0,05                 (Positif si > 1)                  <0,05    24/10/24
+
+  Interprétation :            Séronégativité VIH.
+                              Toutefois ce résultat ne peut exclure formellement une contamination récente (< à 6 semaines)
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Dr KAZAKOVA Hanna
+
+_______________________________________________________________________________
+
+SEROLOGIE EPSTEIN-BARR (EBV) #
+
+  Nature du prélèvement: Sérum
+  Technique Liaison XL (DIASORIN)
+
+  IgG VCA #                     Positif                                                      Non traité
+  Taux                          * >750,0   U/ml       (positif si > 24,5 U/ml)           Non traité
+
+  IgG EBNA #                    Positif                                                      Non traité
+  Taux                          38,7       U/ml       (Positif si > 20 U/ml)            Non traité
+
+  IgM VCA #                     Négatif                                                      Non traité
+  Taux                          <10,0      U/ml       (Positif si > 42 U/ml)            Non traité
+
+  Interprétation :            Infection ancienne par l'EBV.
+
+
+SEROLOGIE CYTOMEGALOVIRUS (CMV)
+
+  Nature du prélèvement: Sérum
+  Technique Liaison XL (DIASORIN)
+
+  IgG CMV #                     Négatif                                                      Négatif  25/04/23
+  Taux                          <5         U/mL       (positif si > 16 U/mL)            <5       25/04/23
+
+  IgM CMV #                     Négatif                                                      Négatif  25/04/23
+  Taux                          10,0       U/ml       (Positif si > 23,5 U/ml)          <5,0     25/04/23
+
+
+  Interprétation :            Absence de contact avec le CMV.
+                              En cas de suspicion d'infection récente, contrôler cette sérologie dans 15 jours ou prescrire une PCR
+                              CMV.
+
+
+
+
+
+
+                                     
+                                      SAVOYE Chloé (Interne)
+
+_______________________________________________________________________________
+
+SEROLOGIE HERPES SIMPLEX (HSV)
+
+  Nature du prélèvement: Sérum
+  Technique Liaison XL (DIASORIN)
+
+  IgG #                         Négatif                                                                
+  Index                         <0,5                  (Positif si  > 1,3)                         
+
+  Interprétation :            Absence de contact avec le HSV.
+
+
+SEROLOGIE PARVOVIRUS B19
+
+  Nature du prélèvement: Sérum
+  Technique Liaison XL (DIASORIN)
+
+  IgG #                         Positif                                                                
+  Résultat                      * 38,60    U/mL       (Positif si > 2,50)                          
+
+  IgM #                         Négatif                                                                
+  Index                         0,11                  (Positif si > 1,1)                          
+
+  Interprétation :            Infection ancienne par le parvovirus.
+
+
+-----------------------------------------------------------------------------------------------------
+Attention :
+A compter du 17/06/2019, changement de technique en sérologie virale spécialisée.
+
+  Attention :
+  Changement de réactifs pour les IgG et IgM anti-Parvovirus B19 à compter du 26/09/2023.
+  Les valeurs antérieures ne sont pas comparables.
+
+
+
+
+
+
+                                     
+                                      SAVOYE Chloé (Interne)
+
+_______________________________________________________________________________
+
+Sérologie Bactérienne (04 76 76 54 79)
+I. Pelloux - C. Richarme
+
+
+                                                                                       antériorités
+
+
+SEROLOGIE MYCOPLASMA PNEUMONIAE
+  Technique Liaison XL (DIASORIN)
+  IgG                           Positif                              Négatif  25/04/23
+  Taux                          19         UA/ml      (Positif si > 10 UA/ml)           <0       25/04/23
+  IgM                           Négatif                              Négatif  25/04/23
+  Index                         7,20                  (Positif si > 10)         2,90     25/04/23
+
+  Rappel : Le diagnostic d'une infection à Mycoplasma pneumoniae s'effectue obligatoirement
+  sur 2 sérums prélevés à 15 jours d'intervalle.
+  - Infection récente : taux IgG >= 40 avec ou sans IgM.
+  - Primo-infection : toujours présence d'IgM avec ou sans IgG.
+
+  Interprétation :            Présence d'IgG anti-Mycoplasma pneumoniae à taux faible. Sérologie à contrôler sur un second sérum.
+
+
+SEROLOGIE BARTONELLA (Maladie des griffes du chat)
+  Technique utilisée : Immunofluorescence IgG (IF Eurobio)
+
+  Bartonella henselae           Négatif                              Négatif  25/04/23
+  Titre                         <64                   (seuil : 64)       <64      25/04/23
+
+  Bartonella quintana           Négatif                              Négatif  25/04/23
+  Titre                         <64                   (seuil : 64)       <64      25/04/23
+
+
+
+
+
+
+
+
+                                     
+                                      SAVOYE Chloé (Interne)
+
+_______________________________________________________________________________
+
+SEROLOGIE COXIELLA BURNETII
+
+  Technique : Coxiella burnetii VIRCLIA IgG Monotest
+  Coxiella burnetii IgG Négatif                                        
+  Index                         0,08                  (seuil: 1)                 
+
+  Technique : Coxiella burnetii VIRCLIA IgM Monotest
+  Coxiella burnetii IgM Négatif                                        
+  Index                         0,28                  (seuil: 1)                 
+
+
+SEROLOGIE RICKETTSIA CONORII
+
+Nature du prélèvement: Sérum
+
+  Technique : Rickettsia conorii VIRCLIA IgG Monotest
+  Rickettsia conori IgG         Négatif                                        
+  Index                         0,03                  (seuil: 1)                 
+
+  Technique : Rickettsia conorii VIRCLIA IgM Monotest
+  Rickettsia conori IgM         Négatif                                        
+  Index                         0,05                  (seuil: 1)                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      SAVOYE Chloé (Interne)
+_______________________________________________________________________________
+*** Edition Finale ***
+ Bilan CR -614P
+BOGGIO ARTHUR
+(CH - 66123647) Du 31/08/2022 au 07/11/2024
+42 résultats
+Tri par date de rÃ©sultat
+
+
+
+Imprimer
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104794993
+Demandé le
+ Prélevé le 31/10/2024 08:16
+ Réceptionné le 31/10/2024 08:16:52
+ Edité le 31/10/2024 17:01:05
+ Traité le 31/10/2024 17:01:30
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+
+
+Biochimie Hormonale et Nutrionnelle
+Grenoble : P Faure - L Boulet - B Chovelon - C Corne - C Garrel - L Van Noolen (04 76 76 54 84)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+
+
+
+  TSH #                          3,810    mUI/l        0,630  du  25/04/23
+
+Valeurs de références :
+0-1 jour : < 12,00 mUI/l (source: Robert Debré)
+2 jours-1 mois : < 10,00 mUI/l (source: Robert Debré)
+1 mois - 23 mois : 0,87 - 6,15 mUI/l
+2 ans - 12 ans : 0,67 - 4,16 mUI/l
+13 ans - 20 ans : 0,48 - 4,17 mUI/l
+adultes: 0,55 - 4,78 mUI/l
+> 70 ans : 0,55 - 8,00 mUI/l
+Femme enceinte : 0,55 - 2,50 mUI/l (recommandations HAS)
+Immunochimiluminescence - Atellica Siemens
+Sensibilité analytique : <= 0,007 mUI/l
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Dr Bernard LARDY
+
+_______________________________________________________________________________
+
+Unité Biochimie Immunoanalyse
+Grenoble : D Guergour - C Chirica (04 76 76 54 84)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 valeurs de référence      antériorités
+
+  Protéine C réactive (CRP) #
+   (Immunoturbidimétrie  - Siemens ATELLICA)        * 184    mg/l     <10     163      29/10/24
+                                 
+
+  Créatine kinase #              * 33     UI/l     46    171             
+  (Spectrophotométrie - Siemens ATELLICA)
+
+IONOGRAMME PLASMATIQUE
+(Analyses effectuées sur automate Siemens ATELLICA)
+  Sodium #                     * 135    mmol/l   136   -145   135      29/10/24   
+  (Potentiométrie indirecte - Siemens ATELLICA)    
+  Potassium #                     4,1    mmol/l   3,4   -5,1   3,8      29/10/24
+  (Potentiométrie indirecte - Siemens ATELLICA)     
+  Chlorures #                   * 99     mmol/l   103   -112   101      29/10/24
+  (Potentiométrie indirecte - Siemens ATELLICA)     
+  Bicarbonates #                 28     mmol/l   20    -31    30       29/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Protéines #                  * 80     g/l      59    -77    79       29/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Trou anionique                12     mmol/l   7     -17    8        29/10/24
+  (calcul)
+  Calcium #                       2,57   mmol/l   2,25  -2,70  2,56     29/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Phosphore #                     1,17   mmol/l   0,97  -1,71  0,94     29/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Urée #                         4,6    mmol/l   3,2   -8,2             
+  (Spectrophotométrie - Siemens ATELLICA)
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Dr Bernard LARDY
+
+_______________________________________________________________________________
+
+  Acide urique #                245    µmol/l   172   -494             
+  (Spectrophotométrie - Siemens ATELLICA)
+  Créatinine #                    67     µmol/l   45    -86    68       29/10/24
+  (Technique enzymatique - Siemens ATELLICA)     
+
+  Débit de filtration glomérulaire CKD-EPI  133    ml/mn/1,73m2
+Stade 1 (DFG supérieur ou égal à 90) : Résultat normal ou maladie rénale chronique en cas de marqueurs
+d'atteinte rénale (albuminurie, hématurie, leucocyturie, ou anomalies morphologiques ou
+histologiques, ou marqueurs de dysfonction tubulaire, persistant plus de trois mois).
+Un suivi annuel du DFG est conseillé dans ce cas.
+  Bilirubine totale #           10     µmol/l   5     -21              
+  (Spectrophotométrie - Siemens ATELLICA)
+
+
+  Transaminase ASAT #         32     UI/l     16    -44    37       29/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Transaminase ALAT #          * 57     UI/l     8     -44    59       29/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Phosphatase alcaline #         106    UI/l     59    -294   111      29/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Gamma Glutamyl Transférase #   * 79     UI/l     <31   -      83       29/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Lactate déshydrogénase        180    UI/l     140   -283             
+  (Spectrophotométrie - Siemens ATELLICA)
+
+Coefficient de saturation de la transferrine
+(méthode IFCC)   
+  Transferrine                   * 1,15     g/l   2,15  -3,65   2,15   du  26/04/23
+  (Immunoturbidimétrie - Siemens ATELLICA)            
+  Capacité totale de fixation du fer  28,7     µmol/l                       du   
+  Fer             * 3,3    µmol/l   7,7   -34,2            
+  (Spectrophotométrie - Siemens ATELLICA)
+  Coefficient de saturation * 11       %      25     -35            du       
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Dr Bernard LARDY
+
+_______________________________________________________________________________
+
+                   BILAN PROTEIQUE NUTRITIONNEL
+Albumine                      * 30,2   g/l    39,0   -54,0   43,4   du  25/04/23
+(Immunoturbidimétrie - Siemens ATELLICA/Réactif Diagam)   
+  Préalbumine                     * 73       mg/l   100   -370          du   
+  (Immunoturbidimétrie - Siemens ATELLICA)            
+
+  Ferritine                   * 639      µg/l   11   -135    461    du  24/10/24
+  Immunodosage par chimiluminescence (Siemens ATELLICA)
+
+
+LIPIDES - LIPOPROTEINES
+(Spectrophotométrie - Siemens ATELLICA)
+Aspect du sérum             limpide                               
+Cholestérol #                2,53     mmol/l              2,77   du  26/04/23
+                            0,98     g/l         
+(Spectrophotométrie - Siemens ATELLICA)
+Triglycérides #              0,89     mmol/l 0,50 -2,90   0,89   du  26/04/23
+                                         0,78     g/l        
+(Spectrophotométrie - Siemens ATELLICA)
+
+Haptoglobine                 * 4,51   g/l    0,30  -2,00         du   
+(Immunoturbidimétrie - Siemens ATELLICA)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Bernard LARDY
+
+_______________________________________________________________________________
+
+Biochimie des Enzymes et des Protéines - Protéines spécialisées
+Grenoble : B Lardy - A Le Gouëllec - C Trocmé - B Toussaint (04 76 76 54 83)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+
+Immunoglobulines G          * 14,3   g/l    6,0  -14,0          du   
+(standard IFCC)
+Immunoglobulines A          * 3,00   g/l    0,50 -2,00          du   
+(standard IFCC)
+Immunoglobulines M          1,45     g/l    0,50 -2,50          du   
+(standard IFCC)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. du Dr Bernard Lardy
+
+_______________________________________________________________________________
+
+Hématologie Cellulaire
+Grenoble : P Mossuz - G Szymanski - B Bulabois - S Chevalier - S Carras (04 76 76 94 93)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 Valeurs de référence     antériorités
+NUMERATION #
+Analyses effectuées sur sang total, automate Sysmex
+Cytométrie de flux et fluorescence, impédancemétrie, photométrie
+Leucocytes                       10,7   G/l      ( 4,1   -   11,0  )     9,6      29/10/24
+Erythrocytes                   * 4,11   T/l      ( 4,53  -   5,79  )     4,01     29/10/24
+Hémoglobine                    * 122    g/l      ( 134   -   167   )     120      29/10/24
+Hématocrite                    * 0,36   l/l      ( 0,39  -   0,49  )     0,35     29/10/24
+VMC                              87,8   fl       ( 78,0  -   91,9  )     87,8     29/10/24
+TCMH                             30     pg       ( 26    -   32    )     30       29/10/24
+CCMH                             338    g/l      ( 324   -   363   )     341      29/10/24
+IDR                              11,1   %        ( 11,0  -   14,2  )     11,2     29/10/24
+Thrombocytes                   * 482    G/l      ( 172   -   398   )     450      29/10/24
+VMP                              10,3   fl       ( 8,0   -   13,0  )     11,0     29/10/24
+
+Erythroblastes                   0,0    G/l                              0,0      29/10/24
+
+NUMERATION RETICULOCYTAIRE #
+Analyses effectuées sur sang total, automate Sysmex
+Cytométrie de flux et fluorescence
+Réticulocytes                     39,5   G/l      ( 23,8  -   101,3 )               
+Fraction des réticulocytes immatures (IRF)   7,3    %        ( 1,2   -   15,0  )               
+Contenu en hémoglobine des réticulocytes (REtHe)   32,1   pg       ( 29,4  -   35,98 )               
+Anémie régénérative : Réticulocytes > 150 G/l
+Erythropoïèse fonctionnelle : IRF > 15%
+                              Ret-He > 36 pg
+
+
+
+
+
+
+
+
+                                     
+                                      ABID Chama (Interne)
+
+_______________________________________________________________________________
+
+FORMULE LEUCOCYTAIRE #
+Analyses effectuées sur sang total, automate Sysmex
+Cytométrie de flux et fluorescence, impédancemétrie
+Contrôles  microscopiques des frottis sanguins effectués sur microscope et microscope automatisé Cellavision
+Polynucléaires neutrophiles      67,1   %        
+                       soit    * 7,2    G/l      ( 1,8   -   6,9   )     6,5      29/10/24
+Polynucléaires éosinophiles      1,1    %        
+                       soit      0,1    G/l      ( 0,05  -   0,6   )     0,1      29/10/24
+Polynucléaires basophiles        0,4    %        
+                       soit      0,0    G/l      ( 0,0   -   0,1   )     0,0      29/10/24
+Lymphocytes                      15,5   %        
+                       soit      1,7    G/l      ( 1,3   -   3,9   )     1,9      29/10/24
+Monocytes                        15,4   %        
+                       soit    * 1,6    G/l      ( 0,2   -   0,8   )     1,1      29/10/24
+Myélémie (Myélocytes + Métamyélocytes)   0,5    %                       0,3      29/10/24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      ABID Chama (Interne)
+
+_______________________________________________________________________________
+
+Hématologie Hémostase Hémolyse
+Grenoble : C Barro - B Bulabois - R Marlu (04 76 76 54 87)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 valeurs de référence      antériorités
+
+
+TP
+STA-NeoPTimal (Stago), STA-R
+  Temps de Quick #               14,7   sec.                  13,8     25/04/23
+  Témoin #                       13,5   sec.                  13,4     25/04/23
+  Taux de prothrombine #         87     %        >70          96       25/04/23
+  INR #                          1,10                         1,03     25/04/23
+  Traitement par AVK : recommandations des zones thérapeutiques sous AVK
+  - Prévention des complications thromboemboliques artérielles et veineuses des cardiopathies emboligènes :
+  Troubles du rythme supra-ventriculaires
+  (Fibrillations auriculaires, flutters auriculaires)  Cible : 2.5 (INR entre 2 et 3)
+  Valvulopathies mitrales si facteur(s) favorisant(s)  Cible : 2.5 (INR entre 2 et 3)
+  Prothèses valvulaires mécaniques                     Cible : fonction du type de prothèses et des caractéristiques du patient
+  Prothèses valvulaires biologiques                    Cible : 2.5 (INR entre 2 et 3)
+  - Prévention des complications thromboemboliques des Infarctus du Myocarde compliqués  Cible : 2.5 (INR entre 2 et 3)
+  - Traitement des Thromboses Veineuses Profondes et de l'Embolie Pulmonaire et
+  prévention de leurs récidives, en relais de l'héparine                               Cible : 2.5 (INR entre 2 et 3)
+  (Selon les recommandations de l'AFSSAPS, Juillet 2011)
+
+TCA
+STA-PTTA (Stago), STA-R
+  Temps de céphaline activée #   38,2   sec.                  31,7     25/04/23
+  Témoin #                       32,5   sec.                  33,8     25/04/23
+  Ratio patient/témoin #         1,18            <1,20        0,94     25/04/23
+
+
+
+
+
+
+
+
+                                     
+                                     
+
+_______________________________________________________________________________
+
+  Activité anti-Xa (HBPM) #      < 0,1  UI/ml                           
+  STA-Liquid anti-Xa (Stago), STA-R
+    L'activité anti-Xa au pic plasmatique (H4) dépend de l'HBPM utilisée.
+  (pour l'interprétation, se référer aux données du VIDAL ou au document PCBHE.MOP.037, disponible
+  dans le logiciel de gestion documentaire QUALNET ainsi que dans le catalogue des examens).
+  Attention : les anticoagulants oraux directs anti-Xa (apixaban et rivaroxaban) interfèrent avec
+  le dosage des HBPM (méthode anti-Xa) et génèrent une activité anti-Xa (HBPM) fausse (surestimation).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Claire BARRO
+
+_______________________________________________________________________________
+
+Recherche d'un anticoagulant circulant de type antiprothrombinase (lupus anticoagulant)
+
+  Temps de thrombine #           18,9   sec      <20,0                  
+  STA-Thrombin (Stago), STA-R 
+  Témoin #                       16,9   sec                             
+  Le temps de thrombine est très sensible à l'activité anti-IIa et s'allonge notamment en présence de faibles
+  concentrations d'héparine non fractionnée ou d'inhibiteurs directs de la thrombine.
+
+Temps de Stypven (dépistage) #
+(STA-DRVVT Screen (Stago), STA-R)
+  Patient                       67,0   sec                    RP          
+  Témoin                        38,9   sec                             
+  Ratio (Patient/Témoin)        1,72            Positif si > 1,20             
+  Conclusion du test : Positif
+
+TCA sensibilisé à la recherche d'antiprothrombinase
+(STA-PTTLA (Stago), STA-R)
+  Patient                       54,0   sec                    RP         
+  Témoin                        34,9   sec                             
+  Ratio (Patient/Témoin)        1,55            Positif si > 1,20             
+  Conclusion du test : Positif
+
+TCA avec réactif sensibilisé (Patient + Témoin)
+(STA-PTTLA (Stago), STA-R)
+  Patient + Témoin              50,1   sec     
+  Indice de Rosner              28,2                                    
+  (Positif si > 15, douteux entre 12 et 15)
+  Conclusion du test : Positif
+
+Temps de Stypven (confirmation)
+(STA-DRVVT Confirm (Stago), STA-R)
+  Patient                       43,1   sec     
+  Témoin                        35,5   sec                             
+  Ratio (Patient/Témoin)        1,21                                    
+
+
+
+
+                                     
+                                      Dr Claire BARRO
+
+_______________________________________________________________________________
+
+  Ratio Normalisé
+  Dépistage/Confirmation        1,42  Positif si > ou = 1,20             
+  Conclusion du test : Positif
+
+Conclusion finale :   
+La recherche d'un anticoagulant circulant de type antiprothrombinase est
+positive.
+Attention : en présence d'un traitement par anticoagulants oraux directs (Xarelto, Eliquis ou Pradaxa),
+le résultat de la recherche de lupus anticoagulant peut être erronée (faussement positive) en raison d'une
+interférence analytique si l'échantillon n'est pas traité au préalable de façon spécifique (traitement par charbon).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Claire BARRO
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104794994
+Demandé le
+ Prélevé le 31/10/2024 08:18
+ Réceptionné le 31/10/2024 08:18:21
+ Edité le 31/10/2024 16:52:40
+ Traité le 31/10/2024 16:53:12
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+
+
+Virologie moléculaire
+Grenoble : P Morand - R Germi - P Poignard - J Lupo - L Pelletier - S Larrat - A Signori-Schmuck - AK Faure
+- A Truffot - I Almahmoud - H Kazakova (04 76 76 56 04)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+
+                                                                                       antériorités
+
+
+
+QUANTIFICATION DES GENOMES DES VIRUS HERPES SIMPLEX 1/2 (HSV1/2) - SANG - PCR #
+
+Nature du prélèvement: Plasma
+Technique : HSV1 ELITE MGB KIT ET HSV2 ELITE MGB KIT sur ELITe BeGenius
+Limite de détection :  250 Copies/mL
+Limite basse de quantification : 250 Copies/mL
+Limite haute de quantification : 25 000 000 Copies/mL
+
+Résultat HSV-1 :                                  Génome viral non détecté                       
+
+
+Résultat HSV-2 :                                  Génome viral non détecté                       
+
+
+                                     
+                                      Dr. Hanna KAZAKOVA
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat - Partiel UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104776712
+Demandé le
+ Prélevé le 28/10/2024 07:49
+ Réceptionné le 28/10/2024 07:49:59
+ Edité le 31/10/2024 16:43:10
+ Traité le 31/10/2024 16:43:31
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : DALECKY MICKAEL
+
+
+  Pièces jointes       
+
+
+
+
+
+Biochimie Hormonale et Nutrionnelle
+Grenoble : P Faure - L Boulet - B Chovelon - C Corne - C Garrel - L Van Noolen (04 76 76 54 84)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+
+VITAMINE D Plasmatique #
+Dosage par couplage chromatographie liquide - spectrométrie de masse en tandem
+Facteur de conversion : 1 nmol/L = 0.40 ng/mL
+  25-OH Vitamine D               * 66     nmol/l   78    -125             
+                             Suspicion d'insuffisance en Vitamine D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr  Laetitia VAN NOOLEN
+
+_______________________________________________________________________________
+
+Unité Biochimie Immunoanalyse
+Grenoble : D Guergour - C Chirica (04 76 76 54 84)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 valeurs de référence      antériorités
+
+  Protéine C réactive (CRP) #
+   (Immunoturbidimétrie  - Siemens ATELLICA)        * 142    mg/l     <10     182      24/10/24
+                                 
+
+IONOGRAMME PLASMATIQUE
+(Analyses effectuées sur automate Siemens ATELLICA)
+  Sodium #                       140    mmol/l   136   -145   137      24/10/24   
+  (Potentiométrie indirecte - Siemens ATELLICA)    
+  Potassium #                     4,6    mmol/l   3,4   -5,1   3,9      24/10/24
+  (Potentiométrie indirecte - Siemens ATELLICA)     
+  Chlorures #                     104    mmol/l   103   -112   100      24/10/24
+  (Potentiométrie indirecte - Siemens ATELLICA)     
+  Bicarbonates #                 29     mmol/l   20    -31    31       24/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Protéines #                  * 78     g/l      59    -77    86       24/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Trou anionique                12     mmol/l   7     -17    10       24/10/24
+  (calcul)
+  Calcium #                       2,55   mmol/l   2,25  -2,70  2,72     24/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Phosphore #                     1,32   mmol/l   0,97  -1,71  0,70     24/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Créatinine #                    75     µmol/l   45    -86    64       24/10/24
+  (Technique enzymatique - Siemens ATELLICA)     
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Dr Bernard LARDY
+
+_______________________________________________________________________________
+
+  Débit de filtration glomérulaire CKD-EPI  127    ml/mn/1,73m2
+Stade 1 (DFG supérieur ou égal à 90) : Résultat normal ou maladie rénale chronique en cas de marqueurs
+d'atteinte rénale (albuminurie, hématurie, leucocyturie, ou anomalies morphologiques ou
+histologiques, ou marqueurs de dysfonction tubulaire, persistant plus de trois mois).
+Un suivi annuel du DFG est conseillé dans ce cas.
+
+
+  Transaminase ASAT #         36     UI/l     16    -44    21       24/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Transaminase ALAT #          * 55     UI/l     8     -44    43       24/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Phosphatase alcaline #         100    UI/l     59    -294   95       24/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Gamma Glutamyl Transférase #   * 74     UI/l     <31   -      45       24/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Dr Bernard LARDY
+
+_______________________________________________________________________________
+
+Hématologie Cellulaire
+Grenoble : P Mossuz - G Szymanski - B Bulabois - S Chevalier - S Carras (04 76 76 94 93)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 Valeurs de référence     antériorités
+NUMERATION #
+Analyses effectuées sur sang total, automate Sysmex
+Cytométrie de flux et fluorescence, impédancemétrie, photométrie
+Leucocytes                       9,1    G/l      ( 4,1   -   11,0  )     11,7     24/10/24
+Erythrocytes                   * 4,38   T/l      ( 4,53  -   5,79  )     4,62     24/10/24
+Hémoglobine                    * 129    g/l      ( 134   -   167   )     137      24/10/24
+Hématocrite                      0,39   l/l      ( 0,39  -   0,49  )     0,41     24/10/24
+VMC                              88,4   fl       ( 78,0  -   91,9  )     87,9     24/10/24
+TCMH                             30     pg       ( 26    -   32    )     30       24/10/24
+CCMH                             333    g/l      ( 324   -   363   )     337      24/10/24
+IDR                              11,1   %        ( 11,0  -   14,2  )     11,3     24/10/24
+Thrombocytes                   * 420    G/l      ( 172   -   398   )     373      24/10/24
+VMP                              10,3   fl       ( 8,0   -   13,0  )     10,6     24/10/24
+
+Erythroblastes                   0,0    G/l                              0,0      24/10/24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Pascal MOSSUZ
+
+_______________________________________________________________________________
+
+FORMULE LEUCOCYTAIRE #
+Analyses effectuées sur sang total, automate Sysmex
+Cytométrie de flux et fluorescence, impédancemétrie
+Contrôles  microscopiques des frottis sanguins effectués sur microscope et microscope automatisé Cellavision
+Polynucléaires neutrophiles      71,9   %        
+                       soit      6,5    G/l      ( 1,8   -   6,9   )     9,3      24/10/24
+Polynucléaires éosinophiles      1,2    %        
+                       soit      0,1    G/l      ( 0,05  -   0,6   )     0,0      24/10/24
+Polynucléaires basophiles        0,4    %        
+                       soit      0,0    G/l      ( 0,0   -   0,1   )     0,0      24/10/24
+Lymphocytes                      13,1   %        
+                       soit    * 1,2    G/l      ( 1,3   -   3,9   )     1,2      24/10/24
+Monocytes                        13,2   %        
+                       soit    * 1,2    G/l      ( 0,2   -   0,8   )     0,9      24/10/24
+Myélémie (Myélocytes + Métamyélocytes)   0,2    %                       1,6      24/10/24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      BELLENDA Paola (Interne)
+_______________________________________________________________________________
+*** Edition Partielle ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104793158
+Demandé le
+ Prélevé le 30/10/2024 17:50
+ Réceptionné le 30/10/2024 17:50:45
+ Edité le 31/10/2024 16:04:32
+ Traité le 31/10/2024 16:05:00
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+
+
+BACTERIOLOGIE : Cultures et tests rapides (04 76 76 54 79)
+M. Maurin - C. Recule - I. Pelloux - S. Boisset - Y. Caspar - A.Hennebique - C.Richarme - L.Pondérand - L.Coussa-Riviere
+
+
+
+Examen cytobactériologique des urines #
+
+  Localisation : Mi-jet/sondage aller-retour
+ 
+  Cytologie (UF4000 - Sysmex) :
+
+  Hématies/ml:5 400                             
+  Leucocytes/ml:6 300           
+  Cellules épithéliales :Absence                         
+
+  Examen direct - Coloration de Gram :
+
+  Non effectué. Bactériurie non détectée par l'automate.
+
+
+  Cultures :
+
+
+
+
+
+                                     
+                                      Dr Laurence COUSSA RIVIERE
+
+_______________________________________________________________________________
+
+  Stériles
+
+
+
+   Cytologie : technique manuelle (cellule de comptage à usage unique) ou automatisée (analyseur UF-4000,  Sysmex)
+   Coloration de Gram : technique automatisée (Colorateur Aerospray Serie 2, EliTech) ou manuelle
+   Ensemencement  manuel ou automatisé (BD-Kiestra) 
+   Identification bactérienne : spectrométrie de masse MALDI-TOF (Microflex LT, Bruker)  
+   Antibiogramme :
+   (D) : technique par diffusion en milieu gélosé, lecture automatisée (ADAGIO, Bio-Rad), interprétation selon le CASFM 2022
+   CMI : déterminée par bandelette en milieu gélosé ou microdilution en milieu liquide
+   Si non précisé : antibiogramme automatisé en milieu liquide (BD Phoenix), interprétation selon le CASFM 2022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Laurence COUSSA RIVIERE
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104794998
+Demandé le
+ Prélevé le 31/10/2024 07:42
+ Réceptionné le 31/10/2024 07:42:37
+ Edité le 31/10/2024 14:37:18
+ Traité le 31/10/2024 14:37:39
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+
+
+Immunologie - Secteur : complément (04 76 76 54 16)
+F. Defendi - G. Clavarino - Ch. Dumestre-Pérard
+
+
+
+
+                Exploration du Complément
+
+                                résultats      références       antériorités
+Activités fonctionnelles :
+         TH50 voie classique        * 186%       (86  -  126)      100   le 25/04/23
+(Sang)(dosage hémolytique,spectrophotométrique à 37°C)
+
+Dosages immunochimiques  :
+(Sang)(néphélomètre Atellica Siemens)
+
+         C1q Antigène #                      276  mg/l    (222 -  354)      232   le 25/04/23                   
+         C1 Inh Antigène #                   * 369mg/l    (210 -  355)      216   le 25/04/23
+         C4 Antigène #                       * 439mg/l    (100 -  380)      235   le 25/04/23
+         C3 Antigène #                       * 1 850 mg/l    (880 -  1 650 )      925   le 25/04/23
+         Facteur B Antigène #   * 648mg/l    (183 -  453)      232   le 25/04/23
+
+
+
+
+
+                                     
+                                      Dr Federica DEFENDI
+
+_______________________________________________________________________________
+
+         C5 Antigène #                       * 219mg/l    (105 -  206)      125   le 25/04/23
+(Sang)(néphélomètre Atellica Siemens)
+
+Interprétation des résultats  :
+
+    Profil du complément normal à inflammatoire.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Federica DEFENDI
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104795003
+Demandé le
+ Prélevé le 31/10/2024 08:06
+ Réceptionné le 31/10/2024 08:06:15
+ Edité le 31/10/2024 13:29:26
+ Traité le 31/10/2024 13:29:59
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+
+
+Virologie moléculaire
+Grenoble : P Morand - R Germi - P Poignard - J Lupo - L Pelletier - S Larrat - A Signori-Schmuck - AK Faure
+- A Truffot - I Almahmoud - H Kazakova (04 76 76 56 04)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+
+                                                                                       antériorités
+
+
+
+QUANTIFICATION DU GENOME DU VIRUS HERPES HUMAIN DE TYPE-8 (HHV8) - SANG  - PCR
+
+Nature du prélèvement: Sang total
+Technique : HHV8 ELITE MGB KIT sur ELITe BeGenius
+Limite de détection :  250 Copies/mL
+Limite basse de quantification : 250 Copies/mL
+Limite haute de quantification : 25 000 000 Copies/mL
+
+RESULTAT                                          Génome viral non détecté                       
+
+
+
+
+
+                                     
+                                      Dr. Hanna KAZAKOVA
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104794997
+Demandé le
+ Prélevé le 31/10/2024 08:25
+ Réceptionné le 31/10/2024 08:25:03
+ Edité le 31/10/2024 11:13:25
+ Traité le 31/10/2024 11:13:41
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+
+
+Parasitologie-Mycologie : Examen direct et culture (04 76 76 54 90)
+Grenoble : H Pelloux- MP Brenier-Pinchart - L Almahmoud - M Cornet - H Fricker-Hidalgo - C Garnaud - D Maubon - G Robert
+
+
+SEROLOGIE TOXOPLASMOSE #
+Nature de prélèvement : Sérum            
+Technique Abbott
+IgG Toxo ELISA Architect Négatif              Négatif 25/04/23    
+Titre (UI/ml) 0,20       UI/ml    (Positif >3)0,10         
+Technique Abbott
+IgM Toxo ELISA Architect Négatif              Négatif 25/04/23    
+Index0,04                (Positif >0,6)0,05         
+
+Interprétation :
+Absence d'IgG et d'IgM spécifiques. Cette sérologie négative traduit une absence d'immunité.
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Cécile GARNAUD
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat - Partiel UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104795002
+Demandé le
+ Prélevé le 31/10/2024 08:02
+ Réceptionné le 31/10/2024 08:02:12
+ Edité le 31/10/2024 09:11:17
+ Traité le 31/10/2024 09:11:49
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+
+
+Unité Biochimie Immunoanalyse
+Grenoble : D Guergour - C Chirica (04 76 76 54 84)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 valeurs de référence      antériorités
+
+Microlbuminurie/créatininurie sur échantillon
+(Analyses effectuées sur automate Atellica - Siemens)
+  Albumine Urinaire             7        mg/l                       du   
+  (Immunoturbidimétrie - Siemens ATELLICA/Réactif Diagam)   
+
+  Créatinine urinaire           15,30  mmol/l                15,90    01/06/21
+  Technique enzymatique (Siemens ATELLICA)
+
+  Albumine / Créatinine         0,5      mg/mmol                    du   
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Bernard LARDY
+_______________________________________________________________________________
+*** Edition Partielle ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104793133
+Demandé le
+ Prélevé le 30/10/2024 17:36
+ Réceptionné le 30/10/2024 17:36:37
+ Edité le 30/10/2024 22:06:19
+ Traité le 30/10/2024 22:06:56
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+
+
+Virologie moléculaire
+Grenoble : P Morand - R Germi - P Poignard - J Lupo - L Pelletier - S Larrat - A Signori-Schmuck - AK Faure
+- A Truffot - I Almahmoud - H Kazakova (04 76 76 56 04)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+
+                                                                                       antériorités
+
+
+DETECTION DES GENOMES DU SARS-CoV-2 (COVID-19), DES VIRUS INFLUENZA (Grippe) ET DU VRS - RT-PCR #
+
+Nature du prélèvement* : Prélèvement nasopharyngé
+Technique Resp-4-Plex Assay sur automate Abbott Alinity m
+
+Résultat SARS-CoV-2:                                   Génome viral non détecté                       
+Ct SARS-CoV-2 **:                                        -1                                             
+Interprétation :             Absence de détection de SARS-CoV-2 dans ce prélèvement.
+
+Résultat Grippe A:                                     Génome viral non détecté                       
+Résultat Grippe B:                                     Génome viral non détecté                       
+Interprétation :             Absence de virus Influenza dans ce prélèvement.
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Morand Patrice
+
+_______________________________________________________________________________
+
+Résultat VRS A et B:                                   Génome viral non détecté                       
+Interprétation :             Absence de virus respiratoire syncytial (VRS) dans ce prélèvement.
+
+* ATTENTION ! les prélèvements oropharyngés et salivaires ne sont pas validés pour la grippe et le VRS.
+** Analyse qualitative. Le Ct (cycle threshold) n'est rendu qu'à titre indicatif.
+
+Remarque :  Ce résultat n'exclut pas la possibilité d'une contamination ultérieure.
+            Le respect des mesures barrière doit être maintenu.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Morand Patrice
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104793134
+Demandé le
+ Prélevé le 30/10/2024 17:35
+ Réceptionné le 30/10/2024 17:35:23
+ Edité le 30/10/2024 17:36:24
+ Traité le 30/10/2024 17:36:47
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : VANLEMMENS ALBANE
+
+
+  Pièces jointes       
+
+
+
+à mettre en culture longue SVP \^bilan fièvre prolongée
+
+BACTERIOLOGIE : Cultures et tests rapides (04 76 76 54 79)
+M. Maurin - C. Recule - I. Pelloux - S. Boisset - Y. Caspar - A.Hennebique - C.Richarme - L.Pondérand - L.Coussa-Riviere
+
+
+
+Hémoculture bactérienne :
+
+  Localisation : (HEMP) Hémoculture Périphérique
+                
+
+    En cours
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Pascal MOSSUZ
+_______________________________________________________________________________
+*** Edition Partielle ***
+ Bilan CR -614P
+BOGGIO ARTHUR
+(CH - 66123647) Du 31/08/2022 au 07/11/2024
+42 résultats
+Tri par date de rÃ©sultat
+
+
+
+Imprimer
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104788494
+Demandé le
+ Prélevé le 30/10/2024 07:35
+ Réceptionné le 30/10/2024 07:35:46
+ Edité le 30/10/2024 14:51:13
+ Traité le 30/10/2024 14:51:36
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AKNIN VIRGINIE
+
+
+  Pièces jointes       
+
+
+
+
+
+Biochimie Hormonale et Nutrionnelle
+Grenoble : P Faure - L Boulet - B Chovelon - C Corne - C Garrel - L Van Noolen (04 76 76 54 84)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+
+
+  PTH #                        * 15,6   ng/L     18,5  -88,0  15,2     24/10/24
+  Immunodosage par chimiluminescence (Siemens ATELLICA)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Benoit CHOVELON
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104788492
+Demandé le
+ Prélevé le 29/10/2024 21:57
+ Réceptionné le 29/10/2024 21:57:01
+ Edité le 29/10/2024 22:53:48
+ Traité le 29/10/2024 22:54:06
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AKNIN VIRGINIE
+
+
+  Pièces jointes       
+
+
+
+
+
+Unité Biochimie Immunoanalyse
+Grenoble : D Guergour - C Chirica (04 76 76 54 84)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 valeurs de référence      antériorités
+
+  Protéine C réactive (CRP) #
+   (Immunoturbidimétrie  - Siemens ATELLICA)        * 163    mg/l     <10     142      28/10/24
+                                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Dr Bernard LARDY
+
+_______________________________________________________________________________
+
+IONOGRAMME PLASMATIQUE
+(Analyses effectuées sur automate Siemens ATELLICA)
+  Sodium #                     * 135    mmol/l   136   -145   140      28/10/24   
+  (Potentiométrie indirecte - Siemens ATELLICA)    
+  Potassium #                     3,8    mmol/l   3,4   -5,1   4,6      28/10/24
+  (Potentiométrie indirecte - Siemens ATELLICA)     
+  Chlorures #                   * 101    mmol/l   103   -112   104      28/10/24
+  (Potentiométrie indirecte - Siemens ATELLICA)     
+  Bicarbonates #                 30     mmol/l   20    -31    29       28/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Protéines #                  * 79     g/l      59    -77    78       28/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Trou anionique                8      mmol/l   7     -17    12       28/10/24
+  (calcul)
+  Calcium #                       2,56   mmol/l   2,25  -2,70  2,55     28/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Phosphore #                   * 0,94   mmol/l   0,97  -1,71  1,32     28/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Créatinine #                    68     µmol/l   45    -86    75       28/10/24
+  (Technique enzymatique - Siemens ATELLICA)     
+
+  Débit de filtration glomérulaire CKD-EPI  133    ml/mn/1,73m2
+Stade 1 (DFG supérieur ou égal à 90) : Résultat normal ou maladie rénale chronique en cas de marqueurs
+d'atteinte rénale (albuminurie, hématurie, leucocyturie, ou anomalies morphologiques ou
+histologiques, ou marqueurs de dysfonction tubulaire, persistant plus de trois mois).
+Un suivi annuel du DFG est conseillé dans ce cas.
+
+
+  Transaminase ASAT #         37     UI/l     16    -44    36       28/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Transaminase ALAT #          * 59     UI/l     8     -44    55       28/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+  Phosphatase alcaline #         111    UI/l     59    -294   100      28/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+
+
+
+
+                                     
+                                     
+
+_______________________________________________________________________________
+
+  Gamma Glutamyl Transférase #   * 83     UI/l     <31   -      74       28/10/24
+  (Spectrophotométrie - Siemens ATELLICA)
+
+Hématologie Cellulaire
+Grenoble : P Mossuz - G Szymanski - B Bulabois - S Chevalier - S Carras (04 76 76 94 93)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 Valeurs de référence     antériorités
+NUMERATION #
+Analyses effectuées sur sang total, automate Sysmex
+Cytométrie de flux et fluorescence, impédancemétrie, photométrie
+Leucocytes                       9,6    G/l      ( 4,1   -   11,0  )     9,1      28/10/24
+Erythrocytes                   * 4,01   T/l      ( 4,53  -   5,79  )     4,38     28/10/24
+Hémoglobine                    * 120    g/l      ( 134   -   167   )     129      28/10/24
+Hématocrite                    * 0,35   l/l      ( 0,39  -   0,49  )     0,39     28/10/24
+VMC                              87,8   fl       ( 78,0  -   91,9  )     88,4     28/10/24
+TCMH                             30     pg       ( 26    -   32    )     30       28/10/24
+CCMH                             341    g/l      ( 324   -   363   )     333      28/10/24
+IDR                              11,2   %        ( 11,0  -   14,2  )     11,1     28/10/24
+Thrombocytes                   * 450    G/l      ( 172   -   398   )     420      28/10/24
+VMP                              11,0   fl       ( 8,0   -   13,0  )     10,3     28/10/24
+
+Erythroblastes                   0,0    G/l                              0,0      28/10/24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Pascal MOSSUZ
+
+_______________________________________________________________________________
+
+FORMULE LEUCOCYTAIRE #
+Analyses effectuées sur sang total, automate Sysmex
+Cytométrie de flux et fluorescence, impédancemétrie
+Contrôles  microscopiques des frottis sanguins effectués sur microscope et microscope automatisé Cellavision
+Polynucléaires neutrophiles      67,6   %        
+                       soit      6,5    G/l      ( 1,8   -   6,9   )     6,5      28/10/24
+Polynucléaires éosinophiles      0,9    %        
+                       soit      0,1    G/l      ( 0,05  -   0,6   )     0,1      28/10/24
+Polynucléaires basophiles        0,2    %        
+                       soit      0,0    G/l      ( 0,0   -   0,1   )     0,0      28/10/24
+Lymphocytes                      19,3   %        
+                       soit      1,9    G/l      ( 1,3   -   3,9   )     1,2      28/10/24
+Monocytes                        11,7   %        
+                       soit    * 1,1    G/l      ( 0,2   -   0,8   )     1,2      28/10/24
+Myélémie (Myélocytes + Métamyélocytes)   0,3    %                       0,2      28/10/24
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Pascal MOSSUZ
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104765436
+Demandé le
+ Prélevé le 24/10/2024 17:20
+ Réceptionné le 24/10/2024 17:20:32
+ Edité le 29/10/2024 17:17:36
+ Traité le 29/10/2024 17:18:04
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AKNIN VIRGINIE
+
+
+  Pièces jointes       
+
+
+
+
+
+BACTERIOLOGIE : Cultures et tests rapides (04 76 76 54 79)
+M. Maurin - C. Recule - I. Pelloux - S. Boisset - Y. Caspar - A.Hennebique - C.Richarme - L.Pondérand - L.Coussa-Riviere
+
+
+
+Hémoculture bactérienne :
+
+  Localisation : (HEMP) Hémoculture Périphérique
+                
+
+  Hémoculture aérobie
+  (Flacon Bactec Plus Aerobic/F) :Négatif
+
+4 Jour(s), 23 Heure(s), 6 Minute(s)
+
+  Hémoculture anaérobie
+  (Flacon Bactec Lytique/F) :Négatif
+
+4 Jour(s), 23 Heure(s), 6 Minute(s)
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Hervé Pelloux
+
+_______________________________________________________________________________
+
+   Cytologie : technique manuelle (cellule de comptage à usage unique) ou automatisée (analyseur UF-4000,  Sysmex)
+   Coloration de Gram : technique automatisée (Colorateur Aerospray Serie 2, EliTech) ou manuelle
+   Ensemencement  manuel ou automatisé (BD-Kiestra) 
+   Identification bactérienne : spectrométrie de masse MALDI-TOF (Microflex LT, Bruker)  
+   Antibiogramme :
+   (D) : technique par diffusion en milieu gélosé, lecture automatisée (ADAGIO, Bio-Rad), interprétation selon le CASFM 2022
+   CMI : déterminée par bandelette en milieu gélosé ou microdilution en milieu liquide
+   Si non précisé : antibiogramme automatisé en milieu liquide (BD Phoenix), interprétation selon le CASFM 2022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Hervé Pelloux
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104776713
+Demandé le
+ Prélevé le 28/10/2024 07:46
+ Réceptionné le 28/10/2024 07:46:34
+ Edité le 29/10/2024 14:43:45
+ Traité le 29/10/2024 14:44:12
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : DALECKY MICKAEL
+
+
+  Pièces jointes       
+
+
+
+
+
+Biochimie des Enzymes et des Protéines - Enzymes spécialisées (04 76 76 54 83)
+M. H. Paclet - B. Toussaint
+
+
+
+
+  ECAT plasmatique             59     UI/l     40    -  120             
+  Technique spectrophotométrique à 37°C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Bernard LARDY
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+CENTRE HOSPITALIER UNIVERSITAIRE DE GRENOBLE
+Service de RADIOLOGIE SUD
+B.P. 217 - 38043 GRENOBLE Cedex 9
+Chef de Service : FERRETTI GILBERT
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : X10100998432
+Examen(s)  28/10/2024 17:47:00
+ Traité le 28/10/2024 17:47:53
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : Inconnu
+
+
+  Pièces jointes   
+
+
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104765437
+Demandé le
+ Prélevé le 25/10/2024 10:43
+ Réceptionné le 25/10/2024 10:43:42
+ Edité le 28/10/2024 16:49:06
+ Traité le 28/10/2024 16:49:36
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AKNIN VIRGINIE
+
+
+  Pièces jointes       
+
+
+
+
+
+BACTERIOLOGIE : Biologie Moléculaire (04 76 76 54 79)
+M. Maurin - C. Recule - I. Pelloux - S. Boisset - Y. Caspar - L.Ponderand
+
+
+
+
+Recherche d'ADN de Chlamydia trachomatis et d'ADN de Neisseria gonorrhoeae #
+
+  Nature du prélèvement : Urine sur premier jet
+  Localisation : x  
+
+  Technique : PCR qualitative en temps réel sur Alinity m (STI AMP Kit - Abbott)
+
+  Chlamydia trachomatis : Négative
+  Neisseria gonorrhoeae :Négative
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Isabelle PELLOUX
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+CENTRE HOSPITALIER UNIVERSITAIRE DE GRENOBLE
+Service de RADIOLOGIE SUD
+B.P. 217 - 38043 GRENOBLE Cedex 9
+Chef de Service : FERRETTI GILBERT
+
+
+Identité patient Résultat - Partiel UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : X10100773634
+Examen(s)  25/10/2024 16:58:00
+ Traité le 25/10/2024 16:58:57
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : Inconnu
+
+
+  Pièces jointes   
+
+
+
+*** Le compte rendu texte de ce résultat est vide ou n'a pas été transmis ***
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104765432
+Demandé le
+ Prélevé le 24/10/2024 17:07
+ Réceptionné le 24/10/2024 17:07:10
+ Edité le 25/10/2024 16:54:39
+ Traité le 25/10/2024 16:55:07
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AKNIN VIRGINIE
+
+
+  Pièces jointes           
+
+
+
+
+
+Unité Biochimie Immunoanalyse
+Grenoble : D Guergour - C Chirica (04 76 76 54 84)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 valeurs de référence      antériorités
+
+  Protéine C réactive (CRP) #
+   (Immunoturbidimétrie  - Siemens ATELLICA)        * 182    mg/l     <10               
+                                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Christelle CORNE
+
+_______________________________________________________________________________
+
+IONOGRAMME PLASMATIQUE
+(Analyses effectuées sur automate Siemens ATELLICA)
+  Sodium #                       137    mmol/l   136   -145                       
+  (Potentiométrie indirecte - Siemens ATELLICA)    
+  Potassium #                     3,9    mmol/l   3,4   -5,1              
+  (Potentiométrie indirecte - Siemens ATELLICA)     
+  Chlorures #                   * 100    mmol/l   103   -112             
+  (Potentiométrie indirecte - Siemens ATELLICA)     
+  Bicarbonates #                 31     mmol/l   20    -31              
+  (Spectrophotométrie - Siemens ATELLICA)
+  Protéines #                  * 86     g/l      59    -77              
+  (Spectrophotométrie - Siemens ATELLICA)
+  Trou anionique                10     mmol/l   7     -17              
+  (calcul)
+  Calcium #                     * 2,72   mmol/l   2,25  -2,70            
+  (Spectrophotométrie - Siemens ATELLICA)
+  Phosphore #                   * 0,70   mmol/l   0,97  -1,71            
+  (Spectrophotométrie - Siemens ATELLICA)
+  Créatinine #                    64     µmol/l   45    -86              
+  (Technique enzymatique - Siemens ATELLICA)     
+
+  Débit de filtration glomérulaire CKD-EPI  136    ml/mn/1,73m2
+Stade 1 (DFG supérieur ou égal à 90) : Résultat normal ou maladie rénale chronique en cas de marqueurs
+d'atteinte rénale (albuminurie, hématurie, leucocyturie, ou anomalies morphologiques ou
+histologiques, ou marqueurs de dysfonction tubulaire, persistant plus de trois mois).
+Un suivi annuel du DFG est conseillé dans ce cas.
+
+
+  Transaminase ASAT #         21     UI/l     16    -44              
+  (Spectrophotométrie - Siemens ATELLICA)
+  Transaminase ALAT #            43     UI/l     8     -44              
+  (Spectrophotométrie - Siemens ATELLICA)
+  Phosphatase alcaline #         95     UI/l     59    -294             
+  (Spectrophotométrie - Siemens ATELLICA)
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Dr Nathalie ROUX BUISSON
+
+_______________________________________________________________________________
+
+  Gamma Glutamyl Transférase #   * 45     UI/l     <31   -                
+  (Spectrophotométrie - Siemens ATELLICA)
+
+  Ferritine                   * 461      µg/l   11   -135    72     du  26/04/23
+  Immunodosage par chimiluminescence (Siemens ATELLICA)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Dr Nathalie ROUX BUISSON
+
+_______________________________________________________________________________
+
+Biochimie des Enzymes et des Protéines - Protéines spécialisées
+Grenoble : B Lardy - A Le Gouëllec - C Trocmé - B Toussaint (04 76 76 54 83)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+
+
+ELECTROPHORESE DES PROTEINES SERIQUES #               valeurs de référence      antériorités
+
+Protéines #                    80       g/l     60     à  80    69       25/04/23
+
+Albumine #                   * 48,3     %       55,8   à  66,1  62,0     25/04/23
+                             * 38,6     g/l     40,2   à  47,6            
+Alpha 1 globulines #         * 8,7      %       2,9    à  4,9   3,6      25/04/23
+                             * 7,0      g/l     2,1    à  3,5             
+Alpha 2 globulines #         * 13,4     %       7,1    à  11,8  8,2      25/04/23
+                            * 10,7     g/l     5,1    à  8,5             
+Bêta 1 globulines #           5,6      %       4,7    à  7,2   5,6      25/04/23
+                              4,5      g/l     3,4    à  5,2             
+Bêta 2 globulines #         * 7,1      %       3,2    à  6,5   5,3      25/04/23
+                            * 5,7      g/l     2,3    à  4,4             
+
+Gamma globulines #             16,9     %         11,1   à  18,8  15,3     25/04/23
+                               13,5     g/l     8,0    à  13,5            
+Commentaire                         
+                             Augmentation des alpha-1 globulines et des alpha-2 globulines
+                             avec augmentation des bêta-2 globulines.
+                             Profil compatible avec un syndrome inflammatoire subaigu.
+                            
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Marie-Hélène PACLET
+
+_______________________________________________________________________________
+
+Hématologie Cellulaire
+Grenoble : P Mossuz - G Szymanski - B Bulabois - S Chevalier - S Carras (04 76 76 94 93)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 Valeurs de référence     antériorités
+NUMERATION #
+Analyses effectuées sur sang total, automate Sysmex
+Cytométrie de flux et fluorescence, impédancemétrie, photométrie
+Leucocytes                     * 11,7   G/l      ( 4,1   -   11,0  )                
+Erythrocytes                     4,62   T/l      ( 4,53  -   5,79  )                
+Hémoglobine                      137    g/l      ( 134   -   167   )                
+Hématocrite                      0,41   l/l      ( 0,39  -   0,49  )                
+VMC                              87,9   fl       ( 78,0  -   91,9  )                
+TCMH                             30     pg       ( 26    -   32    )                
+CCMH                             337    g/l      ( 324   -   363   )                
+IDR                              11,3   %        ( 11,0  -   14,2  )                
+Thrombocytes                     373    G/l      ( 172   -   398   )                
+VMP                              10,6   fl       ( 8,0   -   13,0  )                
+
+Erythroblastes                   0,0    G/l                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Pascal MOSSUZ
+
+_______________________________________________________________________________
+
+FORMULE LEUCOCYTAIRE #
+Analyses effectuées sur sang total, automate Sysmex
+Cytométrie de flux et fluorescence, impédancemétrie
+Contrôles  microscopiques des frottis sanguins effectués sur microscope et microscope automatisé Cellavision
+Polynucléaires neutrophiles      79,4   %        
+                       soit    * 9,3    G/l      ( 1,8   -   6,9   )                
+Polynucléaires éosinophiles      0,3    %        
+                       soit    * 0,0    G/l      ( 0,05  -   0,6   )                
+Polynucléaires basophiles        0,3    %        
+                       soit      0,0    G/l      ( 0,0   -   0,1   )                
+Lymphocytes                      10,3   %        
+                       soit    * 1,2    G/l      ( 1,3   -   3,9   )                
+Monocytes                        8,1    %        
+                       soit    * 0,9    G/l      ( 0,2   -   0,8   )                
+Myélémie (Myélocytes + Métamyélocytes)   1,6    %                                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Pascal MOSSUZ
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104765433
+Demandé le
+ Prélevé le 24/10/2024 17:37
+ Réceptionné le 24/10/2024 17:37:17
+ Edité le 25/10/2024 16:21:56
+ Traité le 25/10/2024 16:22:30
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AKNIN VIRGINIE
+
+
+  Pièces jointes       
+
+
+
+
+
+Sérologie Bactérienne (04 76 76 54 79)
+I. Pelloux - C. Richarme
+
+
+                                                                                       antériorités
+
+
+SEROLOGIE CHLAMYDIA TRACHOMATIS
+
+  Technique : Chlamydia trachomatis VIRCLIA IgG Monotest
+
+  IgG                           Négatif                                        
+  Index                          0,50                                           
+
+
+-----------------------------------------------------------------------------------------------------
+Attention :
+A compter du 17/06/2019, changement de technique en sérologie bactérienne spécialisée.
+
+
+
+
+
+
+                                     
+                                      PRIGENT Jean-Baptiste (Interne)
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104765434
+Demandé le
+ Prélevé le 24/10/2024 17:36
+ Réceptionné le 24/10/2024 17:36:50
+ Edité le 25/10/2024 14:00:49
+ Traité le 25/10/2024 14:01:17
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AKNIN VIRGINIE
+
+
+  Pièces jointes       
+
+
+
+
+
+Sérologie Virale
+Grenoble : P Morand - R Germi - P Poignard - J Lupo - L Pelletier - S Larrat - A Signori-Schmuck - AK Faure
+- A Truffot - I Almahmoud - H Kazakova (04 76 76 56 04)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+
+                                                                               antériorités
+
+
+SEROLOGIE VIH 1+2
+
+  Nature du prélèvement: Sérum
+  Technique ATELLICA IM (SIEMENS)
+  Ac anti-VIH1+2 et Ag P24      Négatif                                   Négatif  25/04/23
+  Index                         <0,05                 (Positif si > 1)                  0,13     25/04/23
+
+  Interprétation :            Séronégativité VIH.
+                              Toutefois ce résultat ne peut exclure formellement une contamination récente (< à 6 semaines)
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Dr Larrat Sylvie
+
+_______________________________________________________________________________
+
+SEROLOGIE HEPATITE B
+
+  Nature du prélèvement: Sérum
+  Technique ATELLICA IM (SIEMENS) :
+  Ag HBs                        Négatif                                                 Négatif  25/04/23
+  Index                         <0,1                  (Positif si > 1)                  <0,1     25/04/23
+  Technique ATELLICA IM (SIEMENS) :
+  Ac anti-HBs                   Négatif                                                 Négatif  25/04/23
+  Index                         5,1        mUI/ml     (Positif si > 12mUI/ml)            3,4      25/04/23
+  Technique ATELLICA IM (SIEMENS)
+  Ac anti-HBc totaux            Négatif                                             Négatif  25/04/23
+  Index                         0,33                  (Positif si > 2)                  <0,07    25/04/23
+
+  Interprétation :            Absence de contact avec le virus de l'hépatite B.
+                              En cas de suspicion d'infection récente, un contrôle de ces marqueurs est
+                              nécessaire trois mois après.
+                              Une vaccination peut être proposée selon les recommandations du calendrier vaccinal en vigueur.
+
+
+SEROLOGIE HEPATITE C
+
+  Nature du prélèvement: Sérum
+  Technique ATELLICA IM (SIEMENS)
+  IgG anti-VHC                  Négatif                                   Négatif  25/04/23
+  Index                         0,11                  (Positif si > 1)          <0,02    25/04/23
+
+  Interprétation :            Absence de contact avec le VHC.
+                              Une PCR VHC peut être prescrite en cas de suspicion d'infection de moins de 3 mois.
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      PRIGENT Jean-Baptiste (Interne)
+
+_______________________________________________________________________________
+
+Sérologie Bactérienne (04 76 76 54 79)
+I. Pelloux - C. Richarme
+
+
+                                                                                       antériorités
+
+
+SEROLOGIE DE LA SYPHILIS
+
+  Nature du prélèvement: Sérum
+  Technique : ATELLICA IM (Siemens)
+  Syphilis IgG-IgM              Négatif                              Négatif  25/04/23
+  Index                         0,22                  (Positif si > 1,1)                  0,13     25/04/23
+
+
+-----------------------------------------------------------------------------------------------------
+Attention :
+A compter du 10/04/2019, changement de technique pour le dépistage des infections syphilis.
+
+Interférence possible pour le test de dépistage de la Syphilis :
+- chez les patients traités par biotine ou sous complément alimentaire contenant de la biotine
+- en cas d'hyperprotéinémie sévère (> 110 g/l)
+- en cas d'augmentation importante du taux d'Ig G (>30 g/l)
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      PRIGENT Jean-Baptiste (Interne)
+_______________________________________________________________________________
+*** Edition Finale ***
+ Bilan CR -614P
+BOGGIO ARTHUR
+(CH - 66123647) Du 31/08/2022 au 07/11/2024
+42 résultats
+Tri par date de rÃ©sultat
+
+
+
+Imprimer
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000069074478  DMT : 4104765435
+Demandé le
+ Prélevé le 24/10/2024 16:59
+ Réceptionné le 24/10/2024 16:59:59
+ Edité le 25/10/2024 09:15:04
+ Traité le 25/10/2024 09:15:34
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AKNIN VIRGINIE
+
+
+  Pièces jointes       
+
+
+
+
+
+Biochimie Hormonale et Nutrionnelle
+Grenoble : P Faure - L Boulet - B Chovelon - C Corne - C Garrel - L Van Noolen (04 76 76 54 84)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+
+
+  PTH #                        * 15,2   ng/L     18,5  -88,0            
+  Immunodosage par chimiluminescence (Siemens ATELLICA)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Pr Patrice FAURE
+
+_______________________________________________________________________________
+
+Ce document fait suite à un prélèvement effectué récemment au CHUGA, il permet de vous informer sur un point de réglementation.
+Vos résultats d'examens de biologie médicale, s'ils ne sont pas joints à ce document, vous seront communiqués dès qu'ils seront
+disponibles.
+REUTILISATION ULTERIEURE DE VOS ECHANTILLONS ET DONNEES ASSOCIEES
+Les données de votre dossier médical ainsi que vos échantillons, ou ceux de votre enfant, peuvent être utilisés,
+sauf opposition de votre part, à des fins scientifiques. Ils pourront :
+- être intégrés à la collection du centre de ressources biologiques du CHUGA n°AC-2019-3627
+(ou à l'une des collections déclarées du laboratoire du CHUGA DC-2008-582 Parasitologie-mycologie,
+DC-2008-677 Bactériologie, DC-2008-680 Virologie, DC-2013-1983 Pharmacologie, DC-2014-2268 Immunologie),
+-être conservés après la conservation obligatoire liée au soin,
+-être réutilisés par le CHUGA à des fins scientifiques pour une durée liée et une finalité définie dans chaque projet,
+-être transférés pour une collaboration de recherche dans le domaine de la santé à l'un de nos partenaires
+académiques (laboratoire de recherche public) ou privés (industriels) sur un programme de recherche en
+lien avec le domaine de votre pathologie.
+Aucun test de vos caractéristiques génétiques constitutionnelles définies par l'Article du code de la santé
+publique L1130-1 et soumis aux article 16-10 à 16-13 du code civil ne sera réalisé sans votre accord écrit.
+Le site internet du CHU Grenoble Alpes
+https://www.chu-grenoble.fr/content/projets-de-recherches-sur-donnees-et-echantillons-biologiques
+détaille, pour chaque projet concerné : l'identité des responsables du projet, l'identité de nos partenaires éventuels
+et leur pays d'exercice, les dates de début et de fin du projet et les finalités poursuivies justifiant le traitement
+de vos données et de la réutilisation de vos échantillons. Cette page internet est votre moyen de rester informé
+sur les projets de recherche en cours au CHUGA.
+
+Vous pourrez choisir d'exercer vos droits d'accès, de rectification, de limitation, d'opposition,
+ou d'effacement de vos données auprès du délégué à la protection des données du CHUGA, par mail à
+protection-donnees@chu-grenoble.fr, par téléphone au 04 76 76 82 02, ou par courrier postal adressé au CHU.
+Vous conservez le droit d'adresser une réclamation à la CNIL (https://www.cnil.fr/fr/plaintes/).
+Par ailleurs, les modalités d'exercice de vos droits sont également rappelées sur le site en ligne afin de
+faciliter vos démarches ultérieures. L'affichage des projets sur la page du site internet vaut information,
+aucune lettre d'information individuelle complémentaire ne vous sera transmise.
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Pascal MOSSUZ
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000054851125  DMT : 3042223117
+Demandé le
+ Prélevé le 25/04/2023 10:29
+ Réceptionné le 25/04/2023 10:29:36
+ Edité le 30/04/2023 10:47:27
+ Traité le 30/04/2023 10:47:48
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AUTREAU Zelie
+
+
+  Pièces jointes       
+
+
+
+
+
+BACTERIOLOGIE : Cultures et tests rapides (04 76 76 54 79)
+M. Maurin - C. Recule - I. Pelloux - S. Boisset - Y. Caspar - A.Hennebique - C.Richarme - L.Pondérand
+
+
+
+Hémoculture bactérienne :
+
+  Localisation : (HEMP) Hémoculture Périphérique
+                
+
+  Hémoculture aérobie
+  (Flacon Bactec Plus Aerobic/F) :Négatif
+
+5 Jour(s), 0 Heure(s), 1 Minute(s)
+
+  Hémoculture anaérobie
+  (Flacon Bactec Lytique/F) :Négatif
+
+5 Jour(s), 0 Heure(s), 2 Minute(s)
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Hervé Pelloux
+
+_______________________________________________________________________________
+
+   Cytologie : technique manuelle (cellule Kovaslide) ou automatisée (analyseur UF-4000,  Sysmex)
+   Coloration de Gram : technique automatisée (Colorateur Aerospray Serie 2, EliTech) ou manuelle
+   Ensemencement  manuel ou automatisé (BD-Kiestra) 
+   Identification bactérienne : spectrométrie de masse MALDI-TOF (Microflex LT, Bruker)  
+   Antibiogramme :
+   (D) : technique par diffusion en milieu gélosé, lecture automatisée (ADAGIO, Bio-Rad), interprétation selon le CASFM 2021
+   CMI : déterminée par bandelette en milieu gélosé ou microdilution en milieu liquide
+   Si non précisé : antibiogramme automatisé en milieu liquide (BD Phoenix)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Hervé Pelloux
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat - Partiel UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000054851125  DMT : 3042223112
+Demandé le
+ Prélevé le 25/04/2023 10:37
+ Réceptionné le 25/04/2023 10:37:27
+ Edité le 28/04/2023 15:59:55
+ Traité le 28/04/2023 16:00:20
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AUTREAU Zelie
+
+
+  Pièces jointes       
+
+
+
+
+
+Sérologie Virale
+Grenoble : P Morand - R Germi - P Poignard - J Lupo - S Larrat - A Signori-Schmuck - AK Faure
+- A Truffot - B Nemoz - I Almahmoud (04 76 76 56 04)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                                                       antériorités
+
+
+SEROLOGIE VIH 1+2
+
+  Nature du prélèvement: Sérum
+  Technique ATELLICA IM (SIEMENS)
+  Ac anti-VIH1+2 et Ag P24      Négatif                              Négatif  27/11/19
+  Index                         0,13                  (Positif si > 1)                  0,20     27/11/19
+
+  Interprétation :            Séronégativité VIH.
+                              Toutefois ce résultat ne peut exclure formellement une contamination récente (< à 6 semaines)
+
+
+SEROLOGIE HEPATITE B
+
+  Nature du prélèvement: Sérum
+  Technique ATELLICA IM (SIEMENS) :
+  Ag HBs                        Négatif                                                 Négatif  27/11/19
+  Index                         <0,1                  (Positif si > 1)                  <0,1     27/11/19
+
+
+
+                                     
+                                      Léonie BADOT (Interne)
+
+_______________________________________________________________________________
+
+  Technique ATELLICA IM (SIEMENS) :
+  Ac anti-HBs                   Négatif                                                           
+  Index                         3,4        mUI/ml     (Positif si > 12mUI/ml)                      
+  Technique ATELLICA IM (SIEMENS)
+  Ac anti-HBc totaux            Négatif                                                  
+  Index                         <0,07                 (Positif si > ou = 1)                            
+
+  Interprétation :            Absence de contact avec le virus de l'hépatite B.
+                              En cas de suspicion d'infection récente, un contrôle de ces marqueurs est
+                              nécessaire trois mois après.
+                              Une vaccination peut être proposée selon les recommandations du calendrier vaccinal en vigueur.
+
+
+SEROLOGIE HEPATITE C
+
+  Nature du prélèvement: Sérum
+  Technique ATELLICA IM (SIEMENS)
+  IgG anti-VHC                  Négatif                              Négatif  27/11/19
+  Index                         <0,02                 (Positif si > 1)          <0,02    27/11/19
+
+  Interprétation :            Absence de contact avec le VHC.
+                              Une PCR VHC peut être prescrite en cas de suspicion d'infection récente ou d'immunodépression sévère.
+
+
+SEROLOGIE HEPATITE A
+
+  Nature du prélèvement: Sérum
+  Technique ATELLICA IM (SIEMENS)
+  Ac anti-HAV totaux              Négatif                                                           
+  Index                         14,5                  (Positif si > 30mUI/ml)                            
+
+
+
+
+
+
+
+
+                                     
+                                      Léonie BADOT (Interne)
+
+_______________________________________________________________________________
+
+-----------------------------------------------------------------------------------------------------
+Attention :
+A compter du 10/04/2019, changement de technique pour le dépistage des infections VIH, hépatites A, B et C.
+
+Interférence possible pour les dosages effectués sur l'automate Atellica :
+- chez les patients traités par biotine ou sous complément alimentaire contenant de la biotine
+- en cas d'hypoprotéinémie  ou d'hyperprotéinémie sévère (<35 g/l ou > 120 g/l)
+- en cas d'augmentation importante du taux d'Ig G (>60 g/l)
+Interférence possible pour les dosages effectués sur l'automate Architect  en cas d'hyperprotéinémie sévère (> 120 g/l)
+
+  Interprétation :            Absence d'immunité dirigée contre le virus de l'hépatite A.
+                              En cas de facteurs de risque, la vaccination contre le virus de l'hépatite A est recommandée.
+
+
+SEROLOGIE HEPATITE E
+
+Nature du prélèvement: Sérum
+
+  Technique IgG :  Anti-HEV IgG (HEVG - RD) Vidas (BioMérieux)
+  Anticorps IgG anti-HEV       Négatif                                        
+  Index                         <0,10                 (Positif si > 0.56)                    
+
+  Technique IgM :  Anti-HEV IgM (HEVM - RE) Vidas (BioMérieux)
+  Anticorps IgM anti-HEV             Négatif                                        
+  Index                         0,08                  (Positif si > 1)                    
+
+  Interprétation :            Absence d'infection par le virus de l'hépatite E.
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Léonie BADOT (Interne)
+
+_______________________________________________________________________________
+
+SEROLOGIE EPSTEIN-BARR (EBV)
+
+  Nature du prélèvement: Sérum
+  Technique Liaison XL (DIASORIN)
+
+  IgG VCA #                     Non traité                                              Positif  12/12/19
+  Taux                          Non traité            (positif si > 24,5 U/ml)           >750,0   12/12/19
+
+  IgG EBNA #                    Non traité                                              Positif  12/12/19
+  Taux                          Non traité            (Positif si > 20 U/ml)            70,4     12/12/19
+
+  IgM VCA #                     Non traité                                              Négatif  12/12/19
+  Taux                          Non traité            (Positif si Taux > 42 U/ml)       <10,0    12/12/19
+
+Commentaire:
+Le patient ayant des antécédents connus de sérologie positive, cette analyse
+n'est pas renouvelée. Le prélèvement est conservé au laboratoire de virologie.
+Si, par rapport à un contexte clinique particulier, vous souhaitez maintenir
+cette analyse, merci de rappeler le poste 65604.
+
+  Interprétation :            Non traité
+
+
+SEROLOGIE CYTOMEGALOVIRUS (CMV)
+
+  Nature du prélèvement: Sérum
+  Technique Liaison XL (DIASORIN)
+
+  IgG CMV #                     Négatif                                                 Négatif  12/12/19
+  Taux                          <5         U/ml       (positif si > 16 U/ml)            <5       12/12/19
+
+  IgM CMV #                     Négatif                                                 Négatif  12/12/19
+  Taux                          <5,0       U/ml       (Positif si Taux > 23,5 U/ml)     <5,0     12/12/19
+
+
+
+
+
+                                     
+                                      Léonie BADOT (Interne)
+
+_______________________________________________________________________________
+
+  Interprétation :            Absence de contact avec le CMV.
+                              En cas de suspicion d'infection récente, contrôler cette sérologie dans 15 jours ou prescrire une PCR
+                              CMV.
+
+
+-----------------------------------------------------------------------------------------------------
+Attention :
+A compter du 17/06/2019, changement de technique en sérologie virale spécialisée.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Léonie BADOT (Interne)
+
+_______________________________________________________________________________
+
+Sérologie Bactérienne (04 76 76 54 79)
+I. Pelloux - C. Richarme
+
+
+                                                                                       antériorités
+
+
+SEROLOGIE MYCOPLASMA PNEUMONIAE
+  Technique Liaison XL (DIASORIN)
+  IgG                           Négatif                                        
+  Taux                          <0         UA/ml      (Positif si > 10 UA/ml)                     
+  IgM                           Négatif                                        
+  Index                         2,90                  (Positif si > 10)                   
+
+  Rappel : Le diagnostic d'une infection à Mycoplasma pneumoniae s'effectue obligatoirement
+  sur 2 sérums prélevés à 15 jours d'intervalle.
+  - Infection récente : taux IgG >= 40 avec ou sans IgM.
+  - Primo-infection : toujours présence d'IgM avec ou sans IgG.
+
+
+SEROLOGIE DE LA SYPHILIS
+
+  Nature du prélèvement: Sérum
+  Technique : ATELLICA IM (Siemens)
+  Syphilis IgG-IgM              Négatif                                        
+  Index                         0,13                  (Positif si > 1,1)                            
+
+
+-----------------------------------------------------------------------------------------------------
+Attention :
+A compter du 10/04/2019, changement de technique pour le dépistage des infections syphilis.
+
+Interférence possible pour le test de dépistage de la Syphilis :
+- chez les patients traités par biotine ou sous complément alimentaire contenant de la biotine
+- en cas d'hyperprotéinémie sévère (> 110 g/l)
+- en cas d'augmentation importante du taux d'Ig G (>30 g/l)
+
+
+                                     
+                                      Léonie BADOT (Interne)
+
+_______________________________________________________________________________
+
+SEROLOGIE BARTONELLA (Maladie des griffes du chat)
+  Technique utilisée : Immunofluorescence IgG (IF Eurobio)
+
+  Bartonella henselae           Négatif                                        
+  Titre                         <64                   (seuil : 64)                 
+
+  Bartonella quintana           Négatif                                        
+  Titre                         <64                   (seuil : 64)                 
+
+
+SEROLOGIE DE LYME
+
+  Nature du prélèvement: Sérum
+  Technique Liaison XL (DIASORIN)
+
+  IgG                           Négatif                                        
+  Taux                          <5         UA/ml      (Positif si taux > 15 UA/mL)                
+
+  IgM                           Négatif                                        
+  Index                         <0,10                 (Positif si Index > 1,1)                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Léonie BADOT (Interne)
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000054851125  DMT : 3042223116
+Demandé le
+ Prélevé le 25/04/2023 10:03
+ Réceptionné le 25/04/2023 10:02:51
+ Edité le 27/04/2023 15:18:15
+ Traité le 27/04/2023 15:18:32
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AUTREAU Zelie
+
+
+  Pièces jointes       
+
+
+
+
+
+Immunologie - Secteur : Immunophénotypage par cytométrie en flux / Immunologie cellulaire (04 76 76 54 16)
+JY Cesbron - MC. Jacob - M. Pernollet
+
+
+
+Prélèvement :  Sang périphérique
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr RASKOVALOVA Tatiana
+
+_______________________________________________________________________________
+
+
+
+Immunophénotypage par cytométrie de flux   (Technique sur sang total lysé lavé) 
+
+
+     leucocytes :   4,4     G/L
+cellules lymphoïdes :  33  %                                                    1,5     G/l
+     CD45 :          100 % 
+
+   Lymphocytes T
+
+     CD3 :        69   %            (67  - 76 )
+                  * 1,0  G/L       (1,1 - 1,7 )
+
+     CD4 :        * 47 %            (38  - 46 )
+                  0,7    G/L       (0,7 - 1,1 )
+
+     CD8 :        * 20 %            (31  - 40 )
+                  * 0,3  G/L       (0,5 - 0,9 )
+
+     CD4/CD8 :    * 2,35           (1,00- 1,50)
+
+   Lymphocytes NK
+
+     CD56+CD16+ : 16   %            (10  - 19 )
+                  0,2     G/L         (0,2 - 0,4 )
+
+   Lymphocytes B
+
+     CD19 :       * 10,9                      
+                  0,2    G/L      (0,2 - 0,4 )
+
+
+
+
+
+
+
+                                     
+                                      Dr RASKOVALOVA Tatiana
+
+_______________________________________________________________________________
+
+
+   Marqueurs pour recherche d'un clone
+
+     CD5 :    71   % 
+     CD10 :   0    % 
+     CD5 / CD19 :    25  % 
+     CD10 / CD19 :   5   % 
+     CD20 / CD19 :   97  % 
+
+   Caractéristiques phénotypiques des lymphocytes B CD19+
+
+     IgS / CD19 :    100 %              hétérogène
+
+Conclusion :  Absence de population homogène identifiable avec les marqueurs analysés.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr RASKOVALOVA Tatiana
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000054851125  DMT : 3042223118
+Demandé le
+ Prélevé le 26/04/2023 08:05
+ Réceptionné le 26/04/2023 08:05:43
+ Edité le 27/04/2023 11:01:15
+ Traité le 27/04/2023 11:01:41
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AUTREAU Zelie
+
+
+  Pièces jointes       
+
+
+
+
+
+BACTERIOLOGIE : Cultures et tests rapides (04 76 76 54 79)
+M. Maurin - C. Recule - I. Pelloux - S. Boisset - Y. Caspar - A.Hennebique - C.Richarme - L.Pondérand
+
+
+
+Examen cytobactériologique des urines #
+
+  Localisation : Mi-jet/sondage aller-retour
+ 
+  Cytologie (UF4000 - Sysmex) :
+
+  Hématies/ml:4 500                             
+  Leucocytes/ml:1 600           
+  Cellules épithéliales :Absence                         
+
+  Examen direct - Coloration de Gram :
+
+  Non effectué. Bactériurie non détectée par l'automate.
+
+
+  Cultures :
+
+  Stériles
+
+
+
+
+
+                                     
+                                      Dr L.PONDERAND
+
+_______________________________________________________________________________
+
+   Cytologie : technique manuelle (cellule Kovaslide) ou automatisée (analyseur UF-4000,  Sysmex)
+   Coloration de Gram : technique automatisée (Colorateur Aerospray Serie 2, EliTech) ou manuelle
+   Ensemencement  manuel ou automatisé (BD-Kiestra) 
+   Identification bactérienne : spectrométrie de masse MALDI-TOF (Microflex LT, Bruker)  
+   Antibiogramme :
+   (D) : technique par diffusion en milieu gélosé, lecture automatisée (ADAGIO, Bio-Rad), interprétation selon le CASFM 2021
+   CMI : déterminée par bandelette en milieu gélosé ou microdilution en milieu liquide
+   Si non précisé : antibiogramme automatisé en milieu liquide (BD Phoenix)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr L.PONDERAND
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+CENTRE HOSPITALIER UNIVERSITAIRE DE GRENOBLE
+Service de RADIOLOGIE SUD
+B.P. 217 - 38043 GRENOBLE Cedex 9
+Chef de Service : FERRETTI GILBERT
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000054851125  DMT : X10043101692
+Examen(s)  26/04/2023 17:38:00
+ Traité le 26/04/2023 17:38:59
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : Inconnu
+
+
+  Pièces jointes   
+
+
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000054851125  DMT : 3042223115
+Demandé le
+ Prélevé le 25/04/2023 10:01
+ Réceptionné le 25/04/2023 10:01:58
+ Edité le 26/04/2023 15:40:23
+ Traité le 26/04/2023 15:41:00
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AUTREAU Zelie
+
+
+  Pièces jointes       
+
+
+
+
+
+Immunologie - Secteur : maladies auto-immunes (04 76 76 54 16)
+G. Clavarino - C. Dumestre-Pérard - F. Defendi
+
+
+
+
+Anticorps Anti Tissus
+
+                                     résultats      références         antériorités
+
+Anti Muscle lisse #                        <80         <80                                  du  
+(Sang)(Immunofluorescence Indirecte)
+Anti Mitochondries de Type 2 #           <40         <40                                  du  
+(Sang)(Immunofluorescence Indirecte)
+
+Anti Microsomes de foie et de rein #      <40          <40                             du                           
+(Sang)(Immunofluorescence Indirecte)
+
+Anti Cellules Pariétales Gastriques #    <40         <40                              du  
+(Immunofluorescence Indirecte)
+
+
+
+Anti Ribosomes #                         <40         <40                              du  
+(Immunofluorescence Indirecte)
+
+
+
+                                     
+                                      HAMMOUDA Asma (Interne)
+
+_______________________________________________________________________________
+
+Anti Cytosol Hépatique de type 1 #          <40         <40                              du  
+(Sang)(Immunofluorescence Indirecte)
+
+  Anticorps Anti Nucléaires
+
+                                       résultats      références         antériorités
+
+Anti Nucléaires (cellules HEp2) #         <80         <160                       <80       du 21/11/18
+(Sang)(Immunofluorescence indirecte)
+Aspect de la Fluorescence nucléaire      -                                            -         du 21/11/18
+
+Commentaire résultat
+
+La recherche d'anticorps anti-nucléaires est négative ou <160, les specificités (anti-ADN natif et anti-ENA) n'ont pas été
+recherchées.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      HAMMOUDA Asma (Interne)
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000054851125  DMT : 3042228270
+Demandé le
+ Prélevé le 26/04/2023 08:40
+ Réceptionné le 26/04/2023 08:40:02
+ Edité le 26/04/2023 09:45:57
+ Traité le 26/04/2023 09:46:41
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AUTREAU Zelie
+
+
+  Pièces jointes       
+
+
+
+
+
+Unité Biochimie Immunoanalyse
+Grenoble : D Guergour - C Chirica (04 76 76 54 84)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 valeurs de référence      antériorités
+
+Coefficient de saturation de la transferrine
+(méthode IFCC)   
+  Transferrine                     2,15     g/l   2,15  -3,65          du       
+  (Immunoturbidimétrie - Siemens ATELLICA)            
+  Capacité totale de fixation du fer  53,8     µmol/l                       du   
+  Fer               10,0   µmol/l   5,0   -31,0            
+  (Spectrophotométrie - Siemens ATELLICA)
+  Coefficient de saturation * 19       %      25     -35            du       
+
+  Ferritine                     72       µg/l   22   -322           du   
+  Immunodosage par chimiluminescence (Siemens ATELLICA)
+
+LIPIDES - LIPOPROTEINES
+(Spectrophotométrie - Siemens ATELLICA)
+Aspect du sérum             limpide                               
+Cholestérol #                2,77     mmol/l                     du   
+                            1,07     g/l         
+(Spectrophotométrie - Siemens ATELLICA)
+
+
+
+
+                                     
+                                      PRIMARD Heïdi (Interne)
+
+_______________________________________________________________________________
+
+Triglycérides #              0,89     mmol/l                     du   
+                                         0,78     g/l        
+(Spectrophotométrie - Siemens ATELLICA)
+Cholestérol HDL #              1,03     mmol/l                     du   
+(Spectrophotométrie, Siemens ATELLICA) 0,40     g/l        
+Cholestérol LDL #            1,34     mmol/l                     du   
+(Friedewald)                             0,52     g/l        
+Cholestérol / chol. HDL     2,69                                   
+Valeurs souhaitables en l'absence de facteur de risque :
+< 5,20 mmol/l (2,00 g/l) pour le cholestérol total,
+< 1,70 mmol/l (1,50 g/l) pour les triglycérides,
+> 1,04 mmol/l (0,40 g/l) pour le cholestérol HDL et
+< 4,12 mmol/l (1,60 g/l) pour le cholestérol LDL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      PRIMARD Heïdi (Interne)
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000054851125  DMT : 3042223114
+Demandé le
+ Prélevé le 25/04/2023 10:02
+ Réceptionné le 25/04/2023 10:02:25
+ Edité le 26/04/2023 08:59:24
+ Traité le 26/04/2023 08:59:58
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AUTREAU Zelie
+
+
+  Pièces jointes       
+
+
+
+
+
+Immunologie - Secteur : complément (04 76 76 54 16)
+F. Defendi - G. Clavarino - Ch. Dumestre-Pérard
+
+
+
+
+                Exploration du Complément
+
+                                résultats      références       antériorités
+Activités fonctionnelles :
+         TH50 voie classique        100  %       (86  -  126)            le
+(Sang)(dosage hémolytique,spectrophotométrique à 37°C)
+
+Dosages immunochimiques  :
+(Sang)(néphélomètre Atellica Siemens)
+
+         C1q Antigène #                      232  mg/l    (222 -  354)            le  
+         Attention modification des valeurs de référence depuis le 12/12/22                         
+         C1 Inh Antigène #                   216  mg/l    (210 -  355)            le      
+         C4 Antigène #                       235  mg/l    (100 -  380)            le  
+         C3 Antigène #                       925     mg/l    (880 -  1 650 )            le      
+         Facteur B Antigène #   232  mg/l    (183 -  453)            le  
+         Attention modification des valeurs de référence depuis le 12/12/22
+
+
+
+
+
+                                     
+                                      Dr Giovanna CLAVARINO
+
+_______________________________________________________________________________
+
+         C5 Antigène #                       125  mg/l    (105 -  206)            le     
+(Sang)(néphélomètre BNII Siemens)
+         Attention modification des valeurs de référence depuis le 12/12/22
+
+Interprétation des résultats  :
+
+    Profil normal du complément.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Giovanna CLAVARINO
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000054851125  DMT : 3042223111
+Demandé le
+ Prélevé le 25/04/2023 10:35
+ Réceptionné le 25/04/2023 10:35:42
+ Edité le 25/04/2023 16:31:34
+ Traité le 25/04/2023 16:32:08
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AUTREAU Zelie
+
+
+  Pièces jointes       
+
+
+
+
+
+Sérologie Bactérienne (04 76 76 54 79)
+I. Pelloux - C. Richarme
+
+
+                                                                                       antériorités
+
+
+SEROLOGIE BRUCELLA
+
+  Technique : Brucella VIRCLIA IgG Monotest
+
+  IgG                           Négatif                                        
+  Index                          0,02                                           
+
+  Technique : Brucella VIRCLIA IgM Monotest
+
+  IgM                           Négatif                                        
+  Index                          0,54                                           
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Léonie BADOT (Interne)
+_______________________________________________________________________________
+*** Edition Finale ***
+ Bilan CR -614P
+BOGGIO ARTHUR
+(CH - 66123647) Du 31/08/2022 au 07/11/2024
+42 résultats
+Tri par date de rÃ©sultat
+
+
+
+Imprimer
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat - Partiel UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000054851125  DMT : 3042223110
+Demandé le
+ Prélevé le 25/04/2023 10:38
+ Réceptionné le 25/04/2023 10:38:16
+ Edité le 25/04/2023 15:42:29
+ Traité le 25/04/2023 15:43:18
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AUTREAU Zelie
+
+
+  Pièces jointes       
+
+
+
+
+
+Biochimie Hormonale et Nutrionnelle
+Grenoble : P Faure - L Boulet - B Chovelon - C Corne - C Garrel - L Van Noolen (04 76 76 54 84)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+
+
+
+  TSH #                          0,630    mUI/l               du   
+
+Valeurs de références :
+0-1 jour : < 12,00 mUI/l (source: Robert Debré)
+2 jours-1 mois : < 10,00 mUI/l (source: Robert Debré)
+1 mois - 23 mois : 0,87 - 6,15 mUI/l
+2 ans - 12 ans : 0,67 - 4,16 mUI/l
+13 ans - 20 ans : 0,48 - 4,17 mUI/l
+adultes: 0,55 - 4,78 mUI/l
+> 70 ans : 0,55 - 8,00 mUI/l
+Femme enceinte : 0,55 - 2,50 mUI/l (recommandations HAS)
+Immunochimiluminescence - Atellica Siemens
+Sensibilité analytique : <= 0,007 mUI/l
+
+
+
+
+
+
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Pascal MOSSUZ
+
+_______________________________________________________________________________
+
+Unité Biochimie Immunoanalyse
+Grenoble : D Guergour - C Chirica (04 76 76 54 84)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 valeurs de référence      antériorités
+
+  Protéine C réactive (CRP) #
+   (Immunoturbidimétrie  - Siemens ATELLICA)          <4     mg/l     <10               
+                                 
+
+IONOGRAMME PLASMATIQUE
+(Analyses effectuées sur automate Siemens ATELLICA)
+  Sodium #                       138    mmol/l   136   -145                       
+  (Potentiométrie indirecte - Siemens ATELLICA)    
+  Potassium #                     3,9    mmol/l   3,4   -5,1              
+  (Potentiométrie indirecte - Siemens ATELLICA)     
+  Chlorures #                   * 109    mmol/l   98    -107             
+  (Potentiométrie indirecte - Siemens ATELLICA)     
+  Bicarbonates #                 25     mmol/l   20    -31              
+  (Spectrophotométrie - Siemens ATELLICA)
+  Protéines #                    71     g/l      57    -82              
+  (Spectrophotométrie - Siemens ATELLICA)
+  Trou anionique                8      mmol/l   7     -17              
+  (calcul)
+  Calcium #                       2,37   mmol/l   2,27  -2,58            
+  (Spectrophotométrie - Siemens ATELLICA)
+  Phosphore #                     1,00   mmol/l   0,92  -1,55            
+  (Spectrophotométrie - Siemens ATELLICA)
+  Urée #                       * 3,0    mmol/l   3,2   -8,2             
+  (Spectrophotométrie - Siemens ATELLICA)
+  Créatinine #                    74     µmol/l   52    -91              
+  (Technique enzymatique - Siemens ATELLICA)     
+  Bilirubine totale #           18     µmol/l   5     -21              
+  (Spectrophotométrie - Siemens ATELLICA)
+  Bilirubine conjuguée #      * 6      µmol/l      <5               
+  (Spectrophotométrie - Siemens ATELLICA)
+
+
+                                     
+                                      PRIGENT Jean-Baptiste (Interne)
+
+_______________________________________________________________________________
+
+PROFIL ENZYMATIQUE HEPATOBILIAIRE
+
+
+  Transaminase ASAT #         20     UI/l     13    -40              
+  (Spectrophotométrie - Siemens ATELLICA)
+  Transaminase ALAT #          * 46     UI/l     <32   -                
+  (Spectrophotométrie - Siemens ATELLICA)
+  Phosphatase alcaline #         79     UI/l     53    -149             
+  (Spectrophotométrie - Siemens ATELLICA)
+  Gamma Glutamyl Transférase #     12     UI/l     <73   -                
+  (Spectrophotométrie - Siemens ATELLICA)
+  Lactate déshydrogénase        177    UI/l     <298  -                
+  (Spectrophotométrie - Siemens ATELLICA)
+Albumine                      43,4     g/l    35,0   -52,0          du   
+(Immunoturbidimétrie - Siemens ATELLICA/Réactif Diagam)   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      PRIGENT Jean-Baptiste (Interne)
+
+_______________________________________________________________________________
+
+Biochimie des Enzymes et des Protéines - Protéines spécialisées
+Grenoble : B Lardy - A Le Gouëllec - C Trocmé - B Toussaint (04 76 76 54 83)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+
+ELECTROPHORESE DES PROTEINES SERIQUES #               valeurs de référence      antériorités
+
+Protéines #                    69       g/l     50     à  85    69       05/03/20
+
+Albumine #                     62,0     %       57,1   à  67,2  52,4     05/03/20
+                               42,8     g/l     30,9   à  49,5            
+Alpha 1 globulines #           3,6      %       3,2    à  4,9   6,1      05/03/20
+                               2,5      g/l     1,7    à  3,7             
+Alpha 2 globulines #         * 8,2      %       8,9    à  13,0  14,7     05/03/20
+                              5,7      g/l     4,8    à  9,7             
+Bêta 1 globulines #           5,6      %       4,7    à  7,2   5,2      05/03/20
+                              3,9      g/l     3,4    à  5,2             
+Bêta 2 globulines #           5,3      %       3,2    à  6,5   6,7      05/03/20
+                              3,7      g/l     2,3    à  4,4             
+
+Gamma globulines #             15,3     %         9,8    à  16,9  14,9     05/03/20
+                               10,6     g/l     6,0    à  12,7            
+Commentaire                         
+                             Répartition qualitative et quantitative des protéines sans anomalie notable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     
+                                      Dr Bernard LARDY
+
+_______________________________________________________________________________
+
+Hématologie Cellulaire
+Grenoble : P Mossuz - G Szymanski - B Bulabois - S Chevalier - S Carras (04 76 76 94 93)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 Valeurs de référence     antériorités
+NUMERATION #
+Analyses effectuées sur sang total, automate Sysmex
+Cytométrie de flux et fluorescence, impédancemétrie, photométrie
+Leucocytes                       4,7    G/l      ( 4,1   -   11,0  )                
+Erythrocytes                     4,99   T/l      ( 4,53  -   5,79  )                
+Hémoglobine                      151    g/l      ( 134   -   167   )                
+Hématocrite                      0,44   l/l      ( 0,39  -   0,49  )                
+VMC                              88,2   fl       ( 78,0  -   91,9  )                
+TCMH                             30     pg       ( 26    -   32    )                
+CCMH                             343    g/l      ( 324   -   363   )                
+IDR                              11,4   %        ( 11,0  -   14,2  )                
+Thrombocytes                     249    G/l      ( 172   -   398   )                
+VMP                              11,0   fl       ( 8,0   -   13,0  )                
+
+Erythroblastes                   0,0    G/l                                        
+
+FORMULE LEUCOCYTAIRE #
+Analyses effectuées sur sang total, automate Sysmex
+Cytométrie de flux et fluorescence, impédancemétrie
+Contrôles  microscopiques des frottis sanguins effectués sur microscope et microscope automatisé Cellavision
+Polynucléaires neutrophiles      47,8   %        
+                       soit      2,2    G/l      ( 1,8   -   6,9   )                
+Polynucléaires éosinophiles      2,8    %        
+                       soit      0,1    G/l      ( 0,05  -   0,6   )                
+Polynucléaires basophiles        0,6    %        
+                       soit      0,0    G/l      ( 0,0   -   0,1   )                
+Lymphocytes                      32,8   %        
+                       soit      1,5    G/l      ( 1,3   -   3,9   )                
+Monocytes                        15,8   %        
+                       soit      0,7    G/l      ( 0,2   -   0,8   )                
+Myélémie (Myélocytes + Métamyélocytes)   0,2    %                                 
+
+
+                                     
+                                      Résultats libérés s/resp. Pr Pascal MOSSUZ
+
+_______________________________________________________________________________
+
+Hématologie Hémostase Hémolyse
+Grenoble : C Barro - B Bulabois - R Marlu (04 76 76 54 87)
+Voiron : C Bionda - A Tixier - M Dubosson - CA Joseph (04 76 15 61 28)
+
+                                                 valeurs de référence      antériorités
+
+
+TP
+STA-NeoPTimal (Stago), STA-R
+  Temps de Quick #               13,8   sec.                  14,1     04/11/20
+  Témoin #                       13,4   sec.                  12,9     04/11/20
+  Taux de prothrombine #         96     %        >70          88       04/11/20
+  INR #                          1,03                         1,10     04/11/20
+  Traitement par AVK : recommandations des zones thérapeutiques sous AVK
+  - Prévention des complications thromboemboliques artérielles et veineuses des cardiopathies emboligènes :
+  Troubles du rythme supra-ventriculaires
+  (Fibrillations auriculaires, flutters auriculaires)  Cible : 2.5 (INR entre 2 et 3)
+  Valvulopathies mitrales si facteur(s) favorisant(s)  Cible : 2.5 (INR entre 2 et 3)
+  Prothèses valvulaires mécaniques                     Cible : fonction du type de prothèses et des caractéristiques du patient
+  Prothèses valvulaires biologiques                    Cible : 2.5 (INR entre 2 et 3)
+  - Prévention des complications thromboemboliques des Infarctus du Myocarde compliqués  Cible : 2.5 (INR entre 2 et 3)
+  - Traitement des Thromboses Veineuses Profondes et de l'Embolie Pulmonaire et
+  prévention de leurs récidives, en relais de l'héparine                               Cible : 2.5 (INR entre 2 et 3)
+  (Selon les recommandations de l'AFSSAPS, Juillet 2011)
+
+TCA
+STA-PTTA (Stago), STA-R
+  Temps de céphaline activée #   31,7   sec.                  35,0     04/11/20
+  Témoin #                       33,8   sec.                  33,4     04/11/20
+  Ratio patient/témoin #         0,94            <1,20        1,05     04/11/20
+
+
+
+
+
+
+
+
+                                     
+                                     
+_______________________________________________________________________________
+*** Edition Finale ***
+
+
+Laboratoire de Biologie Médicale – IBP
+Réception centralisée des prélèvements
+
+C H U de Grenoble - Institut de Biologie et Pathologie B.P. 217 - 38043 GRENOBLE Cedex 9
+Coordonnateur du Pôle : Pr P. MOSSUZ
+
+
+Identité patient Résultat UF Prescriptrice
+ Nom usuel : BOGGIO
+ Nom de naissance : BOGGIO
+ Prénom : ARTHUR
+ Masculin/Date de nais :  31/01/2006
+ N° IPP : 66123647
+ N° Venue : 5000054851125  DMT : 3042223113
+Demandé le
+ Prélevé le 25/04/2023 10:30
+ Réceptionné le 25/04/2023 10:30:25
+ Edité le 25/04/2023 14:42:58
+ Traité le 25/04/2023 14:43:19
+ Code : 3040 (CH)
+ RHUMATO SUD HTC
+ Prescripteur : AUTREAU Zelie
+
+
+  Pièces jointes       
+
+
+
+
+
+Parasitologie-Mycologie : Examen direct et culture (04 76 76 54 90)
+Grenoble : H Pelloux- MP Brenier-Pinchart - L Almahmoud - M Cornet - H Fricker-Hidalgo - C Garnaud - D Maubon - G Robert
+
+
+                              Sérologie Toxoplasmose #
+
+  Nature du prélèvement .......: Sérum                                                                 
+
+
+
+  ARCHITECT Toxo IgG, ABBOTT
+  IgG ........................ : Négatif                        Négatif  12/12/19
+                          Taux : 0,10     UI/ml(positif > 3)   0,00     12/12/19
+  ARCHITECT Toxo IgM ABBOTT
+  IgM ........................ : Négatif                        Négatif  12/12/19
+                          Index: 0,05      (positif > 0,6)                0,07     12/12/19
+
+
+Conclusion:
+
+Absence d'IgG et d'IgM spécifiques. Cette sérologie négative traduit une absence d'immunité.
+
+
+
+
+
+
+
+                                     
+                                      Dr Cécile GARNAUD
+_______________________________________________________________________________
+*** Edition Finale ***
