@@ -44,7 +44,7 @@ $(function() {
 
   
     // Créer une chaîne pour stocker le texte formaté de la bio de base
-    var bioDeBaseText = 'Hémogramme : ';
+    var bioDeBaseText = '1) Bilan biologique : \n- Hémogramme : ';
   
     // Définition des paramètres de la bio de base et leurs noms formatés avec les unités
 var bioDeBaseParams = {
@@ -52,18 +52,17 @@ var bioDeBaseParams = {
     "Leucocytes": { name: " Leucocytes", unit: "G/L, ", variations: ["Leucocytes"] },
     "Polynucléaires neutrophiles": { name: " PNNs", unit: "G/L,", variations: ["PNNs", "Polynucléaires neutrophiles", "Polynucléairesneutrophiles"] },
     "Plaquettes": { name: "Plaquettes", unit: "G/L", variations: ["Thrombocytes"] },
-    "CRP": { name: "CRP", unit: "mg/L ", variations: ["ProtéineCréactive"] },
-    "Sodium": { name: "Ionogramme : Na", unit: "mmol/L, ", variations: ["Sodium"] },
+    "CRP": { name: "- CRP", unit: "mg/L ", variations: ["ProtéineCréactive"] },
+    "Sodium": { name: "- Ionogramme : Na", unit: "mmol/L, ", variations: ["Sodium"] },
     "Potassium": { name: " K", unit: "mmol/L, ", variations: ["Potassium"] },
-    "Urée": { name: " Urée", unit: "mmol/L,", variations: ["Urée"] },
     "Créatinine": { name: " Créatinine", unit: "µmol/L, ", variations: ["Créatinine"] },
     "DFG": { name: "DFG (CKD-EPI)", unit: "mL/min", variations: ["CKD-EPI"] },
-    "ASAT": { name: "Bilan hépatique : ASAT", unit: "UI/L,  ", variations: ["ASAT-SGOT", "ASAT"] }, 
+    "ASAT": { name: "- Bilan hépatique : ASAT", unit: "UI/L,  ", variations: ["ASAT-SGOT", "ASAT"] }, 
     "ALAT": { name: " ALAT", unit: "UI/L,  ", variations: ["ALAT-SGPT", "ALAT"] },
-    "Phosphatases alcalines": { name: "PAL", unit: "UI/L,  ", variations: ["Phos.Alcalines", "Phosphatases alcalines", "Phosphatase alcaline", "Phosphatasealcaline"] },
-    "Gamma-GT": { name: "GGT", unit: "UI/L, ", variations: ["Gamma GT", "Gamma-GT", "Gamma Glutamyl Transférase", "GammaGlutamylTransférase"] },
+    "Phosphatases alcalines": { name: " PAL", unit: "UI/L,  ", variations: ["Phos.Alcalines", "Phosphatases alcalines", "Phosphatase alcaline", "Phosphatasealcaline"] },
+    "Gamma-GT": { name: " GGT", unit: "UI/L, ", variations: ["Gamma GT", "Gamma-GT", "Gamma Glutamyl Transférase", "GammaGlutamylTransférase"] },
     "Bilirubine totale": { name: "Bilirubine totale", unit: "µmol/l", variations: ["Bilirubine totale", "Bilirubinetotale"] },
-    "TP": { name: "Bilan de coagulation : TP", unit: "%, ", variations: ["Tauxdeprothrombine"] },
+    "TP": { name: "- Bilan de coagulation : TP", unit: "%, ", variations: ["Tauxdeprothrombine"] },
     "INR": { name: " INR", unit: ",", variations: ["INR"] },
     "TCA Patient/Témoin":{ name:"TCA ratio", unit: " ", variations: ["Ratiopatient/témoin"]}
 };
@@ -137,7 +136,7 @@ for (var param in bioDeBaseParams) {
 
 
     // Créer une chaîne pour stocker le texte formaté du bilan phosphocalcique
-    var bilanPhosphocalciqueText = 'Bilan phosphocalcique : ';
+    var bilanPhosphocalciqueText = '- Bilan phosphocalcique : ';
 
     // Définition des paramètres pour le bilan phosphocalcique et leurs noms formatés avec les unités
     var bilanPhosphocalciqueParams = {
@@ -178,7 +177,7 @@ for (var param in bioDeBaseParams) {
 
     // Fonction pour formater le bilan auto-immun avec des virgules
     function formatBilanAutoImmun(inputText) {
-        var formattedBilanAutoImmun = 'Bilan auto-immun : ';
+        var formattedBilanAutoImmun = '- Bilan auto-immun : ';
         for (var param in bilanAutoImmunParams) {
             var pattern = new RegExp(param + "\\s*[:\\s]*\\s*([\\w\\s]+)", "i");
             var match = inputText.match(pattern);
@@ -204,7 +203,7 @@ for (var param in bioDeBaseParams) {
     bilanAutoImmunTextarea.value = bilanAutoImmunText.trim();
 
     // Créer une chaîne pour stocker le texte formaté du bilan nutritionnel
-    var bilannutritionnelText = 'Bilan nutritionnel : ';
+    var bilannutritionnelText = '- Bilan nutritionnel : ';
 
     // Définition des paramètres pour le bilan nutritionnel et leurs noms formatés avec les unités
     var bilannutritionnelParams = {
