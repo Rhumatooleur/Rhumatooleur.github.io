@@ -55,14 +55,14 @@ var bioDeBaseParams = {
     "CRP": { name: "- CRP", unit: "mg/L ", variations: ["ProtéineCréactive"] },
     "Sodium": { name: "- Ionogramme : Na", unit: "mmol/L, ", variations: ["Sodium"] },
     "Potassium": { name: " K", unit: "mmol/L, ", variations: ["Potassium"] },
+    "Acide urique": { name: " Acide urique", unit: "µmol/l, ", variations: ["Uricémie"] },
     "Créatinine": { name: " Créatinine", unit: "µmol/L, ", variations: ["Créatinine"] },
     "DFG": { name: "DFG (CKD-EPI)", unit: "mL/min", variations: ["CKD-EPI"] },
     "ASAT": { name: "- Bilan hépatique : ASAT", unit: "UI/L,  ", variations: ["ASAT-SGOT", "ASAT"] }, 
     "ALAT": { name: " ALAT", unit: "UI/L,  ", variations: ["ALAT-SGPT", "ALAT"] },
     "Phosphatases alcalines": { name: " PAL", unit: "UI/L,  ", variations: ["Phos.Alcalines", "Phosphatases alcalines", "Phosphatase alcaline", "Phosphatasealcaline"] },
-    "Gamma-GT": { name: " GGT", unit: "UI/L, ", variations: ["Gamma GT", "Gamma-GT", "Gamma Glutamyl Transférase", "GammaGlutamylTransférase"] },
-    "Bilirubine totale": { name: "Bilirubine totale", unit: "µmol/l", variations: ["Bilirubine totale", "Bilirubinetotale"] },
-    "TP": { name: "- Bilan de coagulation : TP", unit: "%, ", variations: ["Tauxdeprothrombine"] },
+    "Gamma-GT": { name: " GGT", unit: "UI/L", variations: ["Gamma GT", "Gamma-GT", "Gamma Glutamyl Transférase", "GammaGlutamylTransférase"] },
+    "TP": { name: "\n- Bilan de coagulation : TP", unit: "%, ", variations: ["Tauxdeprothrombine"] },
     "INR": { name: " INR", unit: ",", variations: ["INR"] },
     "TCA Patient/Témoin":{ name:"TCA ratio", unit: " ", variations: ["Ratiopatient/témoin"]}
 };
@@ -105,7 +105,7 @@ for (var param in bioDeBaseParams) {
     var valueObject = findValue(bioDeBaseParams[param].variations, preprocessedText, bioDeBaseParams[param].unit);
     if (valueObject) {
         var formattedValue = valueObject.operator + " " + valueObject.value + " " + (bioDeBaseParams[param].unit === "%" ? "" : bioDeBaseParams[param].unit);
-        if (param === "Hémoglobine" || param === "TCA Patient/Témoin" || param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes" || param === "Polynucléaires neutrophiles" || param === "Créatinine" ) {
+        if (param === "Acide urique" || param === "Hémoglobine" || param === "TCA Patient/Témoin" || param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes" || param === "Polynucléaires neutrophiles" || param === "Créatinine" ) {
             bioDeBaseText += bioDeBaseParams[param].name + " : " + formattedValue.trim(); // Do not add newline after 
             skipNewLine = true; // Set flag to skip newline after ASAT
         } else {
@@ -117,7 +117,7 @@ for (var param in bioDeBaseParams) {
             }
         }
     } else {
-        if (param === "Hémoglobine" || param === "TCA Patient/Témoin" || param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes"  || param === "Polynucléaires neutrophiles" || param === "Créatinine" ) {
+        if (param === "Acide urique" || param === "Hémoglobine" || param === "TCA Patient/Témoin" || param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes"  || param === "Polynucléaires neutrophiles" || param === "Créatinine" ) {
             bioDeBaseText += bioDeBaseParams[param].name + " : _____ " + bioDeBaseParams[param].unit; // Do not add newline after 
             skipNewLine = true; // Set flag to skip newline after ASAT
         } else {
@@ -141,6 +141,7 @@ for (var param in bioDeBaseParams) {
     // Définition des paramètres pour le bilan phosphocalcique et leurs noms formatés avec les unités
     var bilanPhosphocalciqueParams = {
         "Calcium": { name: "Calcium", unit: "mmol/L" },
+        "Albumine": { name: "Albumine", unit: "g/L" },
         "Ca total corrigé": { name: "Calcémie corrigée (albumine)", unit: "mmol/L" },
         "Phosphore": { name: "Phosphore", unit: "mmol/L" },
         "25-OHVitamineD": { name: "25-OH Vitamine D", unit: "nmol/L" },
@@ -162,6 +163,40 @@ for (var param in bioDeBaseParams) {
 
     // Ajouter la ligne EPS à la fin du bilan, sans virgule finale
     bilanPhosphocalciqueText += "EPS : _____";
+
+    // Initialisation des variables pour la calcémie et l'albuminémie
+    var calcémieMesuréeValue = null;
+    var albuminémieValue = null;
+
+    // Modifications pour le calcul de la calcémie corrigée
+
+    // Parcours des paramètres pour récupérer les valeurs trouvées
+    for (var param in bilanPhosphocalciqueParams) {
+        if (param === "Calcium" && findValue([param, bilanPhosphocalciqueParams[param].name], preprocessedText, bilanPhosphocalciqueParams[param].unit)) {
+            calcémieMesuréeValue = parseFloat(findValue([param, bilanPhosphocalciqueParams[param].name], preprocessedText, bilanPhosphocalciqueParams[param].unit).value.replace(",", "."));
+        }
+    }
+
+    // Modification pour chercher l'albuminémie dans le bilan nutritionnel
+    for (var param in bilanPhosphocalciqueParams) {
+        if (param === "Albumine" && findValue([param, bilanPhosphocalciqueParams[param].name], preprocessedText, bilanPhosphocalciqueParams[param].unit)) {
+            albuminémieValue = parseFloat(findValue([param, bilanPhosphocalciqueParams[param].name], preprocessedText, bilanPhosphocalciqueParams[param].unit).value.replace(",", "."));
+        }
+    }
+
+    // Calcul de la calcémie corrigée
+    if (calcémieMesuréeValue !== null && albuminémieValue !== null) {
+        var calcémieCorrigée = calcémieMesuréeValue + 0.025 * (40 - albuminémieValue);
+        // Remplacer la ligne existante de calcémie corrigée
+        bilanPhosphocalciqueText = bilanPhosphocalciqueText.replace(
+            /Calcémie corrigée \(albumine\) : _____ mmol\/L,/,
+            `Calcémie corrigée (albumine) : ${calcémieCorrigée.toFixed(2)} mmol/L,`
+        );
+    } else {
+        // Garder la ligne avec des underscores si une des valeurs manque
+        bilanPhosphocalciqueText += "Calcémie corrigée (albumine) : _____ mmol/L, ";
+    }
+
 
     // Afficher le texte formaté du bilan phosphocalcique dans la zone de sortie correspondante
     document.getElementById("bilanPhosphocalciqueText").value = bilanPhosphocalciqueText.trim();
@@ -209,7 +244,6 @@ for (var param in bioDeBaseParams) {
     var bilannutritionnelParams = {
         "Albumine": { name: "Albumine", unit: "g/L" },
         "Préalbumine": { name: "Préalbumine", unit: "g/L" },
-        "Acideurique": { name: "Acide urique", unit: "µmol/l" },
 
     };
 
