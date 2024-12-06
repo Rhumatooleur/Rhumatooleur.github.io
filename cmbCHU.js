@@ -162,7 +162,7 @@ for (var param in bioDeBaseParams) {
     }
 
     // Ajouter la ligne EPS à la fin du bilan, sans virgule finale
-    bilanPhosphocalciqueText += "EPS : _____";
+    bilanPhosphocalciqueText += "\n- Electrophorèse des protéines sériques : ";
 
     // Initialisation des variables pour la calcémie et l'albuminémie
     var calcémieMesuréeValue = null;
@@ -196,6 +196,8 @@ for (var param in bioDeBaseParams) {
         // Garder la ligne avec des underscores si une des valeurs manque
         bilanPhosphocalciqueText += "Calcémie corrigée (albumine) : _____ mmol/L, ";
     }
+
+    bilanPhosphocalciqueText = bilanPhosphocalciqueText.replace(/, \nElectrophorèse des protéines sériques :/, "\nElectrophorèse des protéines sériques :");
 
 
     // Afficher le texte formaté du bilan phosphocalcique dans la zone de sortie correspondante
