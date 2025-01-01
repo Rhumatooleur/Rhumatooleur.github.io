@@ -1,47 +1,54 @@
-$(function() {
+$(function() { 
     $(".sortable").sortable();
     $(".sortable").disableSelection();
-  });
-  
-  document.getElementById("generateFinalTextButton").addEventListener("click", function() {
+});
+
+document.getElementById("generateFinalTextButton").addEventListener("click", function() {
     var selectedTexts = [];
-  
+
     $(".sortable .draggable-checkbox-container").each(function() {
-      var checkbox = $(this).find("input[type='checkbox']");
-      var textareaId = checkbox.attr("id").replace("Checkbox", "Text");
-  
-      if (checkbox.is(":checked")) {
-        selectedTexts.push(document.getElementById(textareaId).value);
-      }
+        var checkbox = $(this).find("input[type='checkbox']");
+        var textareaId = checkbox.attr("id").replace("Checkbox", "Text");
+
+        if (checkbox.is(":checked")) {
+            selectedTexts.push(document.getElementById(textareaId).value);
+        }
     });
-  
+
     var finalText = selectedTexts.join("\n");
     document.getElementById("finalText").value = finalText;
-  });
-  
-    // Fonction pour limiter les sauts de ligne consécutifs
-    function removeExtraNewlines(text) {
-        return text.replace(/\n{3,}/g, '\n'); // Remplacer 3 ou plus sauts de ligne consécutifs par 2 sauts de ligne
-    }
+});
 
-  document.getElementById("formatButton").addEventListener("click", function() {
+// Fonction pour limiter les sauts de ligne consécutifs
+function removeExtraNewlines(text) {
+    return text.replace(/\n{3,}/g, '\n'); // Remplacer 3 ou plus sauts de ligne consécutifs par 2 sauts de ligne
+}
+
+// Fonction pour supprimer 250 caractères après "ELECTROPHORESE"
+function removeTextAfterElectrophoresis(text) {
+    var regex = /ELECTROPHORESE.{0,250}/i; // Trouver "ELECTROPHORESE" suivi de jusqu'à 250 caractères
+    return text.replace(regex, "ELECTROPHORESE");
+}
+
+document.getElementById("formatButton").addEventListener("click", function() {
     // Récupérer le texte entré par l'utilisateur
     var inputText = document.getElementById("inputText").value;
-  
+
     var preprocessedText = inputText
-    .replace(/\n/g, ' ')                     // Remplacer les retours à la ligne par des espaces
-    .replace(/#/g, '')                       // Supprimer tous les dièses
-    .replace(/\*/g, '')                      // Supprimer tous les astérisques
-    .replace(/\(CRP\)/g, '')                          // Supprimer "(CRP)"
-    .replace(/\bsoit\b/g, '')                   // Supprimer tous les mots "soit"
-    .replace(/\s\s+/g, ' ')                  // Remplacer les espaces de plus d'une case par un espace unique
-    .replace(/\(Immunoturbidimétrie - Siemens ATELLICA\)/g, '') // Supprimer le texte spécifique
-    .replace(/\s+/g, '');                    // Supprimer tous les espaces
-    
+        .replace(/\n/g, ' ')                     // Remplacer les retours à la ligne par des espaces
+        .replace(/#/g, '')                       // Supprimer tous les dièses
+        .replace(/\*/g, '')                      // Supprimer tous les astérisques
+        .replace(/\(CRP\)/g, '')                 // Supprimer "(CRP)"
+        .replace(/\bsoit\b/g, '')                // Supprimer tous les mots "soit"
+        .replace(/\s\s+/g, ' ')                  // Remplacer les espaces multiples par un unique
+        .replace(/\(Immunoturbidimétrie - Siemens ATELLICA\)/g, '') // Supprimer le texte spécifique
+        .replace(/\s+/g, '');                    // Supprimer tous les espaces
+
+    // Appliquer la suppression des caractères après "ELECTROPHORESE"
+    preprocessedText = removeTextAfterElectrophoresis(preprocessedText);
 
     // Afficher le texte pré-formaté dans la nouvelle zone de texte
     document.getElementById("preFormattedText").value = preprocessedText;
-
   
     // Créer une chaîne pour stocker le texte formaté de la bio de base
     var bioDeBaseText = '1) Bilan biologique : \n- Hémogramme : ';
@@ -221,11 +228,11 @@ for (var param in bioDeBaseParams) {
             if (match) {
                 var value = match[1].trim();
                 if (!/^\d+(\.\d+)?$/.test(value)) {
-                    value = "_____";
+                    value = " ";
                 }
                 formattedBilanAutoImmun += bilanAutoImmunParams[param].name + " : " + value + " " + bilanAutoImmunParams[param].unit + ", ";
             } else {
-                formattedBilanAutoImmun += bilanAutoImmunParams[param].name + " : _____ " + bilanAutoImmunParams[param].unit + ", ";
+                formattedBilanAutoImmun += bilanAutoImmunParams[param].name + " :     " + bilanAutoImmunParams[param].unit + ", ";
             }
         }
         // Supprimer la dernière virgule
