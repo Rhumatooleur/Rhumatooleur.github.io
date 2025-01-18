@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Formatter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+        }
+        button {
+            margin-top: 10px;
+        }
+        #output {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text Formatter</h1>
+    <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+    <br>
+    <button onclick="formatText()">Format Text</button>
+    <div id="output"></div>
+    <textarea id="outputText" readonly placeholder="Formatted text with prompt will appear here..."></textarea>
+
+    <script>
+        function formatText() {
+            let inputText = document.getElementById('inputText').value;
+
+            // Remove text between "Rhumato : Fiche d'hospitalisation J0 CHUGA -" and ", IPP"
+            let formattedText = inputText.replace(/Rhumato : Fiche d'hospitalisation J0 CHUGA -.*?, IPP/g, '');
+
+            // Remove 6 characters after ", IPP"
+            formattedText = formattedText.replace(/, IPP.{6}/g, ', ');
+
+            // Remove 17 characters before " - Observation"
+            formattedText = formattedText.replace(/.{17}(?= - Observation)/g, '');
+
+            // Remove 17 characters after "Patient: "
+            formattedText = formattedText.replace(/Patient: .{17}/g, 'Patient: ');
+
+            // Display the formatted text
+            document.getElementById('output').textContent = formattedText;
+
+            // Add the prompt and formatted text to the second textarea
+            const prompt = `Aides toi du texte ci dessous = "données :" comprenant :\n\nLes antécédents médicaux et chirurgicaux.\nLes traitements en cours.\nL’anamnèse (raison de l’hospitalisation).\nl'examen clinique initial\nLes résultats des examens cliniques, biologiques, et radiologiques.\nLe déroulement de l’hospitalisation au jour le jour \"Mot du ..../.../..... 10:54 - Observation\"\nÀ partir de ces éléments, rédige une synthèse d’hospitalisation claire, concise et précise, en respectant les étapes suivantes :\n\nSur le plan rhumatologique : \n\"Résultats des examens complémentaires pertinents\"\n\"Thérapeutiques et interventions réalisées, notamment ponctions et infiltrations\"\n\"Evolution clinique\"\nSur le plan \"autre spécialité éventuelle\" : \nSur le plan \"autre spécialité éventuelle\" : \nConclusion et sortie : \"Résumé final avec l’état clinique du patient, le ou les diagnostic principaux retenus, les recommandations de suivi.\"\nExigences spécifiques :\nLe format indispensable est celui d'un texte brut .txt pas d'autres choses\nTu peux faire des sous parties mais il ne faut pas que tu crée des sous titres mis à par le plan que je t'ai donné\nSuis bien le plan que je t'ai donné : \nSur le plan rhumatologique\nSur le plan.... \netc \nFais des phrases pour expliquer les examens complémentaires, et vers quels diagnostics ils orientent\nNe refais pas un résumé de la partie anamnèse ou examen clinique initial : tu dois te concentrer uniquement sur ce que l'hospitalisation a apporté pour le diagnostic et la thérapeutique, les éléments antécédents, traitements, mode de vie et anamnèse sont seulement là pour que tu comprenne le contexte du patient\nUtilise un langage médical professionnel mais accessible.\nOrganise les informations par ordre logique et thématique.\nPriorise les informations pertinentes et élimine les détails redondants ou non significatifs.\n\ndonnées :"\n\n`;
+            document.getElementById('outputText').value = prompt + formattedText;
+        }
+    </script>
+</body>
+</html>
