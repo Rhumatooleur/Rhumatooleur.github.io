@@ -47,6 +47,8 @@ document.getElementById("formatButton").addEventListener("click", function() {
     // Appliquer la suppression des caractères après "ELECTROPHORESE"
     preprocessedText = removeTextAfterElectrophoresis(preprocessedText);
 
+    preprocessedText = preprocessedText.replace(/#/g, "");
+
     // Afficher le texte pré-formaté dans la nouvelle zone de texte
     document.getElementById("preFormattedText").value = preprocessedText;
   
@@ -62,7 +64,6 @@ var bioDeBaseParams = {
     "CRP": { name: "- CRP", unit: "mg/L ", variations: ["ProtéineCréactive"] },
     "Sodium": { name: "- Ionogramme : Na", unit: "mmol/L, ", variations: ["Sodium"] },
     "Potassium": { name: " K", unit: "mmol/L, ", variations: ["Potassium"] },
-    "Acide urique": { name: " Acide urique", unit: "µmol/l, ", variations: ["Uricémie"] },
     "Créatinine": { name: " Créatinine", unit: "µmol/L, ", variations: ["Créatinine"] },
     "DFG": { name: "DFG (CKD-EPI)", unit: "mL/min", variations: ["CKD-EPI"] },
     "ASAT": { name: "- Bilan hépatique : ASAT", unit: "UI/L,  ", variations: ["ASAT-SGOT", "ASAT"] }, 
@@ -72,6 +73,7 @@ var bioDeBaseParams = {
     "TP": { name: "\n- Bilan de coagulation : TP", unit: "%, ", variations: ["Tauxdeprothrombine"] },
     "INR": { name: " INR", unit: ",", variations: ["INR"] },
     "TCA Patient/Témoin":{ name:"TCA ratio", unit: " ", variations: ["Ratiopatient/témoin"]}
+
 };
 
 function findValue(variations, input, unit) {
@@ -100,6 +102,7 @@ function findValue(variations, input, unit) {
                 return { operator: match[1] || "", value: match[2].replace(",", "."), unit: match[3] || unit };
             }
         }
+
     }
     return null;
 }
@@ -112,7 +115,7 @@ for (var param in bioDeBaseParams) {
     var valueObject = findValue(bioDeBaseParams[param].variations, preprocessedText, bioDeBaseParams[param].unit);
     if (valueObject) {
         var formattedValue = valueObject.operator + " " + valueObject.value + " " + (bioDeBaseParams[param].unit === "%" ? "" : bioDeBaseParams[param].unit);
-        if (param === "Acide urique" || param === "Hémoglobine" || param === "TCA Patient/Témoin" || param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes" || param === "Polynucléaires neutrophiles" || param === "Créatinine" ) {
+        if (param === "Hémoglobine" || param === "TCA Patient/Témoin" || param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes" || param === "Polynucléaires neutrophiles" || param === "Créatinine" ) {
             bioDeBaseText += bioDeBaseParams[param].name + " : " + formattedValue.trim(); // Do not add newline after 
             skipNewLine = true; // Set flag to skip newline after ASAT
         } else {
@@ -124,7 +127,7 @@ for (var param in bioDeBaseParams) {
             }
         }
     } else {
-        if (param === "Acide urique" || param === "Hémoglobine" || param === "TCA Patient/Témoin" || param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes"  || param === "Polynucléaires neutrophiles" || param === "Créatinine" ) {
+        if ( param === "Hémoglobine" || param === "TCA Patient/Témoin" || param === "ASAT" || param === "ALAT" || param === "Phosphatases alcalines" || param === "Gamma-GT" || param === "TP" || param === "INR" || param === "Sodium" || param === "Potassium" || param === "Urée" || param === "Leucocytes"  || param === "Polynucléaires neutrophiles" || param === "Créatinine" ) {
             bioDeBaseText += bioDeBaseParams[param].name + " : _____ " + bioDeBaseParams[param].unit; // Do not add newline after 
             skipNewLine = true; // Set flag to skip newline after ASAT
         } else {
@@ -156,17 +159,21 @@ for (var param in bioDeBaseParams) {
         "TSH": { name: "TSH", unit: "mUI/L" },
     };
 
-    // Remplacer les valeurs dans le texte formaté du bilan phosphocalcique et les placer à leurs positions respectives
-    for (var param in bilanPhosphocalciqueParams) {
+    // Construire le texte sans virgule à la fin
+    var paramsText = Object.keys(bilanPhosphocalciqueParams).map(param => {
         var variations = [param, bilanPhosphocalciqueParams[param].name];
         var valueObject = findValue(variations, preprocessedText, bilanPhosphocalciqueParams[param].unit);
+        
         if (valueObject) {
-            var formattedValue = valueObject.operator + " " + valueObject.value + " " + (bilanPhosphocalciqueParams[param].unit === "%" ? "" : bilanPhosphocalciqueParams[param].unit);
-            bilanPhosphocalciqueText += bilanPhosphocalciqueParams[param].name + " : " + formattedValue.trim() + ", ";
+            var formattedValue = valueObject.operator + " " + valueObject.value + " " + 
+                (bilanPhosphocalciqueParams[param].unit === "%" ? "" : bilanPhosphocalciqueParams[param].unit);
+            return bilanPhosphocalciqueParams[param].name + " : " + formattedValue.trim();
         } else {
-            bilanPhosphocalciqueText += bilanPhosphocalciqueParams[param].name + " : _____ " + bilanPhosphocalciqueParams[param].unit + ", ";
+            return bilanPhosphocalciqueParams[param].name + " : _____ " + bilanPhosphocalciqueParams[param].unit;
         }
-    }
+    }).join(", ");
+
+    bilanPhosphocalciqueText += paramsText;
 
     // Ajouter la ligne EPS à la fin du bilan, sans virgule finale
     bilanPhosphocalciqueText += "\n- Electrophorèse des protéines sériques : ";
@@ -174,8 +181,6 @@ for (var param in bioDeBaseParams) {
     // Initialisation des variables pour la calcémie et l'albuminémie
     var calcémieMesuréeValue = null;
     var albuminémieValue = null;
-
-    // Modifications pour le calcul de la calcémie corrigée
 
     // Parcours des paramètres pour récupérer les valeurs trouvées
     for (var param in bilanPhosphocalciqueParams) {
@@ -196,19 +201,17 @@ for (var param in bioDeBaseParams) {
         var calcémieCorrigée = calcémieMesuréeValue + 0.025 * (40 - albuminémieValue);
         // Remplacer la ligne existante de calcémie corrigée
         bilanPhosphocalciqueText = bilanPhosphocalciqueText.replace(
-            /Calcémie corrigée \(albumine\) : _____ mmol\/L,/,
-            `Calcémie corrigée (albumine) : ${calcémieCorrigée.toFixed(2)} mmol/L,`
+            /Calcémie corrigée \(albumine\) : _____ mmol\/L/,
+            `Calcémie corrigée (albumine) : ${calcémieCorrigée.toFixed(2)} mmol/L`
         );
     } else {
         // Garder la ligne avec des underscores si une des valeurs manque
-        bilanPhosphocalciqueText += "Calcémie corrigée (albumine) : _____ mmol/L, ";
+        bilanPhosphocalciqueText += "Calcémie corrigée (albumine) : _____ mmol/L";
     }
-
-    bilanPhosphocalciqueText = bilanPhosphocalciqueText.replace(/, \nElectrophorèse des protéines sériques :/, "\nElectrophorèse des protéines sériques :");
-
 
     // Afficher le texte formaté du bilan phosphocalcique dans la zone de sortie correspondante
     document.getElementById("bilanPhosphocalciqueText").value = bilanPhosphocalciqueText.trim();
+
 
 
     // Définition des paramètres pour le bilan auto-immun
@@ -274,6 +277,43 @@ for (var param in bioDeBaseParams) {
 
     // Afficher le texte formaté du bilan nutritionnel dans la zone de sortie correspondante
     document.getElementById("bilannutritionnelText").value = bilannutritionnelText.trim();
+
+    // Afficher l'acide urique si la case est cochée dans la zone de sortie correspondante
+    var acideUriqueMatch = inputText.match(/Acide urique\s*#\s*(\d+)\s*µmol\/l/);
+    if (acideUriqueMatch) {
+        var acideUriqueValue = acideUriqueMatch[1];
+        document.getElementById("acideUriqueText").value = acideUriqueValue + " µmol/l";
+    }
+
+
+    // Afficher l'acide urique si la case est cochée dans la zone de sortie correspondante
+    document.getElementById("generateFinalTextButton").addEventListener("click", function() {
+        var selectedTexts = [];
+
+        $(".sortable .draggable-checkbox-container").each(function() {
+            var checkbox = $(this).find("input[type='checkbox']");
+            var textareaId = checkbox.attr("id").replace("Checkbox", "Text");
+
+            if (checkbox.is(":checked")) {
+                if (checkbox.attr("id") === "acideUriqueCheckbox") {
+                    // Rechercher la valeur de l'acide urique dans le texte d'entrée
+                    var inputText = document.getElementById("inputText").value;
+                    var acideUriqueMatch = inputText.match(/Acide urique\s*#\s*(\d+)\s*µmol\/l/);
+                    if (acideUriqueMatch) {
+                        var acideUriqueValue = acideUriqueMatch[1];
+                        selectedTexts.push("- Acide urique : " + acideUriqueValue + " µmol/l")
+                    }
+                } else {
+                    selectedTexts.push(document.getElementById(textareaId).value);
+                }
+            }
+        });
+
+        var finalText = selectedTexts.join("\n");
+        document.getElementById("finalText").value = finalText;
+    });
+
+    
 
     // Appliquer la fonction de suppression des sauts de ligne sur chaque section
     bioDeBaseText = removeExtraNewlines(bioDeBaseText.trim());

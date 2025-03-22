@@ -121,7 +121,7 @@ for (var param in bioDeBaseParams) {
         var variations = [param, bilanPhosphocalciqueParams[param].name];
         var valueObject = findValue(variations, preprocessedText, bilanPhosphocalciqueParams[param].unit);
         if (valueObject) {
-            var formattedValue = valueObject.operator + " " + valueObject.value + " " + (bilanPhosphocalciqueParams[param].unit === "%" ? "" : bilanPhosphocalciqueParams[param].unit);
+            var formattedValue = (valueObject.operator ? valueObject.operator + " " : "") + valueObject.value + (bilanPhosphocalciqueParams[param].unit ? " " + bilanPhosphocalciqueParams[param].unit : "");
             bilanPhosphocalciqueText += bilanPhosphocalciqueParams[param].name + " : " + formattedValue.trim() + "\n";
         } else {
             bilanPhosphocalciqueText += bilanPhosphocalciqueParams[param].name + " : _____ " + bilanPhosphocalciqueParams[param].unit + "\n";

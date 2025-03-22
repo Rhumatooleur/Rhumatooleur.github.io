@@ -177,3 +177,10 @@ textarea#formattedImagerieText {
   .btn:hover {
     background-color: #0056b3; /* couleur du fond du bouton au survol */
   }
+
+  .checkbox-container-wrapper .draggable-checkbox-container {
+    display: flex;
+   
+}
+
+  
