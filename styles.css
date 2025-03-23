@@ -183,4 +183,23 @@ textarea#formattedImagerieText {
    
 }
 
+.two-columns {
+    display: flex;
+    width: 100vw; /* Toute la largeur de l'écran */
+    gap: 20px; /* Espacement entre les colonnes */
+    align-items: flex-start;
+}
+
+.checkbox-section {
+    flex: 1; /* 50% de l'espace */
+    padding: 20px;
+    border: 1px solid #ffffff;
+}
+
+.output-section {
+    flex: 1; /* 50% de l'espace */
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
   

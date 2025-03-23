@@ -47,7 +47,7 @@ main {
 /* Boutons */
 .btn-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
+    grid-template-columns: repeat(2, 1fr); /* 3 colonnes égales */
     gap: 40px; /* Espacement entre les boutons */
 }
 
@@ -114,3 +114,32 @@ textarea {
 header button:hover {
     background-color: #440fad; /* Couleur du fond du bouton au survol */
 }
+
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .category {
+    flex: 1;
+    background-color: rgba(118, 201, 216, 0.05); /* Un gris très léger */
+    border-radius: 8px; /* Optionnel : pour arrondir les coins */
+    padding: 20px; /* Optionnel : pour ajouter un espace intérieur */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optionnel : pour ajouter une ombre légère */
+  }
+
+  .category-title {
+    font-size: calc(var(--font-size-large) * 0.9); /* Taille légèrement plus petite */
+    color: #000000; /* Changez cette valeur pour la couleur souhaitée */
+    font-weight: bold;
+    font-family: inherit; /* Utilise la même police que le h1 */
+    text-align: center; /* Centre le texte horizontalement */
+    margin: 0 auto; /* Centre le bloc horizontalement si nécessaire */
+    margin-bottom: 20px; /* Ajoute un espace en dessous du titre */
+    
+  }
+  
+  
+  
+  

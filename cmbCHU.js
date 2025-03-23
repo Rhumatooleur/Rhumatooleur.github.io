@@ -51,6 +51,9 @@ document.getElementById("formatButton").addEventListener("click", function() {
 
     // Afficher le texte pré-formaté dans la nouvelle zone de texte
     document.getElementById("preFormattedText").value = preprocessedText;
+
+    // Afficher
+    document.getElementById("PonctionsetprélèvementsText").value = "- Prélèvements articulaires et infectiologiques : \n  - Ponction de \n   - Cytologie : \n   - Bactériologie :  \n  - Une paire d'hémocultures périphériques";
   
     // Créer une chaîne pour stocker le texte formaté de la bio de base
     var bioDeBaseText = '1) Bilan biologique : \n- Hémogramme : ';
@@ -312,8 +315,6 @@ for (var param in bioDeBaseParams) {
         var finalText = selectedTexts.join("\n");
         document.getElementById("finalText").value = finalText;
     });
-
-    
 
     // Appliquer la fonction de suppression des sauts de ligne sur chaque section
     bioDeBaseText = removeExtraNewlines(bioDeBaseText.trim());

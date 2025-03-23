@@ -36,39 +36,43 @@
         <textarea id="bilannutritionnelText" readonly class="long-textarea"></textarea>
       </div>
     </div>
-    <div class="checkbox-container-wrapper sortable">
-      <div>
-        <h4>Vous pouvez réorganiser l'ordre de la bio générée ci-dessous via un drag and drop des cases:</h4>
+    <div class="two-columns">
+      <!-- Section des cases à cocher (Gauche) -->
+      <div class="checkbox-section">
+          <h4>Réorganisez l'ordre via drag and drop :</h4>
+          <div class="checkbox-container-wrapper sortable">
+              <div class="draggable-checkbox-container" id="bioDeBaseContainer">
+                  <label><input type="checkbox" id="bioDeBaseCheckbox" checked> Inclure bio de base</label>
+              </div>
+              <div class="draggable-checkbox-container" id="bilannutritionnelContainer">
+                  <label><input type="checkbox" id="bilannutritionnelCheckbox"> Bilan nutritionnel</label>
+              </div>
+              <div class="draggable-checkbox-container" id="bilanPhosphocalciqueContainer">
+                  <label><input type="checkbox" id="bilanPhosphocalciqueCheckbox"> Bilan phosphocalcique</label>
+              </div>
+              <div class="draggable-checkbox-container">
+                  <input type="checkbox" id="acideUriqueCheckbox">
+                  <label for="acideUriqueCheckbox"> Acide urique</label>
+                  <textarea id="acideUriqueText" rows="1"></textarea>
+              </div>
+              <div class="draggable-checkbox-container" id="bilanAutoImmunContainer">
+                  <label><input type="checkbox" id="bilanAutoImmunCheckbox"> Bilan auto-immun</label>
+              </div>
+              <div class="draggable-checkbox-container">
+                  <input type="checkbox" id="PonctionsetprélèvementsCheckbox">
+                  <label for="PonctionsetprélèvementsCheckbox"> Prélèvements infectiologiques</label>
+                  <textarea id="PonctionsetprélèvementsText" rows="1"></textarea>
+              </div>
+          </div>
       </div>
-      <div class="draggable-checkbox-container" id="bioDeBaseContainer">
-        <label><input type="checkbox" id="bioDeBaseCheckbox" checked>  Inclure bio de base dans le texte final</label>
-      </div>
-      <div class="draggable-checkbox-container" id="bilannutritionnelContainer">
-        <label><input type="checkbox" id="bilannutritionnelCheckbox">  bilan nutritionnel</label>
-      </div>
-      <div class="draggable-checkbox-container" id="bilanPhosphocalciqueContainer">
-        <label><input type="checkbox" id="bilanPhosphocalciqueCheckbox">  bilan phosphocalcique</label>
-      </div>
-      <div class="draggable-checkbox-container">
-        <input type="checkbox" id="acideUriqueCheckbox">
-        <label for="acideUriqueCheckbox">  Acide urique</label>
-        <textarea id="acideUriqueText" rows="1"></textarea>
-      </div>
-      <div class="draggable-checkbox-container" id="bilanAutoImmunContainer">
-        <label><input type="checkbox" id="bilanAutoImmunCheckbox">  bilan auto-immun</label>
-      </div>
-      <div class="draggable-checkbox-container">
-        <input type="checkbox" id="PonctionsetprélèvementsCheckbox">
-        <label for="PonctionsetprélèvementsCheckbox">  Prélèvements articulaires et infectiologiques</label>
-        <textarea id="PonctionsetprélèvementsText" rows="1"></textarea>
-      </div>
-    </div>
 
-    <button id="generateFinalTextButton">Générer le texte final - le résultat sera copié automatiquement dans le presse papier</button>
-    <textarea id="finalText" rows="30" readonly></textarea>
-    <div>
-      <textarea id="preFormattedText"readonly class="long-textarea"></textarea>
-    </div>
+      <!-- Section de la zone de texte finale (Droite) -->
+      <div class="output-section">
+          <button id="generateFinalTextButton">Générer le texte final</button>
+          <textarea id="finalText" rows="30" readonly></textarea>
+          <textarea id="preFormattedText" readonly class="long-textarea"></textarea>
+      </div>
+  </div>
   </main>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
