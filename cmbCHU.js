@@ -281,6 +281,42 @@ for (var param in bioDeBaseParams) {
     // Afficher le texte formaté du bilan nutritionnel dans la zone de sortie correspondante
     document.getElementById("bilannutritionnelText").value = bilannutritionnelText.trim();
 
+    // Créer une chaîne pour stocker le texte formaté du bilan d'anémie
+    var bilananémieText = '- Bilan anémie : ';
+
+    // Définition des paramètres pour le bilan d'anémie et leurs noms formatés avec les unités
+    var bilananémieParams = {
+        "Hémoglobine": { name: "Hémoglobine", unit: "g/L", variations: ["Hémoglobine"] },
+        "VMC": { name: "VGM", unit: "fl" },
+        "Réticulocytes": { name: "Réticulocytes", unit: "G/L" },
+        "Ferritine": { name: "Ferritine", unit: "µg/L" },
+        "Coefficientdesaturation": { name: "CST", unit: " % " },
+        "Récepteursoluble": { name: "Récepteur soluble de la transferrine", unit: " " },
+        "VitamineB9": { name: "Vitamine B9", unit: "" },
+        "VitamineB12": { name: "Vitamine B12", unit: "" },
+        "TSH": { name: "TSH", unit: "mUI/L" },
+        "Créatinine": { name: " Créatinine", unit: "µmol/L ", variations: ["Créatinine"] },
+    };
+
+
+    // Remplacer les valeurs dans le texte formaté du bilan d'anémie et les placer à leurs positions respectives
+    for (var param in bilananémieParams) {
+        var variations = [param, bilananémieParams[param].name];
+        var valueObject = findValue(variations, preprocessedText, bilananémieParams[param].unit);
+        if (valueObject) {
+            var formattedValue = valueObject.operator + " " + valueObject.value + " " + (bilananémieParams[param].unit === "%" ? "" : bilananémieParams[param].unit);
+            bilananémieText += bilananémieParams[param].name + " : " + formattedValue.trim() + ", ";
+        } else {
+            bilananémieText += bilananémieParams[param].name + " : _____ " + bilananémieParams[param].unit + ", ";
+        }
+    }
+
+    // Supprimer la dernière virgule
+    bilananémieText = bilananémieText.slice(0, -2);
+
+    // Afficher le texte formaté du bilan anémie dans la zone de sortie correspondante
+    document.getElementById("bilananémieText").value = bilananémieText.trim();
+
     // Afficher l'acide urique si la case est cochée dans la zone de sortie correspondante
     var acideUriqueMatch = inputText.match(/Acide urique\s*#\s*(\d+)\s*µmol\/l/);
     if (acideUriqueMatch) {
