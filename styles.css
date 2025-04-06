@@ -202,4 +202,6 @@ textarea#formattedImagerieText {
     border: 1px solid #ccc;
 }
 
-  
+.header-spacer {
+    height: 60px; /* Espace entre le header et le body */
+}
