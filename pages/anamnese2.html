@@ -168,7 +168,7 @@
 <body>
     <header>
         <h1>Formulaire d'Anamnèse découverte de polyarthrite</h1>
-        <button id="retourMenu" onclick="location.href='index.html'">Retour au menu</button>
+        <button id="retourMenu" onclick="location.href='../index.html'">Retour au menu</button>
     </header>
     <form id="anamnesisForm">
         <div class="section">
@@ -178,7 +178,7 @@
                 <div class="articulation-selector">
                     <h3>Nombre d'articulations douloureuses :</h3>
                     <div id="articulationImageDouleurs" class="image-container">
-                        <img src="topographiearticulaire.png" alt="Topographie Articulaire" id="imageArticulationsDouleurs">
+                        <img src="../images/topographiearticulaire.png" alt="Topographie Articulaire" id="imageArticulationsDouleurs">
                         <canvas id="canvasOverlayDouleurs"></canvas>
                     </div>
                     <div id="articulationCompteurDouleurs">Nombre d'articulations : 0</div>
@@ -188,7 +188,7 @@
                 <div class="articulation-selector">
                     <h3>Nombre d'articulations gonflées :</h3>
                     <div id="articulationImageSynovites" class="image-container">
-                        <img src="topographiearticulaire.png" alt="Topographie Articulaire" id="imageArticulationsSynovites">
+                        <img src="../images/topographiearticulaire.png" alt="Topographie Articulaire" id="imageArticulationsSynovites">
                         <canvas id="canvasOverlaySynovites"></canvas>
                     </div>
                     <div id="articulationCompteurSynovites">Nombre d'articulations : 0</div>
@@ -285,6 +285,6 @@
         <h2>Prompt type pour l'IA</h2>
         <textarea id="texteTypeAnamnese" readonly></textarea>
     </div>    
-    <script src="anamnese2.js"></script>
+    <script src="../assets/anamnese2.js"></script>
 </body>
 </html>

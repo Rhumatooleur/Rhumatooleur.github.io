@@ -1,0 +1,207 @@
+/* Définir des variables pour les tailles de police et de padding */
+:root {
+    --font-size-base: 1rem;
+    --font-size-large: 1.25rem;
+    --font-size-small: 0.875rem;
+    --padding-base: 1rem;
+    --padding-large: 1.5rem;
+    --padding-small: 0.75rem;
+}
+
+/* Reset some basic styles */
+body, h1, h2, textarea, button, header, main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: var(--bs-body-font-family, Arial, sans-serif);
+    background-color: var(--colorBlanc, #FFFFFF);
+    color: var(--bs-body-color, #08181E);
+    font-size: var(--font-size-base);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: var(--bs-primary, #089DE6); /* Bleu primaire */
+    color: var(--colorBlanc, #FFFFFF);
+    padding: var(--padding-base);
+    text-align: center;
+}
+
+header h1 {
+    font-size: var(--font-size-large);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); /* Légère ombre */
+}
+
+/* Main styling */
+main {
+    padding: var(--padding-base);
+}
+
+/* Headings styling */
+h1 {
+    color: var(--colorNoir2, #ffffff); 
+    font-size: var(--font-size-large);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--colorNoir2, #32bb3e); 
+    font-size: var(--font-size-large);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    font-size: var(--font-size-base);
+}
+
+/* Textarea styling */
+textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: var(--padding-small);
+    border: 1px solid var(--colorGris3, #CFDDE5); /* Gris clair */
+    border-radius: 4px;
+    resize: none;
+    font-size: var(--font-size-base);
+}
+
+/* Button styling */
+button {
+    background-color: var(--bs-primary, #089DE6); /* Bleu primaire */
+    color: var(--colorBlanc, #FFFFFF);
+    border: none;
+    padding: var(--padding-base) var(--padding-large);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    font-size: var(--font-size-base);
+}
+
+button:hover {
+    background-color: var(--bs-blue, #0d6efd); /* Bleu plus foncé au survol */
+    color: var(--colorBlanc, #FFFFFF);
+}
+
+header button {
+    background-color: var(--bs-success, #5611d8); /* Vert de succès */
+    color: var(--colorBlanc, #FFFFFF);
+    border: none;
+    padding: var(--padding-base) var(--padding-large);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    font-size: var(--font-size-base);
+    position: absolute;
+    top: var(--padding-base);
+    right: var(--padding-base);
+}
+
+/* Output container styling */
+.output-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Styles for each result textarea */
+.output-container div {
+    flex: 1;
+}
+
+/* Checkbox container styling within rectangle */
+.checkbox-container-wrapper .draggable-checkbox-container {
+    border: 3px solid var(--bs-primary, #089DE6); /* Bleu primaire */
+    background-color: var(--colorBlanc2, #EDF8FE); /* Blanc très clair */
+    padding: var(--padding-small);
+    margin: 5px 0;
+    cursor: move;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    border-radius: 8px;
+    text-align: center;
+    font-size: var(--font-size-base);
+}
+
+.long-textarea {
+    height: 320px; /* Ou toute autre valeur appropriée en pixels ou en pourcentage */
+}
+
+/* Specific styling for the "Résultats d'Imagerie" page */
+textarea#inputImagerieText {
+    height: 8rem;
+}
+
+textarea#formattedImagerieText {
+    height: 30rem;
+}
+
+#uricemieContainer {
+    border: 3px solid rgba(255, 174, 0, 0.671); /* Bordure jaune */
+    background-color: lightyellow; /* Fond jaune clair */
+}
+
+.checkbox-container-wrapper .draggable-checkbox-container label {
+    display: block;
+}
+
+.checkbox-container-wrapper .draggable-checkbox-container:hover {
+    border-color: var(--bs-blue, #0d6efd); /* Bleu foncé au survol */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around; /* Répartit les éléments le long de la largeur de l'écran avec un espace égal autour d'eux */
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* couleur du fond du bouton */
+    color: #fff; /* couleur du texte */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; /* pour arrondir les coins */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* transition fluide pour le changement de couleur au survol */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* couleur du fond du bouton au survol */
+  }
+
+  .checkbox-container-wrapper .draggable-checkbox-container {
+    display: flex;
+   
+}
+
+.two-columns {
+    display: flex;
+    width: 100vw; /* Toute la largeur de l'écran */
+    gap: 20px; /* Espacement entre les colonnes */
+    align-items: flex-start;
+}
+
+.checkbox-section {
+    flex: 1; /* 50% de l'espace */
+    padding: 20px;
+    border: 1px solid #ffffff;
+}
+
+.output-section {
+    flex: 1; /* 50% de l'espace */
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.header-spacer {
+    height: 60px; /* Espace entre le header et le body */
+}
